@@ -32,9 +32,11 @@ jobs:
       - name: Build bitmap previews
         run: |
           docker run --rm --network host --volume "$PWD:/plugin" trmnl/trmnlp build --png --width 800 --height 480
+          sudo chmod -R a+r _build
           mkdir -p _build_og
           cp _build/* _build_og/
           docker run --rm --network host --volume "$PWD:/plugin" trmnl/trmnlp build --png --width 1872 --height 1404
+          sudo chmod -R a+r _build
           mkdir -p _build_x
           cp _build/* _build_x/
           sudo chmod -R a+r _build _build_og _build_x
