@@ -13,7 +13,8 @@ farewell for the day, rendered as a monochrome museum placard.
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
-- No third-party images or image-rights dependencies
+- Ten original monochrome exhibit illustrations optimized for e-ink
+- No third-party image or hotlink dependencies
 
 ## Local preview
 
@@ -36,13 +37,19 @@ The preview is available at `http://localhost:4567`.
 ## Data
 
 The production polling payload is [`data/trmnl.json`](data/trmnl.json). Each
-entry includes a status, dates, category, short epitaph, explanation, survival
-note, and source. `node scripts/validate-data.js` checks the schema and duplicate
-IDs.
+entry includes an exhibit image, status, dates, category, short epitaph,
+explanation, survival note, and source. `node scripts/validate-data.js` checks
+the schema, image URLs, and duplicate IDs.
+
+## Exhibit images
+
+The illustrations in [`assets/exhibits`](assets/exhibits) were generated
+specifically for GOODBYE, then cropped, converted to grayscale, and optimized
+for e-ink rendering. They are part of this plugin and are not archival source
+photographs.
 
 ## License
 
 The plugin is published under the
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license); see
 [`LICENSE.md`](LICENSE.md).
-

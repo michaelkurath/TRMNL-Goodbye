@@ -7,7 +7,7 @@ const dataPath = path.join(process.cwd(), "data", "trmnl.json");
 const payload = JSON.parse(fs.readFileSync(dataPath, "utf8"));
 const required = [
   "id", "exhibit", "name", "lifespan", "end_year", "category",
-  "category_key", "status", "epitaph", "why", "afterlife",
+  "category_key", "status", "image_url", "image_alt", "epitaph", "why", "afterlife",
   "source_name", "source_url", "note"
 ];
 const allowedCategories = new Set(["technology", "internet", "transport", "nature", "everyday"]);
@@ -38,6 +38,12 @@ if (!Array.isArray(payload.items) || payload.items.length === 0) {
     } catch {
       errors.push(`${label}.source_url is invalid`);
     }
+    try {
+      const url = new URL(item.image_url);
+      if (url.protocol !== "https:") errors.push(`${label}.image_url must use HTTPS`);
+    } catch {
+      errors.push(`${label}.image_url is invalid`);
+    }
     if (item.epitaph.length > 125) errors.push(`${label}.epitaph exceeds 125 characters`);
     if (item.why.length > 160) errors.push(`${label}.why exceeds 160 characters`);
     if (item.afterlife.length > 150) errors.push(`${label}.afterlife exceeds 150 characters`);
@@ -50,4 +56,3 @@ if (errors.length) {
 }
 
 console.log(`Validated ${payload.items.length} GOODBYE entries.`);
-

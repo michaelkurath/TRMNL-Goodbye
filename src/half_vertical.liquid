@@ -5,6 +5,9 @@
       <span class="label goodbye-wordmark">GOODBYE,</span>
       <span class="label label--outline">{{ selected.status | upcase }}</span>
     </div>
+    <div class="goodbye-image-frame goodbye-image--vertical rounded">
+      <img class="goodbye-image" src="{{ selected.image_url }}" alt="{{ selected.image_alt }}">
+    </div>
     <div class="flex flex--row flex--between flex--bottom gap--small">
       <span class="value value--xlarge lg:value--xxlarge goodbye-year">{{ selected.end_year }}</span>
       <span class="label text--right">{{ selected.lifespan }}<br>{{ selected.category }}</span>
@@ -12,12 +15,6 @@
     <div class="divider"></div>
     <span class="title {{ compact_name_size }}" data-clamp="2">{{ selected.name }}</span>
     <span class="description {{ compact_epitaph_size }} font--bold" data-clamp="4">{{ selected.epitaph }}</span>
-    {% if show_afterlife %}
-      <div class="flex flex--col gap--xsmall pt--small">
-        <span class="label text--gray-30">STILL HERE</span>
-        <span class="description description--base" data-clamp="2">{{ selected.afterlife }}</span>
-      </div>
-    {% endif %}
   </div>
 </div>
 {% else %}
@@ -30,4 +27,3 @@
   <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
   <span class="instance">{% if selected %}{{ selected.category }}{% else %}Data unavailable{% endif %}</span>
 </div>
-
