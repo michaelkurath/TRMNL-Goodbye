@@ -22,6 +22,7 @@ jobs:
         run: trmnlp lint
       - name: Use branch data for preview build
         run: |
+          sed -i 's#https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits#http://127.0.0.1:8765/assets/exhibits#' data/trmnl.json
           python3 -m http.server 8765 > /tmp/goodbye-preview-server.log 2>&1 &
           sed -i 's#https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json#http://127.0.0.1:8765/data/trmnl.json#' src/settings.yml
       - name: Build HTML previews
