@@ -31,12 +31,19 @@ jobs:
         run: trmnlp build
       - name: Build bitmap previews
         run: |
-          docker run --rm --network host --volume "$PWD:/plugin" trmnl/trmnlp build --png
-          sudo chmod -R a+r _build
+          docker run --rm --network host --volume "$PWD:/plugin" trmnl/trmnlp build --png --width 800 --height 480
+          mkdir -p _build_og
+          cp _build/* _build_og/
+          docker run --rm --network host --volume "$PWD:/plugin" trmnl/trmnlp build --png --width 1872 --height 1404
+          mkdir -p _build_x
+          cp _build/* _build_x/
+          sudo chmod -R a+r _build _build_og _build_x
       - name: Upload previews
         uses: actions/upload-artifact@v4
         with:
           name: trmnl-previews
           path: |
-            _build/*.html
-            _build/*.png
+            _build_og/*.html
+            _build_og/*.png
+            _build_x/*.html
+            _build_x/*.png
