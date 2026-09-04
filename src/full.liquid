@@ -1,0 +1,64 @@
+{% if selected %}
+<div class="layout layout--col layout--stretch">
+  <div class="flex flex--col gap--medium w--full h--full stretch">
+    <div class="flex flex--row flex--between flex--center-y gap--small">
+      <span class="label label--outline">{{ selected.status | upcase }}</span>
+      <span class="label text--gray-30">MUSEUM OF LOST THINGS · {{ selected.exhibit }}</span>
+    </div>
+
+    <div class="grid grid--cols-3 portrait:grid--cols-1 gap--medium stretch">
+      <div class="outline rounded p--4 flex flex--col flex--between col--span-1 h--full">
+        <span class="label text--gray-30">LAST SEEN</span>
+        <div class="flex flex--col flex--center">
+          <span class="value value--xxlarge md:value--xxxlarge lg:value--xxxlarge goodbye-year">{{ selected.end_year }}</span>
+        </div>
+        <div class="divider"></div>
+        <div class="flex flex--row flex--between gap--small pt--small">
+          <span class="label">{{ selected.lifespan }}</span>
+          <span class="label text--right">{{ selected.category }}</span>
+        </div>
+      </div>
+
+      <div class="outline rounded p--4 flex flex--col flex--between gap--medium col--span-2 portrait:col--span-1 h--full">
+        <div class="flex flex--col gap--small">
+          <span class="label goodbye-wordmark">GOODBYE,</span>
+          <span class="title {{ full_name_size }}" data-clamp="2">{{ selected.name }}</span>
+          <div class="divider"></div>
+          <span class="description {{ full_epitaph_size }} font--bold" data-clamp="4">{{ selected.epitaph }}</span>
+        </div>
+
+        {% if show_why %}
+        <div class="flex flex--col gap--xsmall">
+          <span class="label text--gray-30">WHY IT DISAPPEARED</span>
+          <span class="description {{ full_why_size }}" data-clamp="3">{{ selected.why }}</span>
+        </div>
+        {% endif %}
+
+        {% if show_afterlife %}
+        <div class="flex flex--row flex--center-y gap--small pt--small">
+          <span class="label label--inverted">STILL HERE</span>
+          <span class="description description--base" data-clamp="2">{{ selected.afterlife }}</span>
+        </div>
+        {% endif %}
+
+        {% if show_source %}
+          <span class="description description--small text--gray-30" data-clamp="1">Source: {{ selected.source_name }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="layout layout--col layout--center">
+  <div class="outline rounded p--4 flex flex--col flex--center gap--small w--full h--full text--center">
+    <span class="label goodbye-wordmark">GOODBYE</span>
+    <span class="title title--xxlarge">The museum is closed</span>
+    <span class="description description--large">No farewell entries were received. Check the polling source.</span>
+  </div>
+</div>
+{% endif %}
+
+<div class="title_bar">
+  <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
+  <span class="instance">{% if selected %}{{ selected.status }} · {{ selected.category }}{% elsif filter_fallback %}Filter unavailable{% else %}Data unavailable{% endif %}</span>
+</div>

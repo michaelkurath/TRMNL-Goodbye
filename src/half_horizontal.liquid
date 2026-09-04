@@ -1,0 +1,30 @@
+{% if selected %}
+<div class="layout layout--col layout--stretch">
+  <div class="grid grid--cols-4 gap--medium w--full h--full">
+    <div class="outline rounded p--3 col--span-1 flex flex--col flex--between">
+      <span class="label text--gray-30">LAST SEEN</span>
+      <span class="value value--xlarge lg:value--xxxlarge goodbye-year">{{ selected.end_year }}</span>
+      <span class="label">{{ selected.lifespan }}</span>
+    </div>
+    <div class="outline rounded p--3 col--span-3 flex flex--col flex--between gap--small">
+      <div class="flex flex--row flex--between flex--center-y gap--small">
+        <span class="label goodbye-wordmark">GOODBYE,</span>
+        <span class="label label--outline">{{ selected.status | upcase }}</span>
+      </div>
+      <span class="title {{ compact_name_size }}" data-clamp="2">{{ selected.name }}</span>
+      <div class="divider"></div>
+      <span class="description {{ compact_epitaph_size }} font--bold" data-clamp="3">{{ selected.epitaph }}</span>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="layout layout--col layout--center">
+  <span class="title title--xlarge">No farewell data</span>
+</div>
+{% endif %}
+
+<div class="title_bar">
+  <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
+  <span class="instance">{% if selected %}{{ selected.category }}{% else %}Data unavailable{% endif %}</span>
+</div>
+
