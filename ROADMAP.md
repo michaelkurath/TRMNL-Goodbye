@@ -4,7 +4,7 @@
 
 - Rework and test the image-led layouts on TRMNL OG and TRMNL X.
 - Decide which entries from [`data/candidates.json`](data/candidates.json) should
-  move into the live daily rotation.
+  move into the live rotation.
 - Build the entry verification workflow described below.
 
 ## Entry verification gate
@@ -67,7 +67,7 @@ No candidate should move to `data/trmnl.json` until all four reviews are marked
 ## Later
 
 - Expand the curated archive without sacrificing source quality.
-- Consider anniversary selection after the daily catalogue is large enough.
+- Consider an optional anniversary mode after the catalogue is large enough.
 - Consider additional categories only when enough high-quality entries justify
   them.
 - Add a public archive page for previous farewells.
