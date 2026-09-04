@@ -21,11 +21,15 @@ jobs:
       - name: Lint plugin
         run: trmnlp lint
       - name: Use branch data for preview build
-        run: sed -i 's#https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json#data/trmnl.json#' src/settings.yml
+        run: |
+          python3 -m http.server 8765 > /tmp/goodbye-preview-server.log 2>&1 &
+          sed -i 's#https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json#http://127.0.0.1:8765/data/trmnl.json#' src/settings.yml
       - name: Build HTML previews
         run: trmnlp build
       - name: Build bitmap previews
-        run: docker run --rm --volume "$PWD:/plugin" trmnl/trmnlp build --png
+        run: |
+          docker run --rm --network host --volume "$PWD:/plugin" trmnl/trmnlp build --png
+          sudo chmod -R a+r _build
       - name: Upload previews
         uses: actions/upload-artifact@v4
         with:
