@@ -1,0 +1,73 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: '{}'
+polling_verb: get
+framework_version: 3.3.0
+serverless_language: ''
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json
+polling_headers: ''
+polling_body: ''
+oauth_enabled: 'false'
+oauth_pkce_enabled: 'no'
+oauth_authorize_url: ''
+oauth_token_url: ''
+oauth_scopes: ''
+oauth_scope_separator: ''
+oauth_refresh_url: ''
+oauth_auth_params: ''
+oauth_token_headers: ''
+oauth_token_site: ''
+oauth_token_params: ''
+oauth_token_request_auth_method: ''
+oauth_body_format: ''
+oauth_token_response_metadata: ''
+oauth_authorization_method: ''
+oauth_refresh_params: ''
+oauth_token_field_name: ''
+oauth_expiry_field_name: ''
+oauth_expiry_strategy: ''
+oauth_fixed_expiry_ms: ''
+custom_fields:
+- keyname: author_bio
+  field_type: author_bio
+  name: About GOODBYE
+  category: custom,education
+  description: A daily museum label for one discontinued, retired, replaced, extinct, or nearly vanished thing.
+  learn_more_url: https://github.com/michaelkurath/TRMNL-Goodbye
+- keyname: category
+  name: Category
+  field_type: select
+  options:
+  - All categories: all
+  - Technology: technology
+  - Internet: internet
+  - Transport: transport
+  - Nature: nature
+  - Everyday life: everyday
+  default: all
+  description: Show the shared daily farewell from all entries or one category.
+  optional: true
+- keyname: show_why
+  name: Show why it disappeared?
+  field_type: boolean
+  default: true
+  description: Include the short explanation in layouts with enough room.
+  optional: true
+- keyname: show_afterlife
+  name: Show what remains?
+  field_type: boolean
+  default: true
+  description: Include a note when the thing survives in museums, niches, or memory.
+  optional: true
+- keyname: show_source
+  name: Show source name?
+  field_type: boolean
+  default: false
+  description: Add the source name to the full-screen placard.
+  optional: true
+name: GOODBYE
+description: One lost thing, every day.
+refresh_interval: 1440
+

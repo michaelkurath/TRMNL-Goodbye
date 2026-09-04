@@ -1,0 +1,30 @@
+name: TRMNL
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "4.0"
+      - name: Validate content data
+        run: node scripts/validate-data.js
+      - name: Install trmnlp
+        run: gem install trmnl_preview
+      - name: Lint plugin
+        run: trmnlp lint
+      - name: Build HTML previews
+        run: trmnlp build
+      - name: Upload previews
+        uses: actions/upload-artifact@v4
+        with:
+          name: trmnl-previews
+          path: _build/*.html
+

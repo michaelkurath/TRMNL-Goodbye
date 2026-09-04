@@ -1,0 +1,93 @@
+{% assign settings = trmnl.plugin_settings.custom_fields_values %}
+{% assign category_filter = settings.category | default: "all" | downcase %}
+{% assign items = data.items | default: items %}
+{% assign pool = items %}
+{% if category_filter != "all" %}
+  {% assign pool = items | where: "category_key", category_filter %}
+{% endif %}
+{% assign filter_fallback = false %}
+{% if pool == empty %}
+  {% assign pool = items %}
+  {% assign filter_fallback = true %}
+{% endif %}
+
+{% assign selected = nil %}
+{% if pool != empty %}
+  {% assign utc_day = trmnl.system.timestamp_utc | date: "%j" | plus: 0 | minus: 1 %}
+  {% assign selected_index = utc_day | modulo: pool.size %}
+  {% assign selected = pool[selected_index] %}
+{% endif %}
+
+{% assign show_why = true %}
+{% if settings.show_why == false %}{% assign show_why = false %}{% endif %}
+{% assign show_afterlife = true %}
+{% if settings.show_afterlife == false %}{% assign show_afterlife = false %}{% endif %}
+{% assign show_source = false %}
+{% if settings.show_source == true %}{% assign show_source = true %}{% endif %}
+
+{% if selected %}
+  {% assign name_length = selected.name | size %}
+  {% assign epitaph_length = selected.epitaph | size %}
+  {% assign why_length = selected.why | size %}
+
+  {% assign full_name_size = "title--xlarge md:title--xxlarge lg:title--xxxlarge" %}
+  {% if name_length > 20 %}
+    {% assign full_name_size = "title--large md:title--xlarge lg:title--xxlarge" %}
+  {% endif %}
+  {% assign full_epitaph_size = "description--xlarge lg:description--xxlarge" %}
+  {% if epitaph_length > 105 %}
+    {% assign full_epitaph_size = "description--large lg:description--xlarge" %}
+  {% endif %}
+  {% assign full_why_size = "description--large lg:description--xlarge" %}
+  {% if why_length > 120 %}
+    {% assign full_why_size = "description--base lg:description--large" %}
+  {% endif %}
+
+  {% assign compact_name_size = "title--large lg:title--xxlarge" %}
+  {% if name_length > 20 %}
+    {% assign compact_name_size = "title--base lg:title--xlarge" %}
+  {% endif %}
+  {% assign compact_epitaph_size = "description--large lg:description--xlarge" %}
+  {% if epitaph_length > 105 %}
+    {% assign compact_epitaph_size = "description--base lg:description--large" %}
+  {% endif %}
+{% endif %}
+
+{% capture goodbye_mark %}
+  <svg class="goodbye-mark" viewBox="0 0 48 48" role="img" aria-label="Open door">
+    <path class="goodbye-mark__line" d="M10 41h28M14 40V8h20v32M18 37V12l12 3v22M26 26h1"/>
+  </svg>
+{% endcapture %}
+
+<style>
+  .goodbye-wordmark {
+    letter-spacing: 0.12em;
+  }
+
+  .goodbye-year {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.06em;
+    line-height: 0.86;
+  }
+
+  .goodbye-mark {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+  }
+
+  .goodbye-mark__line {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .goodbye-titlebar {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+</style>
+
