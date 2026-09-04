@@ -1,15 +1,15 @@
 # GOODBYE for TRMNL
 
-**One lost thing, every day.**
+**One lost thing, every refresh.**
 
-GOODBYE is a quiet daily museum of discontinued, retired, replaced, demolished,
-extinct, and nearly vanished things. Every TRMNL receives the same curated
-farewell for the day, rendered as a monochrome museum placard.
+GOODBYE is a quiet museum of discontinued, retired, replaced, demolished,
+extinct, and nearly vanished things. Each TRMNL refresh randomly selects a
+curated farewell, rendered as a monochrome museum placard.
 
 ## First version
 
 - Ten sourced starter entries
-- One UTC-based global selection per day
+- A new random selection on every TRMNL refresh
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
