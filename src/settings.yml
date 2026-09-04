@@ -50,24 +50,6 @@ custom_fields:
   default: all
   description: Choose randomly from all entries or one category on every refresh.
   optional: true
-- keyname: show_why
-  name: Show why it disappeared?
-  field_type: boolean
-  default: true
-  description: Include the short explanation in layouts with enough room.
-  optional: true
-- keyname: show_afterlife
-  name: Show what remains?
-  field_type: boolean
-  default: true
-  description: Include a note when the thing survives in museums, niches, or memory.
-  optional: true
-- keyname: show_source
-  name: Show source name?
-  field_type: boolean
-  default: false
-  description: Add the source name to the full-screen placard.
-  optional: true
 name: GOODBYE
 description: One lost thing, every refresh.
 refresh_interval: 15
