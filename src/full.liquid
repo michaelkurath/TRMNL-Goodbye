@@ -16,29 +16,21 @@
     <div class="goodbye-full-copy flex flex--col flex--between gap--small p--2">
       <div class="goodbye-full-identity flex flex--col gap--small">
         <span class="label goodbye-wordmark">GOODBYE,</span>
-        <span class="title {{ full_name_size }}" data-clamp="2">{{ selected.name }}</span>
+        <span class="title title--xlarge lg:title--xxlarge" data-clamp="2">{{ selected.name }}</span>
         <div class="divider"></div>
-        <span class="description {{ full_epitaph_size }} font--bold" data-clamp="3">{{ selected.epitaph }}</span>
+        <span class="description description--large lg:description--xlarge font--bold" data-clamp="3">{{ selected.epitaph }}</span>
       </div>
 
       <div class="goodbye-full-details flex flex--col gap--small">
-        {% if show_why %}
         <div class="flex flex--col gap--xsmall">
           <span class="label text--gray-30">WHY IT DISAPPEARED</span>
-          <span class="description {{ full_why_size }}" data-clamp="3">{{ selected.why }}</span>
+          <span class="description description--large lg:description--xlarge" data-clamp="3">{{ selected.why }}</span>
         </div>
-        {% endif %}
 
-        {% if show_afterlife %}
         <div class="goodbye-afterlife flex flex--row gap--small pt--small">
           <span class="label label--inverted">STILL HERE</span>
-          <span class="description description--small lg:description--large" data-clamp="3">{{ selected.afterlife }}</span>
+          <span class="description description--large lg:description--xlarge" data-clamp="3">{{ selected.afterlife }}</span>
         </div>
-        {% endif %}
-
-        {% if show_source %}
-        <span class="description description--small text--gray-30" data-clamp="1">Source: {{ selected.source_name }}</span>
-        {% endif %}
       </div>
     </div>
   </div>
