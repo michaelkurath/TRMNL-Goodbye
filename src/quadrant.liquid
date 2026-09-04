@@ -5,6 +5,9 @@
       <span class="label goodbye-wordmark">GOODBYE,</span>
       <span class="label label--outline">{{ selected.status | upcase }}</span>
     </div>
+    <div class="goodbye-image-frame goodbye-image--quadrant rounded">
+      <img class="goodbye-image" src="{{ selected.image_url }}" alt="{{ selected.image_alt }}">
+    </div>
     <div class="flex flex--row flex--between flex--bottom gap--small">
       <span class="value value--large lg:value--xxlarge goodbye-year">{{ selected.end_year }}</span>
       <span class="label text--right">{{ selected.category }}</span>
@@ -24,4 +27,3 @@
   <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
   <span class="instance">{% if selected %}{{ selected.end_year }}{% else %}Offline{% endif %}</span>
 </div>
-

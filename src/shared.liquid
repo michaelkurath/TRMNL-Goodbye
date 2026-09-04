@@ -89,5 +89,40 @@
     align-items: center;
     gap: 6px;
   }
-</style>
 
+  .goodbye-image-frame {
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .goodbye-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(1) contrast(1.08);
+  }
+
+  .goodbye-image--full {
+    min-height: 0;
+    flex: 1 1 auto;
+  }
+
+  .goodbye-image--compact {
+    min-height: 0;
+    flex: 1 1 52%;
+  }
+
+  .goodbye-image--vertical {
+    height: 38%;
+    min-height: 92px;
+    flex: 0 0 auto;
+  }
+
+  .goodbye-image--quadrant {
+    height: 35%;
+    min-height: 58px;
+    flex: 0 0 auto;
+  }
+</style>
