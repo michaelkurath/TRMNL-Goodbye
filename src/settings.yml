@@ -4,11 +4,12 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: '{}'
 polling_verb: get
-framework_version: 3.3.0
+framework_version: 3.3.1
 serverless_language: ''
 polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json
 polling_headers: ''
 polling_body: ''
+id: 467205
 oauth_enabled: 'false'
 oauth_pkce_enabled: 'no'
 oauth_authorize_url: ''
@@ -70,4 +71,3 @@ custom_fields:
 name: GOODBYE
 description: One lost thing, every day.
 refresh_interval: 1440
-
