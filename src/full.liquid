@@ -1,6 +1,6 @@
 {% if selected %}
 <div class="layout layout--col layout--stretch goodbye-full-layout">
-  <div class="goodbye-exhibit-bar">
+  <div class="goodbye-exhibit-bar flex flex--row flex--between flex--center-y gap--small w--full pb--small lg:pb--medium">
     <div class="flex flex--row flex--center-y gap--small">
       <span class="label goodbye-wordmark">MUSEUM OF LOST THINGS</span>
       <span class="label label--outline">{{ selected.status | upcase }}</span>
@@ -13,15 +13,15 @@
       <img class="goodbye-image goodbye-image--hero" src="{{ selected.image_url }}" alt="{{ selected.image_alt }}">
     </div>
 
-    <div class="goodbye-full-copy">
-      <div class="goodbye-full-identity">
+    <div class="goodbye-full-copy flex flex--col flex--between gap--small p--2">
+      <div class="goodbye-full-identity flex flex--col gap--small">
         <span class="label goodbye-wordmark">GOODBYE,</span>
         <span class="title {{ full_name_size }}" data-clamp="2">{{ selected.name }}</span>
         <div class="divider"></div>
         <span class="description {{ full_epitaph_size }} font--bold" data-clamp="3">{{ selected.epitaph }}</span>
       </div>
 
-      <div class="goodbye-full-details">
+      <div class="goodbye-full-details flex flex--col gap--small">
         {% if show_why %}
         <div class="flex flex--col gap--xsmall">
           <span class="label text--gray-30">WHY IT DISAPPEARED</span>
@@ -30,7 +30,7 @@
         {% endif %}
 
         {% if show_afterlife %}
-        <div class="goodbye-afterlife">
+        <div class="goodbye-afterlife flex flex--row flex--center-y gap--small pt--small">
           <span class="label label--inverted">STILL HERE</span>
           <span class="description description--base lg:description--large" data-clamp="2">{{ selected.afterlife }}</span>
         </div>
