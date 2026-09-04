@@ -102,9 +102,81 @@
     filter: grayscale(1) contrast(1.08);
   }
 
-  .goodbye-image--full {
+  .goodbye-full-layout {
+    gap: 10px;
+  }
+
+  .goodbye-exhibit-bar {
+    border-bottom: 2px solid #000;
+    flex: 0 0 auto;
+  }
+
+  .goodbye-full-stage {
+    display: grid;
+    grid-template-columns: minmax(0, 1.18fr) minmax(0, 1fr);
+    gap: 12px;
+    width: 100%;
     min-height: 0;
     flex: 1 1 auto;
+  }
+
+  .goodbye-full-hero {
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .goodbye-full-copy {
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .goodbye-full-identity,
+  .goodbye-full-details {
+    min-width: 0;
+  }
+
+  .goodbye-afterlife {
+    border-top: 1px solid #000;
+  }
+
+  @media (min-width: 1000px) {
+    .goodbye-full-layout {
+      gap: 18px;
+    }
+
+    .goodbye-exhibit-bar {
+      border-bottom-width: 3px;
+    }
+
+    .goodbye-full-stage {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .goodbye-full-hero {
+      flex: 1 1 62%;
+    }
+
+    .goodbye-image--hero {
+      object-position: center 52%;
+    }
+
+    .goodbye-full-copy {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+      align-items: start;
+      gap: 32px;
+      flex: 0 0 auto;
+    }
+
+    .goodbye-full-identity,
+    .goodbye-full-details {
+      gap: 14px;
+    }
+
   }
 
   .goodbye-image--compact {
