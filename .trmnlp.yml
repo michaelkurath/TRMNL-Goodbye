@@ -6,13 +6,9 @@ watch:
 
 custom_fields:
   category: all
-  show_why: true
-  show_afterlife: true
-  show_source: false
 
 time_zone: UTC
 transform_runtime: disabled
 
 variables:
   trmnl: {}
-
