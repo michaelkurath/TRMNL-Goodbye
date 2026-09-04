@@ -15,7 +15,9 @@ jobs:
         with:
           ruby-version: "4.0"
       - name: Validate content data
-        run: node scripts/validate-data.js
+        run: |
+          node scripts/validate-data.js
+          node scripts/validate-candidates.js
       - name: Install trmnlp
         run: gem install trmnl_preview
       - name: Lint plugin
