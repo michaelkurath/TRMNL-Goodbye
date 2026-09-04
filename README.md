@@ -41,6 +41,13 @@ entry includes an exhibit image, status, dates, category, short epitaph,
 explanation, survival note, and source. `node scripts/validate-data.js` checks
 the schema, image URLs, and duplicate IDs.
 
+Future exhibits are kept in [`data/candidates.json`](data/candidates.json) and
+remain outside the live rotation until their fact, text, image, and final
+reviews are approved. The complete review gate is documented in
+[`ROADMAP.md`](ROADMAP.md). `node scripts/validate-candidates.js` checks the
+candidate structure, review states, source URLs, text limits, and collisions
+with the live catalogue.
+
 ## Exhibit images
 
 The illustrations in [`assets/exhibits`](assets/exhibits) were generated

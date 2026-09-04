@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "review_process_version": 1,
+  "candidates": [
+    {
+      "id": "ibm-selectric",
+      "name": "THE IBM SELECTRIC",
+      "lifespan": "1961–1986",
+      "end_year": "1986",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "Its spinning typeball wrote the future—until the future learned to edit before printing.",
+      "why": "Personal computers, word processors, and printers replaced the need for a dedicated electric typewriter.",
+      "afterlife": "Restored machines, collectors, and museums preserve its distinctive mechanism and sound.",
+      "source_name": "IBM History",
+      "source_url": "https://www.ibm.com/history/selectric",
+      "note": "IBM says the Selectric was officially retired in 1986 as personal computers and printers became more popular.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "kodachrome",
+      "name": "KODACHROME",
+      "lifespan": "1935–2009*",
+      "end_year": "2009*",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "The colours survived longer than the chemistry needed to make them.",
+      "why": "Demand collapsed as photography moved to digital, while Kodachrome required a specialised development process.",
+      "afterlife": "Decades of slides, scans, archives, and famous photographs preserve its distinctive colour palette.",
+      "source_name": "PBS NewsHour",
+      "source_url": "https://www.pbs.org/newshour/nation/kodak-retires-iconic-kodachrome-film",
+      "note": "Kodak ended production in 2009; the final commercial K-14 processing service ended in 2010.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "geocities",
+      "name": "GEOCITIES",
+      "lifespan": "1994–2009*",
+      "end_year": "2009*",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "Before every profile looked alike, everyone built a strange little neighbourhood.",
+      "why": "Yahoo closed the main free hosting service and directed users toward paid web hosting.",
+      "afterlife": "The Internet Archive, Archive Team, and countless screenshots preserve fragments of its handmade web.",
+      "source_name": "Internet Archive",
+      "source_url": "https://archive.org/web/geocities.php",
+      "note": "The main service closed on 26 October 2009; Yahoo GeoCities Japan continued until 2019.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "aol-instant-messenger",
+      "name": "AOL INSTANT MESSENGER",
+      "lifespan": "1997–2017",
+      "end_year": "2017",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "Away messages taught a generation to be online while pretending not to be.",
+      "why": "Communication shifted toward mobile messaging, social networks, and newer services built around permanent connectivity.",
+      "afterlife": "Screen names, buddy lists, notification sounds, and away messages remain part of early internet memory.",
+      "source_name": "AIMemories / Oath",
+      "source_url": "https://www.tumblr.com/aimemories",
+      "note": "The official announcement set the shutdown for 15 December 2017.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "sr-71-blackbird",
+      "name": "THE SR-71 BLACKBIRD",
+      "lifespan": "1964–1999",
+      "end_year": "1999",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "At Mach 3, reconnaissance arrived before the age of drones.",
+      "why": "Operating cost, changing intelligence needs, satellites, and unmanned systems brought its flying career to an end.",
+      "afterlife": "Every surviving Blackbird is preserved, and its speed records and engineering remain legendary.",
+      "source_name": "Smithsonian National Air and Space Museum",
+      "source_url": "https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000",
+      "note": "The dates run from first flight to the final NASA flight; the US Air Force retirement history is more complicated.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "original-routemaster",
+      "name": "THE ORIGINAL ROUTEMASTER",
+      "lifespan": "1956–2005*",
+      "end_year": "2005*",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "London kept the silhouette but retired the conductor and open platform.",
+      "why": "London moved to accessible low-floor buses and one-person operation across its regular network.",
+      "afterlife": "Preserved buses, private operators, and occasional heritage services keep the original design visible.",
+      "source_name": "BBC News",
+      "source_url": "https://news.bbc.co.uk/2/hi/uk_news/england/london/4510410.stm",
+      "note": "The end date refers to ordinary scheduled London service, not the disappearance of every Routemaster.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "thylacine",
+      "name": "THE THYLACINE",
+      "lifespan": "Ancient–1936",
+      "end_year": "1936",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "The last one died in captivity after the wild had already fallen silent.",
+      "why": "Direct human persecution was the main cause, compounded by habitat change, introduced dogs, and other pressures.",
+      "afterlife": "Film, photographs, museum specimens, and Tasmania's identity preserve the animal's unmistakable stripes.",
+      "source_name": "Australian Museum",
+      "source_url": "https://australian.museum/learn/australia-over-time/extinct-animals/the-thylacine/",
+      "note": "The last known thylacine died at Hobart Zoo in 1936; later reported sightings remain unconfirmed.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "dodo",
+      "name": "THE DODO",
+      "lifespan": "Ancient–c.1662",
+      "end_year": "c.1662",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "It became the symbol of extinction after disappearing before extinction was understood.",
+      "why": "Hunting, habitat disturbance, and introduced animals devastated a flightless bird adapted to life on Mauritius.",
+      "afterlife": "A few remains, subfossil bones, historical descriptions, and modern reconstructions are all that survive.",
+      "source_name": "Natural History Museum",
+      "source_url": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+      "note": "The last reliable sighting is generally dated to 1662, although later possible dates remain debated.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "ikea-catalogue",
+      "name": "THE IKEA CATALOGUE",
+      "lifespan": "1951–2021",
+      "end_year": "2021",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "epitaph": "For seventy years, the future of the living room arrived through the letterbox.",
+      "why": "Customer behaviour moved online, reducing the purpose and readership of a huge annual printed catalogue.",
+      "afterlife": "IKEA Museum has digitised the historical catalogues, turning decades of domestic design into an online archive.",
+      "source_name": "IKEA Museum",
+      "source_url": "https://ikeamuseum.com/en/explore/ikea-catalogue/",
+      "note": "The 2021 edition was the final IKEA catalogue printed on paper.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "britannica-print-edition",
+      "name": "PRINTED ENCYCLOPAEDIA BRITANNICA",
+      "lifespan": "1768–2010*",
+      "end_year": "2010*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Replaced",
+      "epitaph": "Thirty-two volumes became one browser tab, but the authority kept its name.",
+      "why": "The publisher shifted its reference business to digital products that could be searched and continuously updated.",
+      "afterlife": "Britannica continues online, while complete printed sets remain in libraries, homes, and second-hand shops.",
+      "source_name": "The Guardian",
+      "source_url": "https://www.theguardian.com/books/2012/mar/13/encyclopedia-britannica-halts-print-publication",
+      "note": "The final printed edition appeared in 2010; Britannica announced the end of print publication in 2012.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    }
+  ]
+}
