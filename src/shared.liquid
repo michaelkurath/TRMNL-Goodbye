@@ -16,30 +16,9 @@
   {% assign selected = pool | sample %}
 {% endif %}
 
-{% assign show_why = true %}
-{% if settings.show_why == false %}{% assign show_why = false %}{% endif %}
-{% assign show_afterlife = true %}
-{% if settings.show_afterlife == false %}{% assign show_afterlife = false %}{% endif %}
-{% assign show_source = false %}
-{% if settings.show_source == true %}{% assign show_source = true %}{% endif %}
-
 {% if selected %}
   {% assign name_length = selected.name | size %}
   {% assign epitaph_length = selected.epitaph | size %}
-  {% assign why_length = selected.why | size %}
-
-  {% assign full_name_size = "title--xlarge md:title--xxlarge lg:title--xxxlarge" %}
-  {% if name_length > 20 %}
-    {% assign full_name_size = "title--large md:title--xlarge lg:title--xxlarge" %}
-  {% endif %}
-  {% assign full_epitaph_size = "description--xlarge lg:description--xxlarge" %}
-  {% if epitaph_length > 105 %}
-    {% assign full_epitaph_size = "description--large lg:description--xlarge" %}
-  {% endif %}
-  {% assign full_why_size = "description--large lg:description--xlarge" %}
-  {% if why_length > 120 %}
-    {% assign full_why_size = "description--base lg:description--large" %}
-  {% endif %}
 
   {% assign compact_name_size = "title--large lg:title--xxlarge" %}
   {% if name_length > 20 %}
