@@ -35,7 +35,7 @@ custom_fields:
   field_type: author_bio
   name: About GOODBYE
   category: custom,education
-  description: A daily museum label for one discontinued, retired, replaced, extinct, or nearly vanished thing.
+  description: A museum label for one randomly selected discontinued, retired, replaced, extinct, or nearly vanished thing.
   learn_more_url: https://github.com/michaelkurath/TRMNL-Goodbye
 - keyname: category
   name: Category
@@ -48,7 +48,7 @@ custom_fields:
   - Nature: nature
   - Everyday life: everyday
   default: all
-  description: Show the shared daily farewell from all entries or one category.
+  description: Choose randomly from all entries or one category on every refresh.
   optional: true
 - keyname: show_why
   name: Show why it disappeared?
@@ -69,5 +69,5 @@ custom_fields:
   description: Add the source name to the full-screen placard.
   optional: true
 name: GOODBYE
-description: One lost thing, every day.
-refresh_interval: 1440
+description: One lost thing, every refresh.
+refresh_interval: 15
