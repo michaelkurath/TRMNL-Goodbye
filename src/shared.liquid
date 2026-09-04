@@ -13,9 +13,7 @@
 
 {% assign selected = nil %}
 {% if pool != empty %}
-  {% assign utc_day = trmnl.system.timestamp_utc | date: "%j" | plus: 0 | minus: 1 %}
-  {% assign selected_index = utc_day | modulo: pool.size %}
-  {% assign selected = pool[selected_index] %}
+  {% assign selected = pool | sample %}
 {% endif %}
 
 {% assign show_why = true %}
