@@ -2,12 +2,8 @@
 <div class="layout layout--col layout--stretch">
   <div class="grid grid--cols-4 gap--medium w--full h--full">
     <div class="outline rounded p--3 col--span-1 flex flex--col flex--between">
-      <div class="goodbye-image-frame goodbye-image--compact rounded">
+      <div class="goodbye-image-frame goodbye-image--horizontal rounded">
         <img class="goodbye-image" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
-      </div>
-      <div class="flex flex--row flex--between flex--bottom gap--xsmall">
-        <span class="value value--large lg:value--xxlarge goodbye-year">{{ selected.end_year }}</span>
-        <span class="label text--right">{{ selected.lifespan }}</span>
       </div>
     </div>
     <div class="outline rounded p--3 col--span-3 flex flex--col flex--between gap--small">
@@ -29,5 +25,5 @@
 
 <div class="title_bar">
   <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
-  <span class="instance">{% if selected %}{{ selected.category }}{% else %}Data unavailable{% endif %}</span>
+  <span class="instance">{% if selected %}{{ selected.lifespan }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
 </div>
