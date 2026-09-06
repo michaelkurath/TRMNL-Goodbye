@@ -54,7 +54,9 @@ The illustrations in [`assets/exhibits`](assets/exhibits) were generated
 specifically for GOODBYE, then cropped, converted to grayscale, and optimized
 for e-ink rendering. Each exhibit has a 4:3 standard crop for OG and compact
 layouts and a 2:1 wide crop for X Full. They are part of this plugin and are
-not archival source photographs.
+not archival source photographs. The repeatable generation, safe-zone, export,
+and device-preview process is documented in
+[`docs/IMAGE_WORKFLOW.md`](docs/IMAGE_WORKFLOW.md).
 
 ## License
 
