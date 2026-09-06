@@ -13,7 +13,7 @@ curated farewell, rendered as a monochrome museum placard.
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
-- Ten original monochrome exhibit illustrations optimized for e-ink
+- Ten original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
 - No third-party image or hotlink dependencies
 
 ## Local preview
@@ -37,7 +37,7 @@ The preview is available at `http://localhost:4567`.
 ## Data
 
 The production polling payload is [`data/trmnl.json`](data/trmnl.json). Each
-entry includes an exhibit image, status, dates, category, short epitaph,
+entry includes a master image, 4:3 standard crop, 2:1 wide crop, status, dates, category, short epitaph,
 explanation, survival note, and source. `node scripts/validate-data.js` checks
 the schema, image URLs, and duplicate IDs.
 
@@ -52,8 +52,9 @@ with the live catalogue.
 
 The illustrations in [`assets/exhibits`](assets/exhibits) were generated
 specifically for GOODBYE, then cropped, converted to grayscale, and optimized
-for e-ink rendering. They are part of this plugin and are not archival source
-photographs.
+for e-ink rendering. Each exhibit has a 4:3 standard crop for OG and compact
+layouts and a 2:1 wide crop for X Full. They are part of this plugin and are
+not archival source photographs.
 
 ## License
 
