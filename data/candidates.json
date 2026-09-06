@@ -211,6 +211,216 @@
         "image_review": "not_started",
         "final_approval": "pending"
       }
+    },
+    {
+      "id": "apple-newton",
+      "name": "THE APPLE NEWTON",
+      "lifespan": "1993–1998",
+      "end_year": "1998",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "It tried to read our handwriting before computers had learned how people actually write.",
+      "why": "Weak sales, a troubled launch, and Apple's renewed focus on the Macintosh ended the Newton platform.",
+      "afterlife": "Its stylus, notes, apps, and handheld ambitions foreshadowed later smartphones and tablets.",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/1998/02/apple-dumps-newton/",
+      "note": "Apple announced the end of Newton OS development and related hardware on 27 February 1998.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "opportunity-rover",
+      "name": "THE OPPORTUNITY ROVER",
+      "lifespan": "2003–2019",
+      "end_year": "2019",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "Built for ninety days, it kept exploring until Mars finally went silent.",
+      "why": "A planet-wide dust storm blocked sunlight, and NASA ended recovery attempts after months without contact.",
+      "afterlife": "Its images, discoveries, scientific record, and tracks on Mars preserve nearly fifteen years of exploration.",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+      "note": "Launched in 2003, Opportunity last communicated in June 2018; NASA declared the mission complete in February 2019.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "minitel",
+      "name": "MINITEL",
+      "lifespan": "1982–2012",
+      "end_year": "2012",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "France went online before the Web—then switched off the little terminal that took it there.",
+      "why": "The open Web and modern internet services replaced France's closed videotex network and dedicated terminals.",
+      "afterlife": "Preserved terminals recall an online world of directories, shopping, tickets, messages, and chat.",
+      "source_name": "IEEE Spectrum",
+      "source_url": "https://spectrum.ieee.org/minitel-the-online-world-france-built-before-the-web",
+      "note": "The national Minitel service launched commercially in 1982 and was shut down on 30 June 2012.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "yahoo-answers",
+      "name": "YAHOO ANSWERS",
+      "lifespan": "2005–2021",
+      "end_year": "2021",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "Every question found an answer. Accuracy was optional.",
+      "why": "Yahoo closed the declining question-and-answer service as users and attention moved to newer communities.",
+      "afterlife": "Screenshots, memes, web archives, and quoted answers preserve its strange collective advice desk.",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/2021/4/5/22368488/yahoo-answers-shutdown-may-4-internet-era-over-rip",
+      "note": "The site stopped accepting new questions in April 2021 and shut down on 4 May 2021.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "hindenburg",
+      "name": "THE HINDENBURG",
+      "lifespan": "1936–1937",
+      "end_year": "1937",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Destroyed",
+      "epitaph": "The age of passenger airships ended in thirty-four seconds.",
+      "why": "The airship caught fire while landing at Lakehurst; the disaster destroyed public confidence in passenger zeppelins.",
+      "afterlife": "Film, photographs, radio reporting, mail, and museum objects preserve the final flight and its consequences.",
+      "source_name": "Smithsonian National Postal Museum",
+      "source_url": "https://postalmuseum.si.edu/exhibition/fire-ice-hindenburg-and-titanic-exhibition/the-hindenburg-disaster",
+      "note": "The LZ 129 entered service in 1936 and was destroyed at Lakehurst on 6 May 1937, killing 36 people.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "queen-elizabeth-2",
+      "name": "QUEEN ELIZABETH 2",
+      "lifespan": "1969–2008",
+      "end_year": "2008",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "After millions of miles, the ocean liner became a destination that no longer sailed.",
+      "why": "Cunard retired and sold the ageing liner after almost forty years of transatlantic and cruise service.",
+      "afterlife": "The preserved ship reopened in Dubai in 2018 as a permanently docked floating hotel.",
+      "source_name": "Queen Elizabeth 2 Dubai",
+      "source_url": "https://www.qe2.com/faq/",
+      "note": "QE2 entered service in 1969, retired from active service in 2008, and now survives as a hotel in Dubai.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "quagga",
+      "name": "THE QUAGGA",
+      "lifespan": "Ancient–1883",
+      "end_year": "1883",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "Its last stripes disappeared before anyone realised there were none left.",
+      "why": "Extensive hunting eliminated this distinctively patterned South African plains zebra population.",
+      "afterlife": "A few skins and seven known skeletons remain, alongside photographs of one animal kept in London Zoo.",
+      "source_name": "UCL Grant Museum of Zoology",
+      "source_url": "https://www.ucl.ac.uk/museums-collections/grant-museum-zoology/highlights/quagga-skeleton",
+      "note": "The last known quagga died at Amsterdam Zoo on 12 August 1883.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "stellers-sea-cow",
+      "name": "STELLER'S SEA COW",
+      "lifespan": "Ancient–1768",
+      "end_year": "1768",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "Humans discovered the gentle giant—and erased it twenty-seven years later.",
+      "why": "Hunters rapidly killed the slow, coastal marine mammals for their meat and fat.",
+      "afterlife": "Skeletons, scattered bones, and Georg Steller's description preserve an animal never photographed alive.",
+      "source_name": "Natural History Museum",
+      "source_url": "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html",
+      "note": "Europeans scientifically recorded the species in 1741; it was driven to extinction by 1768.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "iata-paper-airline-ticket",
+      "name": "THE PAPER AIRLINE TICKET",
+      "lifespan": "20th century–2008*",
+      "end_year": "2008*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Replaced",
+      "epitaph": "The journey once began with a document too valuable to lose.",
+      "why": "Electronic ticket records were cheaper, easier to update, and impossible for passengers to leave at home.",
+      "afterlife": "Old ticket wallets, coupons, stubs, and collectors preserve the paperwork of commercial flight.",
+      "source_name": "ABC News",
+      "source_url": "https://abcnews.com/Travel/story?id=4976367&page=1",
+      "note": "The date refers specifically to IATA ending paper ticket stock for its agency system on 1 June 2008, not every paper travel document.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "swiss-telephone-book",
+      "name": "THE SWISS TELEPHONE BOOK",
+      "lifespan": "1880–2022",
+      "end_year": "2022",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "epitaph": "For 142 years, finding someone began by turning thin pages.",
+      "why": "Online directories, mobile phones, and fewer publicly listed private numbers made the printed book obsolete.",
+      "afterlife": "Libraries, archives, and digitised directories preserve a detailed map of Swiss households and businesses.",
+      "source_name": "Swiss National Museum",
+      "source_url": "https://blog.nationalmuseum.ch/en/2022/11/the-last-phone-book/",
+      "note": "The first Swiss directory appeared in Zurich in 1880; the final printed regional editions were issued in 2022.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
     }
   ]
 }
