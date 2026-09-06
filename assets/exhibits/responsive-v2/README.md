@@ -13,3 +13,6 @@ The illustrations were recomposed from the existing approved artwork using the
 built-in image-generation workflow, then converted to grayscale JPEG and
 optimized for e-ink rendering. Production data references these responsive
 assets while retaining the original illustrations as fallbacks.
+
+See [`docs/IMAGE_WORKFLOW.md`](../../../docs/IMAGE_WORKFLOW.md) for the complete
+generation, export, factual review, and OG/X preview procedure.
