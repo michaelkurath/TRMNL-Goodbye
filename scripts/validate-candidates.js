@@ -44,7 +44,7 @@ if (!Array.isArray(payload.candidates)) {
       errors.push(`${label}.source_url is invalid`);
     }
 
-    if ("image_url" in item || "image_alt" in item) {
+    if ("image_url" in item || "image_url_standard" in item || "image_url_wide" in item || "image_alt" in item) {
       errors.push(`${label} must not contain image fields before image review begins`);
     }
 

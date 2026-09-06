@@ -6,7 +6,7 @@
       <span class="label label--outline">{{ selected.status | upcase }}</span>
     </div>
     <div class="goodbye-image-frame goodbye-image--quadrant rounded">
-      <img class="goodbye-image" src="{{ selected.image_url }}" alt="{{ selected.image_alt }}">
+      <img class="goodbye-image" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
     </div>
     <span class="title {{ compact_name_size }}" data-clamp="2">{{ selected.name }}</span>
     <span class="description description--base lg:description--large font--bold" data-clamp="3">{{ selected.epitaph }}</span>
