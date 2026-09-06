@@ -21,8 +21,10 @@
   {% assign epitaph_length = selected.epitaph | size %}
 
   {% assign compact_name_size = "title--large lg:title--xxlarge" %}
+  {% assign full_name_size = "title--xlarge lg:title--xxlarge" %}
   {% if name_length > 20 %}
     {% assign compact_name_size = "title--base lg:title--xlarge" %}
+    {% assign full_name_size = "title--large lg:title--xlarge" %}
   {% endif %}
   {% assign compact_epitaph_size = "description--large lg:description--xlarge" %}
   {% if epitaph_length > 80 %}
@@ -141,12 +143,12 @@
     .goodbye-full-stage {
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 14px;
       align-items: stretch;
     }
 
     .goodbye-full-hero {
-      aspect-ratio: 2.15 / 1;
+      aspect-ratio: 2.4 / 1;
       flex: 0 0 auto;
     }
 
@@ -164,7 +166,7 @@
 
     .goodbye-full-identity,
     .goodbye-full-details {
-      gap: 14px;
+      gap: 10px;
     }
 
   }
