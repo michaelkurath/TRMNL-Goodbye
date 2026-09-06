@@ -14,6 +14,15 @@ const allowedCategories = new Set(["technology", "internet", "transport", "natur
 const errors = [];
 const ids = new Set();
 const exhibits = new Set();
+const displayLimits = {
+  name: 36,
+  lifespan: 24,
+  end_year: 10,
+  status: 16,
+  epitaph: 100,
+  why: 125,
+  afterlife: 120,
+};
 
 if (!Array.isArray(payload.items) || payload.items.length === 0) {
   errors.push("items must be a non-empty array");
@@ -46,9 +55,11 @@ if (!Array.isArray(payload.items) || payload.items.length === 0) {
         errors.push(`${label}.${key} is invalid`);
       }
     });
-    if (item.epitaph.length > 125) errors.push(`${label}.epitaph exceeds 125 characters`);
-    if (item.why.length > 160) errors.push(`${label}.why exceeds 160 characters`);
-    if (item.afterlife.length > 150) errors.push(`${label}.afterlife exceeds 150 characters`);
+    Object.entries(displayLimits).forEach(([key, limit]) => {
+      if (item[key].length > limit) {
+        errors.push(`${label}.${key} exceeds the ${limit}-character layout limit`);
+      }
+    });
   });
 }
 
