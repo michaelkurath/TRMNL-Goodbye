@@ -8,12 +8,12 @@ curated farewell, rendered as a monochrome museum placard.
 
 ## First version
 
-- Ten sourced starter entries
+- Twelve sourced live entries
 - A new random selection on every TRMNL refresh
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
-- Ten original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
+- Twelve original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
 - No third-party image or hotlink dependencies
 
 ## Local preview
