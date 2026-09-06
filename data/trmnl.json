@@ -200,6 +200,46 @@
       "source_name": "The Last Blockbuster",
       "source_url": "https://bendblockbuster.com/",
       "note": "The brand is not literally extinct; the Bend store remains open."
+    },
+    {
+      "id": "thylacine",
+      "exhibit": "011",
+      "name": "THE THYLACINE",
+      "lifespan": "Ancient–1936",
+      "end_year": "1936",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/thylacine-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/thylacine-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/thylacine-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history illustration of a thylacine",
+      "epitaph": "The last one died in captivity after the wild had already fallen silent.",
+      "why": "Direct human persecution was the main cause, compounded by habitat change, introduced dogs, and other pressures.",
+      "afterlife": "Film, photographs, museum specimens, and Tasmania's identity preserve the animal's unmistakable stripes.",
+      "source_name": "Australian Museum",
+      "source_url": "https://australian.museum/learn/australia-over-time/extinct-animals/the-thylacine/",
+      "note": "The last known thylacine died at Hobart Zoo in 1936; later reported sightings remain unconfirmed."
+    },
+    {
+      "id": "opportunity-rover",
+      "exhibit": "012",
+      "name": "THE OPPORTUNITY ROVER",
+      "lifespan": "2003–2019",
+      "end_year": "2019",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-master-2x1.jpg",
+      "image_alt": "Monochrome technical illustration of NASA's Opportunity rover on Mars",
+      "epitaph": "Built for ninety days, it kept exploring until Mars finally went silent.",
+      "why": "A planet-wide dust storm blocked sunlight, and NASA ended recovery attempts after months without contact.",
+      "afterlife": "Its images, discoveries, scientific record, and tracks on Mars preserve nearly fifteen years of exploration.",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+      "note": "Launched in 2003, Opportunity last communicated in June 2018; NASA declared the mission complete in February 2019."
     }
   ]
 }
