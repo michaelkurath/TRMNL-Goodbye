@@ -7,6 +7,22 @@
   move into the live rotation.
 - Build the entry verification workflow described below.
 
+## Candidate ratings
+
+Ratings prioritise editorial work; they are not evidence and cannot approve an
+entry. Every candidate receives five provisional scores from 1 to 5:
+
+- **Recognition:** likely audience familiarity or emotional connection.
+- **Visual strength:** suitability for distinctive monochrome e-ink artwork.
+- **Story strength:** potential for a concise and memorable museum card.
+- **Endpoint clarity:** confidence that its end date and status can be stated
+  without exaggeration.
+- **Catalogue fit:** contribution to the variety and voice of GOODBYE.
+
+The total is out of 25: 22–25 is top priority, 18–21 is strong, 14–17 needs
+care, and 5–13 is low priority. Revisit ratings after fact-checking and rendered
+image tests. Ratings must never bypass the verification gate below.
+
 ## Entry verification gate
 
 No candidate should move to `data/trmnl.json` until all four reviews are marked
