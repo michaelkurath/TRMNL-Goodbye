@@ -58,7 +58,7 @@ jobs:
               --output "_build-og/${view}.png"
             curl --get --fail --silent --show-error \
               --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--density-2x screen--1x" \
-              --data "width=1872" --data "height=1404" --data "color_depth=4" \
+              --data "width=1040" --data "height=780" --data "color_depth=4" \
               "http://127.0.0.1:4567/render/${view}.png" \
               --output "_build-x/${view}.png"
           done
