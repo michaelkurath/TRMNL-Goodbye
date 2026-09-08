@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "id": "saturn-v",
-      "exhibit": "015",
-      "name": "SATURN V",
-      "lifespan": "1967–1973",
-      "end_year": "1973",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Retired",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-saturn-v-western-union/assets/exhibits/responsive-v2/saturn-v-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-saturn-v-western-union/assets/exhibits/responsive-v2/saturn-v-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-saturn-v-western-union/assets/exhibits/responsive-v2/saturn-v-master-2x1.jpg",
-      "image_alt": "Monochrome illustration of a Saturn V rocket standing on its mobile launcher",
-      "epitaph": "It carried people to the Moon, then launched America's first space station—and never flew again.",
-      "why": "After Apollo and Skylab, cancelled lunar missions and changing priorities left no mission for another Saturn V.",
-      "afterlife": "Preserved flight-certified stages, museum displays, records, and successor rockets carry its engineering legacy.",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/history/50-years-ago-the-launch-of-skylab-americas-first-space-station/",
-      "note": "The first Saturn V launched in 1967; the thirteenth and final flight launched Skylab on 14 May 1973. Smithsonian records confirm preserved flight-certified stages."
+      "id": "western-union-telegram",
+      "exhibit": "016",
+      "name": "THE WESTERN UNION TELEGRAM",
+      "lifespan": "1861–2006*",
+      "end_year": "2006*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-saturn-v-western-union/assets/exhibits/responsive-v2/western-union-telegram-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-saturn-v-western-union/assets/exhibits/responsive-v2/western-union-telegram-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-saturn-v-western-union/assets/exhibits/responsive-v2/western-union-telegram-master-2x1.jpg",
+      "image_alt": "Monochrome illustration of a telegraph printer, telegram, envelope, and Morse key",
+      "epitaph": "Every word cost money, so important news learned to travel without small talk.",
+      "why": "Telephone, fax, email, and instant messaging made hand-delivered telegrams slow and uneconomical.",
+      "afterlife": "Forms, terse writing conventions, archives, and other providers preserve the medium and its ceremonial uses.",
+      "source_name": "Massachusetts Historical Society",
+      "source_url": "https://www.masshist.org/object-of-the-month/objects/the-last-days-of-the-telegram-2006-03-01",
+      "note": "Western Union discontinued its telegram service on 27 January 2006. Other companies continued sending telegrams, so the subject remains company-specific."
     }
   ]
 }
