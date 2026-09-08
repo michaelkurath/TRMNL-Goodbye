@@ -15,10 +15,12 @@ jobs:
         with:
           ruby-version: "4.0"
 
+      - uses: browser-actions/setup-firefox@v1
+
       - name: Install render dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install --yes firefox imagemagick
+          sudo apt-get install --yes imagemagick
           gem install trmnl_preview
 
       - name: Validate data and rotation

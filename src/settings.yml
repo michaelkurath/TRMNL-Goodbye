@@ -51,5 +51,5 @@ custom_fields:
   description: Choose from all entries or one category. Every entry is shown once before the rotation repeats.
   optional: true
 name: GOODBYE
-description: One lost thing per refresh, without repeats until the rotation is complete.
+description: One lost thing, every refresh.
 refresh_interval: 15
