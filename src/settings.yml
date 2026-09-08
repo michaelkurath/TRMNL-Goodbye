@@ -36,7 +36,7 @@ custom_fields:
   name: About GOODBYE
   category: custom,education
   description: A museum label for one randomly selected discontinued, retired, replaced, extinct, or nearly vanished thing.
-  learn_more_url: https://github.com/michaelkurath/TRMNL-Goodbye
+  github_url: https://github.com/michaelkurath/TRMNL-Goodbye
 - keyname: category
   name: Category
   field_type: select
