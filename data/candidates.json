@@ -643,38 +643,6 @@
       }
     },
     {
-      "id": "vine",
-      "name": "VINE",
-      "lifespan": "2013–2017",
-      "end_year": "2017",
-      "category": "Internet",
-      "category_key": "internet",
-      "status": "Discontinued",
-      "epitaph": "Six seconds was enough time to invent an entire language of comedy.",
-      "why": "Twitter discontinued Vine as creators and audiences shifted to rival video platforms with broader formats and monetisation.",
-      "afterlife": "Catchphrases, compilations, archived clips, and the short-loop format remain embedded in internet culture.",
-      "source_name": "Vine",
-      "source_url": "https://medium.com/@vine/important-news-about-vine-909c5f4ae7a7",
-      "note": "The Vine social app transitioned to the non-social Vine Camera on 17 January 2017; later projects using the name are separate and require a current-status check.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "icq",
       "name": "ICQ",
       "lifespan": "1996–2024",
@@ -835,38 +803,6 @@
       }
     },
     {
-      "id": "sears-big-book",
-      "name": "THE SEARS BIG BOOK",
-      "lifespan": "1888–1993",
-      "end_year": "1993",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Discontinued",
-      "epitaph": "Before online shopping, almost everything imaginable arrived inside one enormous book.",
-      "why": "Shopping shifted toward stores and electronic commerce while the enormous general catalogue grew costly to produce.",
-      "afterlife": "Digitised editions, surviving catalogues, mail-order houses, and museums preserve its inventory of American life.",
-      "source_name": "Smithsonian Magazine",
-      "source_url": "https://www.smithsonianmag.com/innovation/before-folding-30-years-ago-the-sears-catalog-sold-some-surprising-products-180981504/",
-      "note": "Sears issued its first catalogue in 1888 and ceased production of the Big Book on 25 January 1993; specialised catalogues had different timelines.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "western-union-telegram",
       "name": "THE WESTERN UNION TELEGRAM",
       "lifespan": "1861–2006*",
@@ -895,6 +831,70 @@
         "total": 23,
         "status": "provisional",
         "rated_on": "2026-09-06",
+        "note": "Initial editorial rating; revise after verification and preview testing."
+      }
+    },
+    {
+      "id": "internet-explorer",
+      "name": "INTERNET EXPLORER",
+      "lifespan": "1995–2022*",
+      "end_year": "2022*",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Retired",
+      "epitaph": "For years, the web arrived through a blue ‘e’—whether users chose it or not.",
+      "why": "Modern browsers overtook it while Microsoft replaced it with Edge and retired the IE11 desktop application.",
+      "afterlife": "IE mode and Trident compatibility remain available for organisations that still depend on legacy websites.",
+      "source_name": "Microsoft",
+      "source_url": "https://www.microsoft.com/en-us/download/internet-explorer",
+      "note": "The 2022 date applies to the Internet Explorer 11 desktop application on certain Windows 10 versions; IE mode remains supported in Microsoft Edge.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "endpoint_clarity": 4,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-09-08",
+        "note": "Initial editorial rating; revise after verification and preview testing."
+      }
+    },
+    {
+      "id": "original-volkswagen-beetle",
+      "name": "THE ORIGINAL VOLKSWAGEN BEETLE",
+      "lifespan": "1945–2003*",
+      "end_year": "2003*",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Discontinued",
+      "epitaph": "Its shape survived fashion, borders, and generations—until the last one left Puebla.",
+      "why": "Volkswagen ended Type 1 production after demand narrowed and newer cars replaced its ageing postwar design.",
+      "afterlife": "Millions of Beetles remain preserved, restored, driven, and instantly recognisable around the world.",
+      "source_name": "Volkswagen",
+      "source_url": "https://www.vw.com/en/newsroom/lifestyle-and-heritage/an-ode-to-the-bug.html",
+      "note": "Dates refer to postwar series production of the original Type 1; the last was produced in Puebla in 2003. The New Beetle and later Beetle are separate models.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-09-08",
         "note": "Initial editorial rating; revise after verification and preview testing."
       }
     }
