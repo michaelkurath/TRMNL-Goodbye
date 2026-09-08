@@ -8,7 +8,7 @@ custom_fields:
   category: all
 
 time_zone: UTC
-transform_runtime: disabled
+transform_runtime: enabled
 
 variables:
   trmnl: {}
