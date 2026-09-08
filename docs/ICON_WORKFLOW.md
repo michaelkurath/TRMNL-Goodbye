@@ -34,6 +34,7 @@ whole canvas, watermark.
 
 ## Production files
 
+- `goodbye-icon.svg`: hand-authored vector master and status-bar geometry
 - `goodbye-icon-master.png`: 1024 × 1024 master
 - `goodbye-icon.png`: 512 × 512 marketplace asset
 - `goodbye-icon-128.png`: 128 × 128 compact asset
@@ -45,7 +46,7 @@ than detail at master resolution.
 
 ## Publishing
 
-The repository stores the approved icon assets, but TRMNL's recipe
+The status bar embeds the same SVG geometry from `src/shared.liquid` so all four layouts use the approved mark. The repository stores the approved icon assets, but TRMNL's recipe
 `settings.yml` does not reference a marketplace icon. Select
 `assets/icon/goodbye-icon.png` manually when publishing or updating the plugin
 in TRMNL.
