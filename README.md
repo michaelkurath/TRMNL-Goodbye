@@ -16,6 +16,15 @@ curated farewell, rendered as a monochrome museum placard.
 - Twelve original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
 - No third-party image or hotlink dependencies
 
+## Plugin icon
+
+![GOODBYE icon](assets/icon/goodbye-icon-128.png)
+
+The empty museum frame dissolving into pixels is the approved GOODBYE icon.
+Production assets and the repeatable source prompt are stored in
+[`assets/icon`](assets/icon) and documented in
+[`docs/ICON_WORKFLOW.md`](docs/ICON_WORKFLOW.md).
+
 ## Local preview
 
 This repository follows the current [`trmnlp`](https://github.com/usetrmnl/trmnlp)
