@@ -18,7 +18,7 @@ curated farewell, rendered as a monochrome museum placard.
 
 ## Plugin icon
 
-![GOODBYE icon](assets/icon/goodbye-icon-128.png)
+![GOODBYE icon](assets/icon/goodbye-icon.svg)
 
 The empty museum frame dissolving into pixels is the approved GOODBYE icon.
 Production assets and the repeatable source prompt are stored in
