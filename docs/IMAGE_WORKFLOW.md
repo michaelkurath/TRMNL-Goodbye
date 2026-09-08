@@ -82,3 +82,32 @@ Before connecting the files to production data:
 
 Generated artwork is still subject to the fact, text, image, and final approval
 gates in `ROADMAP.md`.
+
+## Generation records
+
+### Sears Big Book
+
+> Recompose the existing Sears catalogue scene by making the entire open book
+> substantially smaller and slightly farther from the viewer. Preserve the
+> enormous open vintage mail-order catalogue, page illustrations, monochrome
+> engraving style, table, and restrained historical room. Keep every part of
+> the book—including both lower cover corners and all page edges—strictly
+> inside the centered 4:3 safe zone, the middle 60% of this wide canvas. Leave
+> at least 12% clear breathing room between the book and every edge of that
+> safe zone. The outer left and right wings must contain room background and
+> tabletop only. No crop, people, logos, readable headline, frame, watermark,
+> or colour.
+
+### Vine
+
+> Illustrate the original 2013–2017 Vine era through a period-correct
+> early-2010s smartphone standing upright on a small tabletop tripod, actively
+> recording a playful six-second looping video. Show a circular sequence of
+> six bold film-frame marks around the phone to communicate a short repeating
+> loop without using the Vine logo. Use a sparse bedroom or improvised young
+> creator's filming setup from approximately 2014. Render it as a monochrome
+> museum engraving with crisp black-and-white linework. Keep the complete
+> phone, tripod, every foot, and all loop marks inside the centered 4:3 safe
+> zone with 15% breathing room; outer wings contain background only. No people,
+> logos, app icons, readable screen text, modern multi-lens camera clusters,
+> captions, watermark, frame, or colour.

@@ -240,6 +240,46 @@
       "source_name": "NASA Science",
       "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
       "note": "Launched in 2003, Opportunity last communicated in June 2018; NASA declared the mission complete in February 2019."
+    },
+    {
+      "id": "sears-big-book",
+      "exhibit": "013",
+      "name": "THE SEARS BIG BOOK",
+      "lifespan": "1888–1993",
+      "end_year": "1993",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/sears-big-book-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/sears-big-book-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/sears-big-book-master-2x1.jpg",
+      "image_alt": "Monochrome illustration of an enormous open Sears mail-order catalogue",
+      "epitaph": "Before online shopping, almost everything imaginable arrived inside one enormous book.",
+      "why": "Shopping shifted toward stores and electronic commerce while the enormous general catalogue grew costly to produce.",
+      "afterlife": "Digitised editions, surviving catalogues, mail-order houses, and museums preserve its inventory of American life.",
+      "source_name": "Smithsonian Magazine",
+      "source_url": "https://www.smithsonianmag.com/innovation/before-folding-30-years-ago-the-sears-catalog-sold-some-surprising-products-180981504/",
+      "note": "Sears issued its first catalogue in 1888 and ceased production of the Big Book on 25 January 1993; specialised catalogues had different timelines."
+    },
+    {
+      "id": "vine",
+      "exhibit": "014",
+      "name": "VINE",
+      "lifespan": "2013–2017",
+      "end_year": "2017",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/vine-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/vine-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/vine-master-2x1.jpg",
+      "image_alt": "Monochrome illustration of a 2010s smartphone recording a short looping video",
+      "epitaph": "Six seconds was enough time to invent an entire language of comedy.",
+      "why": "Twitter discontinued Vine as creators and audiences shifted to rival video platforms with broader formats and monetisation.",
+      "afterlife": "Catchphrases, compilations, archived clips, and the short-loop format remain embedded in internet culture.",
+      "source_name": "Vine",
+      "source_url": "https://medium.com/@vine/important-news-about-vine-909c5f4ae7a7",
+      "note": "The original Vine social network became Vine Camera on 17 January 2017; later services using the name are separate revivals."
     }
   ]
 }
