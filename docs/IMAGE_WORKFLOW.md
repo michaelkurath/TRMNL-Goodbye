@@ -111,3 +111,23 @@ gates in `ROADMAP.md`.
 > zone with 15% breathing room; outer wings contain background only. No people,
 > logos, app icons, readable screen text, modern multi-lens camera clusters,
 > captions, watermark, frame, or colour.
+
+### Saturn V
+
+> Create a historically accurate 2:1 monochrome museum engraving of a complete
+> Saturn V standing vertically on its mobile launcher at Launch Complex 39.
+> Preserve the three-stage proportions, Apollo spacecraft and escape-tower
+> silhouette, period roll pattern, and launch-pad context. Keep the complete
+> rocket and launcher inside the centered 4:3 safe area with 12–15% breathing
+> room. Outer wings contain sky and distant landscape only. No people, smoke,
+> captions, readable text, logos, watermark, frame, or colour.
+
+### Western Union Telegram
+
+> Create a historically grounded monochrome museum engraving of a vintage
+> telegraph-office still life: a telegram form emerging from a telegraph
+> printer, a folded delivery envelope, and a Morse key. Group every meaningful
+> object inside the centered 4:3 safe area with at least 12% breathing room;
+> outer wings contain desk and subdued office background only. Paper may carry
+> faint abstract marks, but no readable words, names, dates, company branding,
+> captions, watermark, frame, modern electronics, or colour.
