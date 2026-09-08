@@ -32,15 +32,32 @@ jobs:
       - name: Lint plugin
         run: trmnlp lint
 
-      - name: Render TRMNL OG
+      - name: Render TRMNL OG and X
         run: |
-          trmnlp build --png --width 800 --height 480
-          mv _build _build-og
+          trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp.log 2>&1 &
+          trmnlp_pid=$!
+          trap 'kill "$trmnlp_pid" 2>/dev/null || true' EXIT
 
-      - name: Render TRMNL X
-        run: |
-          trmnlp build --png --width 1872 --height 1404
-          mv _build _build-x
+          for attempt in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:4567/full > /dev/null; then
+              break
+            fi
+            if ! kill -0 "$trmnlp_pid" 2>/dev/null; then
+              cat /tmp/trmnlp.log
+              exit 1
+            fi
+            sleep 1
+          done
+
+          mkdir -p _build-og _build-x
+          for view in full half_horizontal half_vertical quadrant; do
+            curl --fail --silent --show-error \
+              "http://127.0.0.1:4567/render/${view}.png?width=800&height=480" \
+              --output "_build-og/${view}.png"
+            curl --fail --silent --show-error \
+              "http://127.0.0.1:4567/render/${view}.png?width=1872&height=1404" \
+              --output "_build-x/${view}.png"
+          done
 
       - name: Upload render previews
         uses: actions/upload-artifact@v6
