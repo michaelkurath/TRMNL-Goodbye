@@ -51,11 +51,15 @@ jobs:
 
           mkdir -p _build-og _build-x
           for view in full half_horizontal half_vertical quadrant; do
-            curl --fail --silent --show-error \
-              "http://127.0.0.1:4567/render/${view}.png?width=800&height=480" \
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--1bit screen--og_png screen--md screen--density-1x screen--1x" \
+              --data "width=800" --data "height=480" --data "color_depth=1" \
+              "http://127.0.0.1:4567/render/${view}.png" \
               --output "_build-og/${view}.png"
-            curl --fail --silent --show-error \
-              "http://127.0.0.1:4567/render/${view}.png?width=1872&height=1404" \
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--density-2x screen--1x" \
+              --data "width=1872" --data "height=1404" --data "color_depth=4" \
+              "http://127.0.0.1:4567/render/${view}.png" \
               --output "_build-x/${view}.png"
           done
 
