@@ -4,64 +4,69 @@ on:
   pull_request:
   push:
     branches: [main]
-  workflow_dispatch:
 
 jobs:
-  validate:
+  validate-and-render:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "4.0"
-      - name: Validate content data
+
+      - uses: browser-actions/setup-firefox@v1
+
+      - name: Install render dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes imagemagick
+          gem install trmnl_preview
+
+      - name: Validate data and rotation
         run: |
           node scripts/validate-data.js
           node scripts/validate-candidates.js
-      - name: Install trmnlp
-        run: gem install trmnl_preview
+          node scripts/test-transform.js
+
       - name: Lint plugin
         run: trmnlp lint
-      - name: Use branch data for preview build
+
+      - name: Render TRMNL OG and X
         run: |
-          sed -i 's#https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits#http://127.0.0.1:8765/assets/exhibits#' data/trmnl.json
-          python3 -m http.server 8765 > /tmp/goodbye-preview-server.log 2>&1 &
-          sed -i 's#https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json#http://127.0.0.1:8765/data/trmnl.json#' src/settings.yml
-      - name: Build OG and X previews
-        run: |
-          mkdir -p _build_og
-          mkdir -p _build_x
-          docker pull trmnl/trmnlp
-          docker run -d --name goodbye-trmnlp --network host --volume "$PWD:/plugin" trmnl/trmnlp serve --bind 0.0.0.0
+          trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp.log 2>&1 &
+          trmnlp_pid=$!
+          trap 'kill "$trmnlp_pid" 2>/dev/null || true' EXIT
+
+          for attempt in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:4567/full > /dev/null; then
+              break
+            fi
+            if ! kill -0 "$trmnlp_pid" 2>/dev/null; then
+              cat /tmp/trmnlp.log
+              exit 1
+            fi
+            sleep 1
+          done
+
+          mkdir -p _build-og _build-x
           for view in full half_horizontal half_vertical quadrant; do
-            curl --fail --retry 30 --retry-delay 1 --retry-connrefused "http://127.0.0.1:4567/render/${view}.html?screen_classes=screen--og%20screen--md%20screen--density-1x%20screen--1bit&width=800&height=480" -o "_build_og/${view}.html"
-            curl --fail "http://127.0.0.1:4567/render/${view}.png?screen_classes=screen--og%20screen--md%20screen--density-1x%20screen--1bit&width=800&height=480&color_depth=1" -o "_build_og/${view}.png"
-            curl --fail "http://127.0.0.1:4567/render/${view}.html?screen_classes=screen--v2%20screen--lg%20screen--density-2x%20screen--4bit&width=1040&height=780" -o "_build_x/${view}.html"
-            curl --fail "http://127.0.0.1:4567/render/${view}.png?screen_classes=screen--v2%20screen--lg%20screen--density-2x%20screen--4bit&width=1040&height=780&color_depth=4" -o "_build_x/${view}.png"
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--1bit screen--og_png screen--md screen--density-1x screen--1x" \
+              --data "width=800" --data "height=480" --data "color_depth=1" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build-og/${view}.png"
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--density-2x screen--1x" \
+              --data "width=1040" --data "height=780" --data "color_depth=4" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build-x/${view}.png"
           done
-      - name: Render every live entry in every layout
-        run: |
-          cp data/trmnl.json /tmp/goodbye-all-items.json
-          mkdir -p _build_matrix
-          for entry_id in $(jq -r '.items[].id' /tmp/goodbye-all-items.json); do
-            jq --arg entry_id "$entry_id" '.items |= map(select(.id == $entry_id))' /tmp/goodbye-all-items.json > /tmp/goodbye-single-item.json
-            cp /tmp/goodbye-single-item.json data/trmnl.json
-            docker rm --force goodbye-trmnlp > /dev/null
-            docker run -d --name goodbye-trmnlp --network host --volume "$PWD:/plugin" trmnl/trmnlp serve --bind 0.0.0.0
-            for view in full half_horizontal half_vertical quadrant; do
-              curl --fail --retry 30 --retry-delay 1 --retry-connrefused --retry-all-errors "http://127.0.0.1:4567/render/${view}.png?screen_classes=screen--og%20screen--md%20screen--density-1x%20screen--1bit&width=800&height=480&color_depth=1" -o "_build_matrix/${entry_id}-og-${view}.png"
-              curl --fail --retry 5 --retry-delay 1 --retry-all-errors "http://127.0.0.1:4567/render/${view}.png?screen_classes=screen--v2%20screen--lg%20screen--density-2x%20screen--4bit&width=1040&height=780&color_depth=4" -o "_build_matrix/${entry_id}-x-${view}.png"
-            done
-          done
-          docker rm --force goodbye-trmnlp > /dev/null
-          cp /tmp/goodbye-all-items.json data/trmnl.json
-      - name: Upload previews
-        uses: actions/upload-artifact@v4
+
+      - name: Upload render previews
+        uses: actions/upload-artifact@v6
         with:
-          name: trmnl-previews
+          name: goodbye-render-previews
           path: |
-            _build_og/*.html
-            _build_og/*.png
-            _build_x/*.html
-            _build_x/*.png
-            _build_matrix/*.png
+            _build-og/*.png
+            _build-x/*.png

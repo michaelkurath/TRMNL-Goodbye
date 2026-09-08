@@ -11,10 +11,12 @@
   {% assign filter_fallback = true %}
 {% endif %}
 
-{% assign selected = nil %}
-{% if pool != empty %}
-  {% assign selected = pool | sample %}
-{% endif %}
+{% assign selected = selected_entry %}
+{% unless selected %}
+  {% if pool != empty %}
+    {% assign selected = pool | sample %}
+  {% endif %}
+{% endunless %}
 
 {% if selected %}
   {% assign name_length = selected.name | size %}

@@ -5,7 +5,7 @@ dark_mode: 'no'
 static_data: "{}"
 polling_verb: get
 framework_version: 3.3.1
-serverless_language: ''
+serverless_language: node
 polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json
 polling_headers: ''
 polling_body: ''
@@ -48,7 +48,7 @@ custom_fields:
   - Nature: nature
   - Everyday life: everyday
   default: all
-  description: Choose randomly from all entries or one category on every refresh.
+  description: Choose from all entries or one category. Every entry is shown once before the rotation repeats.
   optional: true
 name: GOODBYE
 description: One lost thing, every refresh.
