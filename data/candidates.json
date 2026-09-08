@@ -675,38 +675,6 @@
       }
     },
     {
-      "id": "saturn-v",
-      "name": "SATURN V",
-      "lifespan": "1967–1973",
-      "end_year": "1973",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Retired",
-      "epitaph": "It carried people to the Moon, then became too large for the ambitions that followed.",
-      "why": "After Apollo and Skylab, changing priorities and budgets ended demand for the enormous launch vehicle.",
-      "afterlife": "Assembled museum displays, surviving stages, documentation, and successor rockets preserve its engineering legacy.",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-the-saturn-v-grades-5-8/",
-      "note": "Dates run from the first Saturn V launch in 1967 to the final launch, which placed Skylab in orbit in 1973.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 24,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "rms-queen-mary-service",
       "name": "RMS QUEEN MARY PASSENGER SERVICE",
       "lifespan": "1936–1967",
@@ -803,38 +771,6 @@
       }
     },
     {
-      "id": "western-union-telegram",
-      "name": "THE WESTERN UNION TELEGRAM",
-      "lifespan": "1861–2006*",
-      "end_year": "2006*",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Discontinued",
-      "epitaph": "Every word cost money, so important news learned to travel without small talk.",
-      "why": "Telephone calls, fax, email, and instant messaging made hand-delivered telegrams slow and uneconomical.",
-      "afterlife": "Telegram forms, terse writing conventions, archives, and other providers preserve the medium and its ceremonial uses.",
-      "source_name": "Massachusetts Historical Society",
-      "source_url": "https://www.masshist.org/object-of-the-month/objects/the-last-days-of-the-telegram-2006-03-01",
-      "note": "Western Union discontinued its telegram service on 27 January 2006. Telegrams did not disappear globally, so the subject must remain company-specific.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "internet-explorer",
       "name": "INTERNET EXPLORER",
       "lifespan": "1995–2022*",
@@ -896,6 +832,38 @@
         "status": "provisional",
         "rated_on": "2026-09-08",
         "note": "Initial editorial rating; revise after verification and preview testing."
+      }
+    },
+    {
+      "id": "arecibo-telescope",
+      "name": "THE ARECIBO TELESCOPE",
+      "lifespan": "1963–2020",
+      "end_year": "2020",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Destroyed",
+      "epitaph": "For fifty-seven years it listened to the universe—until its own cables fell silent.",
+      "why": "Progressive cable failures brought the suspended instrument platform down through the giant reflector dish.",
+      "afterlife": "Its discoveries, archived data, surviving site facilities, and a new education centre preserve its legacy.",
+      "source_name": "National Science Foundation",
+      "source_url": "https://www.nsf.gov/news/media-toolkits/arecibo",
+      "note": "The 305-metre telescope opened in 1963 and collapsed on 1 December 2020. The wider observatory site survived; NSF later established Arecibo C3 there. The National Academies published a detailed failure analysis in 2024.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-09-08",
+        "note": "Initial editorial rating based on NSF and National Academies evidence; revise after full verification and preview testing."
       }
     }
   ],
