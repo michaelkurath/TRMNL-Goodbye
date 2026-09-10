@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "id": "arecibo-telescope",
-      "exhibit": "017",
-      "name": "THE ARECIBO TELESCOPE",
-      "lifespan": "1963–2020",
-      "end_year": "2020",
+      "id": "kodachrome",
+      "exhibit": "018",
+      "name": "KODACHROME",
+      "lifespan": "1935–2009*",
+      "end_year": "2009*",
       "category": "Technology",
       "category_key": "technology",
-      "status": "Destroyed",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-arecibo-kodachrome/assets/exhibits/responsive-v2/arecibo-telescope-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-arecibo-kodachrome/assets/exhibits/responsive-v2/arecibo-telescope-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-arecibo-kodachrome/assets/exhibits/responsive-v2/arecibo-telescope-master-2x1.jpg",
-      "image_alt": "Monochrome illustration of the intact Arecibo radio telescope and its three support towers",
-      "epitaph": "For fifty-seven years it listened to the universe—until its own cables fell silent.",
-      "why": "Progressive cable failures brought the suspended instrument platform down through the giant reflector dish.",
-      "afterlife": "Its discoveries, archived data, surviving site facilities, and a new education centre preserve its legacy.",
-      "source_name": "National Science Foundation",
-      "source_url": "https://www.nsf.gov/news/media-toolkits/arecibo",
-      "note": "The 305-metre telescope opened in 1963 and collapsed on 1 December 2020. The wider observatory site survived; NSF later established Arecibo C3 there."
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-arecibo-kodachrome/assets/exhibits/responsive-v2/kodachrome-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-arecibo-kodachrome/assets/exhibits/responsive-v2/kodachrome-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-arecibo-kodachrome/assets/exhibits/responsive-v2/kodachrome-master-2x1.jpg",
+      "image_alt": "Monochrome illustration of 35 mm film, mounted slides, and a vintage slide projector",
+      "epitaph": "The colours survived longer than the chemistry needed to make them.",
+      "why": "Demand collapsed as photography moved to digital, while Kodachrome required a specialised development process.",
+      "afterlife": "Decades of slides, scans, archives, and famous photographs preserve its distinctive colour palette.",
+      "source_name": "PBS NewsHour",
+      "source_url": "https://www.pbs.org/newshour/nation/kodak-retires-iconic-kodachrome-film",
+      "note": "Kodak ended production in 2009; the final commercial K-14 processing service ended in 2010."
     }
   ]
 }
