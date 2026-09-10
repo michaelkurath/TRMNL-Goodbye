@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "id": "pinta-island-tortoise",
-      "exhibit": "019",
-      "name": "THE PINTA ISLAND TORTOISE",
-      "lifespan": "Prehistory–2012",
-      "end_year": "2012",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Extinct",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-pinta-swiss-phonebook/assets/exhibits/responsive-v2/pinta-island-tortoise-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-pinta-swiss-phonebook/assets/exhibits/responsive-v2/pinta-island-tortoise-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-pinta-swiss-phonebook/assets/exhibits/responsive-v2/pinta-island-tortoise-master-2x1.jpg",
-      "image_alt": "Monochrome illustration of a saddle-backed Pinta Island giant tortoise in volcanic habitat",
-      "epitaph": "An entire lineage ended with one old tortoise called Lonesome George.",
-      "why": "Centuries of hunting and introduced goats devastated the isolated Pinta population and its habitat.",
-      "afterlife": "George remains a conservation symbol, while related hybrids may help restore parts of the lost lineage.",
-      "source_name": "Galápagos Conservancy",
-      "source_url": "https://www.galapagos.org/about_galapagos/lonesome-george/",
-      "note": "Lonesome George, the last known pure Pinta Island tortoise, died on 24 June 2012. Related hybrids retain some Pinta ancestry, so the subject remains the extinct pure lineage."
+      "id": "swiss-telephone-book",
+      "exhibit": "020",
+      "name": "THE SWISS TELEPHONE BOOK",
+      "lifespan": "1880–2022",
+      "end_year": "2022",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-pinta-swiss-phonebook/assets/exhibits/responsive-v2/swiss-telephone-book-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-pinta-swiss-phonebook/assets/exhibits/responsive-v2/swiss-telephone-book-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-pinta-swiss-phonebook/assets/exhibits/responsive-v2/swiss-telephone-book-master-2x1.jpg",
+      "image_alt": "Monochrome illustration of an open telephone directory and a rotary telephone",
+      "epitaph": "For 142 years, finding someone began by turning thin pages.",
+      "why": "Online directories, mobile phones, and fewer publicly listed private numbers made the printed book obsolete.",
+      "afterlife": "Libraries, archives, and digitised directories preserve a detailed map of Swiss households and businesses.",
+      "source_name": "Swiss National Museum",
+      "source_url": "https://blog.nationalmuseum.ch/en/2022/11/the-last-phone-book/",
+      "note": "The first Swiss directory appeared in Zurich in 1880; the final printed regional editions were issued in 2022."
     }
   ]
 }
