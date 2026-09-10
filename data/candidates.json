@@ -515,38 +515,6 @@
       }
     },
     {
-      "id": "swiss-telephone-book",
-      "name": "THE SWISS TELEPHONE BOOK",
-      "lifespan": "1880–2022",
-      "end_year": "2022",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Discontinued",
-      "epitaph": "For 142 years, finding someone began by turning thin pages.",
-      "why": "Online directories, mobile phones, and fewer publicly listed private numbers made the printed book obsolete.",
-      "afterlife": "Libraries, archives, and digitised directories preserve a detailed map of Swiss households and businesses.",
-      "source_name": "Swiss National Museum",
-      "source_url": "https://blog.nationalmuseum.ch/en/2022/11/the-last-phone-book/",
-      "note": "The first Swiss directory appeared in Zurich in 1880; the final printed regional editions were issued in 2022.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "blackberry-legacy-phones",
       "name": "BLACKBERRY LEGACY PHONES",
       "lifespan": "1999–2022*",
@@ -803,19 +771,51 @@
       }
     },
     {
-      "id": "pinta-island-tortoise",
-      "name": "THE PINTA ISLAND TORTOISE",
-      "lifespan": "Prehistory–2012",
-      "end_year": "2012",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Extinct",
-      "epitaph": "An entire lineage ended with one old tortoise called Lonesome George.",
-      "why": "Centuries of hunting and introduced goats devastated the isolated Pinta population and its habitat.",
-      "afterlife": "George remains a conservation symbol, while related hybrids may help restore parts of the lost lineage.",
-      "source_name": "Galápagos Conservancy",
-      "source_url": "https://www.galapagos.org/about_galapagos/lonesome-george/",
-      "note": "Lonesome George, the last known pure Pinta Island tortoise, died on 24 June 2012. Related hybrid tortoises retain some Pinta ancestry, so the subject must remain the extinct pure lineage.",
+      "id": "google-stadia",
+      "name": "GOOGLE STADIA",
+      "lifespan": "2019–2023",
+      "end_year": "2023",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "The console lived in the cloud, but the cloud could still pull the plug.",
+      "why": "The streaming platform failed to gain enough traction, so Google shut its stores and game servers.",
+      "afterlife": "Refunds softened the ending, Bluetooth mode rescued controllers, and cloud gaming continued elsewhere.",
+      "source_name": "Google Stadia Help",
+      "source_url": "https://support.google.com/stadia/answer/12790109?hl=en",
+      "note": "Google announced the shutdown in September 2022 and kept Stadia servers online until 18 January 2023.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-09-10",
+        "note": "Initial editorial rating based on Google’s shutdown FAQ; revise after full verification and preview testing."
+      }
+    },
+    {
+      "id": "netflix-dvd-by-mail",
+      "name": "NETFLIX DVD-BY-MAIL",
+      "lifespan": "1998–2023",
+      "end_year": "2023",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "epitaph": "Five billion red envelopes taught the mailbox how to compete with the video store.",
+      "why": "Streaming replaced physical delivery, leaving the original subscription service as a shrinking side business.",
+      "afterlife": "Discs, envelopes, queues, and memories remain after the streaming service outlived its postal ancestor.",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/b60e8b312ec395cd69b3522ac842a9c7",
+      "note": "The DVD-by-mail service began in 1998 and mailed its final discs on 29 September 2023. Netflix streaming continued.",
       "review": {
         "fact_check": "pending",
         "text_review": "pending",
@@ -826,12 +826,12 @@
         "recognition": 5,
         "visual_strength": 5,
         "story_strength": 5,
-        "endpoint_clarity": 4,
+        "endpoint_clarity": 5,
         "catalogue_fit": 5,
-        "total": 24,
+        "total": 25,
         "status": "provisional",
         "rated_on": "2026-09-10",
-        "note": "Initial editorial rating; the extinct pure lineage must remain distinct from surviving hybrids."
+        "note": "Initial editorial rating; keep the subject limited to the retired postal service, not Netflix as a whole."
       }
     }
   ],

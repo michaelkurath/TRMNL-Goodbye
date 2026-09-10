@@ -151,3 +151,23 @@ gates in `ROADMAP.md`.
 > breathing room; outer wings contain empty workbench and darkroom background
 > only. No readable words, Kodak branding, logos, captions, watermark, people,
 > modern digital cameras, overall border, or colour.
+
+### Pinta Island Tortoise
+
+> Create a biologically accurate 2:1 monochrome natural-history engraving of
+> one adult male saddle-backed Pinta Island giant tortoise in a restrained
+> Galápagos habitat. Preserve the high front shell opening, long neck and limbs,
+> and wrinkled skin. Keep the complete animal, every foot, and its shadow inside
+> the centered 4:3 safe area with 12–15% breathing room; outer wings contain
+> habitat only. No people, signs, text, logos, watermark, border, colour, eggs,
+> or additional animals.
+
+### Swiss Telephone Book
+
+> Create a historically grounded 2:1 monochrome museum engraving of a thick
+> Swiss regional telephone directory lying open on two closed volumes beside a
+> classic European rotary telephone. Keep every page and cover corner, the full
+> telephone, handset, cord, and shadows inside the centered 4:3 safe area with
+> 10–15% breathing room; outer wings contain empty tabletop and subdued room
+> background only. Pages may use abstract marks but no legible names, words,
+> numbers, headings, logos, Swiss cross, captions, watermark, or colour.
