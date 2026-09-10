@@ -35,38 +35,6 @@
       }
     },
     {
-      "id": "kodachrome",
-      "name": "KODACHROME",
-      "lifespan": "1935–2009*",
-      "end_year": "2009*",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Discontinued",
-      "epitaph": "The colours survived longer than the chemistry needed to make them.",
-      "why": "Demand collapsed as photography moved to digital, while Kodachrome required a specialised development process.",
-      "afterlife": "Decades of slides, scans, archives, and famous photographs preserve its distinctive colour palette.",
-      "source_name": "PBS NewsHour",
-      "source_url": "https://www.pbs.org/newshour/nation/kodak-retires-iconic-kodachrome-film",
-      "note": "Kodak ended production in 2009; the final commercial K-14 processing service ended in 2010.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "geocities",
       "name": "GEOCITIES",
       "lifespan": "1994–2009*",
@@ -835,19 +803,19 @@
       }
     },
     {
-      "id": "arecibo-telescope",
-      "name": "THE ARECIBO TELESCOPE",
-      "lifespan": "1963–2020",
-      "end_year": "2020",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Destroyed",
-      "epitaph": "For fifty-seven years it listened to the universe—until its own cables fell silent.",
-      "why": "Progressive cable failures brought the suspended instrument platform down through the giant reflector dish.",
-      "afterlife": "Its discoveries, archived data, surviving site facilities, and a new education centre preserve its legacy.",
-      "source_name": "National Science Foundation",
-      "source_url": "https://www.nsf.gov/news/media-toolkits/arecibo",
-      "note": "The 305-metre telescope opened in 1963 and collapsed on 1 December 2020. The wider observatory site survived; NSF later established Arecibo C3 there. The National Academies published a detailed failure analysis in 2024.",
+      "id": "pinta-island-tortoise",
+      "name": "THE PINTA ISLAND TORTOISE",
+      "lifespan": "Prehistory–2012",
+      "end_year": "2012",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "An entire lineage ended with one old tortoise called Lonesome George.",
+      "why": "Centuries of hunting and introduced goats devastated the isolated Pinta population and its habitat.",
+      "afterlife": "George remains a conservation symbol, while related hybrids may help restore parts of the lost lineage.",
+      "source_name": "Galápagos Conservancy",
+      "source_url": "https://www.galapagos.org/about_galapagos/lonesome-george/",
+      "note": "Lonesome George, the last known pure Pinta Island tortoise, died on 24 June 2012. Related hybrid tortoises retain some Pinta ancestry, so the subject must remain the extinct pure lineage.",
       "review": {
         "fact_check": "pending",
         "text_review": "pending",
@@ -855,15 +823,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 4,
+        "recognition": 5,
         "visual_strength": 5,
         "story_strength": 5,
-        "endpoint_clarity": 5,
+        "endpoint_clarity": 4,
         "catalogue_fit": 5,
         "total": 24,
         "status": "provisional",
-        "rated_on": "2026-09-08",
-        "note": "Initial editorial rating based on NSF and National Academies evidence; revise after full verification and preview testing."
+        "rated_on": "2026-09-10",
+        "note": "Initial editorial rating; the extinct pure lineage must remain distinct from surviving hybrids."
       }
     }
   ],

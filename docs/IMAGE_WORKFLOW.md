@@ -131,3 +131,23 @@ gates in `ROADMAP.md`.
 > outer wings contain desk and subdued office background only. Paper may carry
 > faint abstract marks, but no readable words, names, dates, company branding,
 > captions, watermark, frame, modern electronics, or colour.
+
+### Arecibo Telescope
+
+> Create a historically accurate 2:1 monochrome museum engraving of the intact
+> Arecibo Observatory 305-metre telescope during its operational era. Show the
+> complete spherical reflector dish, triangular instrument platform, Gregorian
+> dome, three support towers, and cable system. Keep every part inside the
+> centered 4:3 safe area with 10–15% breathing room; outer wings contain only
+> tropical forest, distant hills, and sky. No collapse damage, people, vehicles,
+> extra dishes, text, logos, watermark, border, or colour.
+
+### Kodachrome
+
+> Create a historically grounded 2:1 monochrome museum engraving of a
+> mid-century photographic workbench with a generic 35 mm film canister, curling
+> developed positive film, mounted slides, and a compact slide projector. Group
+> every meaningful object inside the centered 4:3 safe area with 10–15%
+> breathing room; outer wings contain empty workbench and darkroom background
+> only. No readable words, Kodak branding, logos, captions, watermark, people,
+> modern digital cameras, overall border, or colour.
