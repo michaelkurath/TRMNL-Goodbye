@@ -12,7 +12,7 @@
     <div class="goodbye-full-hero outline rounded">
       <picture class="goodbye-picture">
         <source media="(min-width: 1000px)" srcset="{{ selected.image_url_wide | default: selected.image_url }}">
-        <img class="goodbye-image goodbye-image--hero" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
+        <img class="goodbye-image goodbye-image--hero image-dither" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
       </picture>
     </div>
 
