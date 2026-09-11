@@ -10,7 +10,7 @@ until every entry in the selected category has appeared.
 
 ## First version
 
-- Twenty-two sourced live entries
+- Twenty-four sourced live entries
 - A shuffled, no-repeat rotation using TRMNL Saved State
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
