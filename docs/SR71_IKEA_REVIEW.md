@@ -17,11 +17,15 @@ Fact and text review: approved, with source-access limitations recorded above. C
 
 Created with OpenAI built-in image generation. No external image was copied. Illustrations are interpretive, not photographs. No third-party image attribution requirement identified. Exported grayscale 1600x800 masters and centered 1067x800 derivatives under assets/exhibits/responsive-v2/ using each entry ID.
 
-SR-71: two nacelles, inlet spikes, two tail fins, long chines and no armament. IKEA: original room illustrations, not a facsimile of any historical spread; first composition rejected for oversized book and extraneous objects, corrected with a smaller centered book. Both centered crops directly inspected, complete subjects retained. trmnlp OG/X review pending.
+SR-71: two nacelles, inlet spikes, two tail fins, long chines and no armament. IKEA: original room illustrations, not a facsimile of any historical spread; first composition rejected for oversized book and extraneous objects, corrected with a smaller centered book. Both masters and centered crops directly inspected, complete subjects retained.
 
 Original priority dimensions (recognition/visual/story/endpoint/fit), rated 2026-09-06: SR-71 5/5/4/4/4=22; IKEA 5/4/5/5/3=22.
 
 SR-71 image review: approved by Codex after inspecting all four OG/X layouts in [run 34594731881](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34594731881), artifact 10262245659. Full views checked at native resolution; both half views and quadrant checked together. No clipping or title truncation.
+
+IKEA image review: approved by Codex after all four OG/X layouts in [run 34595394751](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34595394751), artifact 10261832145. X Full and OG Full inspected at native resolution; compact layouts inspected together. Book corners remain visible and text fits. The earlier run stalled during dependency installation; a fresh runner passed.
+
+All 16 exhibit previews passed. Temporary fixtures removed and production polling URL restored. Local validators, Saved State tests and whitespace checks passed; green final CI remains required before merge. No layout or rotation code changes.
 
 User requested promotion; no separate human preview approval is claimed.
 
