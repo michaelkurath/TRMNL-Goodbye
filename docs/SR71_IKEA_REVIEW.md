@@ -21,6 +21,8 @@ SR-71: two nacelles, inlet spikes, two tail fins, long chines and no armament. I
 
 Original priority dimensions (recognition/visual/story/endpoint/fit), rated 2026-09-06: SR-71 5/5/4/4/4=22; IKEA 5/4/5/5/3=22.
 
+SR-71 image review: approved by Codex after inspecting all four OG/X layouts in [run 34594731881](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34594731881), artifact 10262245659. Full views checked at native resolution; both half views and quadrant checked together. No clipping or title truncation.
+
 User requested promotion; no separate human preview approval is claimed.
 
 ## Exact generation prompts
