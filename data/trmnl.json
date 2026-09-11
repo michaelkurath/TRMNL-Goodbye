@@ -440,6 +440,46 @@
       "source_name": "Google Stadia Help",
       "source_url": "https://support.google.com/stadia/answer/12790109?hl=en",
       "note": "Google announced the shutdown in September 2022 and kept Stadia servers online until 18 January 2023."
+    },
+    {
+      "id": "blackberry-legacy-phones",
+      "name": "BLACKBERRY LEGACY DEVICES",
+      "lifespan": "1999–2022*",
+      "end_year": "2022*",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "For a while, being important meant typing with both thumbs.",
+      "why": "Touchscreen smartphones and app ecosystems displaced BlackBerry's keyboard-led platform before its legacy services ended.",
+      "afterlife": "Preserved devices, the physical keyboard, collectors, and BlackBerry's security business keep the name familiar.",
+      "source_name": "BlackBerry",
+      "source_url": "https://www.blackberry.com/en/secure-communications/support/end-of-life",
+      "note": "1999 marks the first BlackBerry pager. 4 January 2022 marks legacy OS service retirement, not the end of Android devices or the company.",
+      "exhibit": "023",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/blackberry-legacy-phones-standard-4x3.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/blackberry-legacy-phones-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/blackberry-legacy-phones-master-2x1.jpg",
+      "image_alt": "Monochrome engraving of a BlackBerry Bold 9000 handset"
+    },
+    {
+      "id": "original-volkswagen-beetle",
+      "name": "ORIGINAL VW BEETLE",
+      "lifespan": "1945–2003*",
+      "end_year": "2003*",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Discontinued",
+      "epitaph": "Its shape survived fashion, borders, and generations—until the last one left Puebla.",
+      "why": "Volkswagen ended Type 1 production after demand narrowed and newer cars replaced its ageing postwar design.",
+      "afterlife": "Surviving Beetles are restored, collected, and driven; the final car is preserved in Volkswagen's museum.",
+      "source_name": "Volkswagen",
+      "source_url": "https://www.volkswagen-newsroom.com/en/beetle-kaefer-3587",
+      "note": "Dates refer to postwar series production of the original Type 1; the last was produced in Puebla in 2003. The New Beetle and later Beetle are separate models.",
+      "exhibit": "024",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-volkswagen-beetle-master-2x1.jpg",
+      "image_alt": "Monochrome engraving of an original Volkswagen Type 1 Beetle"
     }
   ]
 }

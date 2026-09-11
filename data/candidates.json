@@ -515,38 +515,6 @@
       }
     },
     {
-      "id": "blackberry-legacy-phones",
-      "name": "BLACKBERRY LEGACY PHONES",
-      "lifespan": "1999–2022*",
-      "end_year": "2022*",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Retired",
-      "epitaph": "For a while, being important meant typing with both thumbs.",
-      "why": "Touchscreen smartphones and app ecosystems displaced BlackBerry's keyboard-led platform before its legacy services ended.",
-      "afterlife": "Preserved devices, the physical keyboard, collectors, and BlackBerry's security business keep the name familiar.",
-      "source_name": "BlackBerry",
-      "source_url": "https://www.blackberry.com/en/secure-communications/support/end-of-life",
-      "note": "The 2022 date refers to termination of legacy BlackBerry OS, BlackBerry 10, and PlayBook OS services on 4 January—not the end of every BlackBerry-branded product.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "windows-phone",
       "name": "WINDOWS PHONE",
       "lifespan": "2010–2019*",
@@ -739,38 +707,6 @@
       }
     },
     {
-      "id": "original-volkswagen-beetle",
-      "name": "THE ORIGINAL VOLKSWAGEN BEETLE",
-      "lifespan": "1945–2003*",
-      "end_year": "2003*",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Discontinued",
-      "epitaph": "Its shape survived fashion, borders, and generations—until the last one left Puebla.",
-      "why": "Volkswagen ended Type 1 production after demand narrowed and newer cars replaced its ageing postwar design.",
-      "afterlife": "Millions of Beetles remain preserved, restored, driven, and instantly recognisable around the world.",
-      "source_name": "Volkswagen",
-      "source_url": "https://www.vw.com/en/newsroom/lifestyle-and-heritage/an-ode-to-the-bug.html",
-      "note": "Dates refer to postwar series production of the original Type 1; the last was produced in Puebla in 2003. The New Beetle and later Beetle are separate models.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-08",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "golden-toad",
       "name": "THE GOLDEN TOAD",
       "lifespan": "1964–1989*",
@@ -832,6 +768,70 @@
         "status": "provisional",
         "rated_on": "2026-09-11",
         "note": "The candidate is specifically the short passenger service, avoiding the aircraft’s later cargo and research career."
+      }
+    },
+    {
+      "id": "cern-lep-collider",
+      "name": "CERN'S LEP COLLIDER",
+      "lifespan": "1989–2000",
+      "end_year": "2000",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Dismantled",
+      "epitaph": "Its particles stopped circling so a bigger question could use the same tunnel.",
+      "why": "CERN dismantled the electron-positron collider to install the Large Hadron Collider in its 27-kilometre tunnel.",
+      "afterlife": "Its precision measurements remain, and the LHC reuses the tunnel beneath the French-Swiss border.",
+      "source_name": "CERN",
+      "source_url": "https://home.cern/science/accelerators/large-electron-positron-collider/",
+      "note": "First beam: 14 July 1989. LEP closed on 2 November 2000; the reused tunnel is not itself gone.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-09-11",
+        "note": "Strong science story and clear retirement; a tunnel scene needs careful identification."
+      }
+    },
+    {
+      "id": "st-helena-giant-earwig",
+      "name": "ST HELENA GIANT EARWIG",
+      "lifespan": "Ancient–1967*",
+      "end_year": "1967*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "Even the world's largest earwig could disappear beneath our notice.",
+      "why": "Habitat loss and introduced species likely contributed to its disappearance from its only island home.",
+      "afterlife": "Museum specimens preserve its extraordinary size and the story of St Helena's lost wildlife.",
+      "source_name": "Fabian Haas / Earwigs Online",
+      "source_url": "https://www.earwigs-online.de/Lherculeana/Lherculeana.html",
+      "note": "1967 is the last reported live record, not a proven extinction date. IUCN listed it Extinct in 2014; verify the current assessment before promotion.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 2,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 4,
+        "catalogue_fit": 5,
+        "total": 20,
+        "status": "provisional",
+        "rated_on": "2026-09-11",
+        "note": "Distinctive insect broadens Nature; exact extinction date and causes require qualified wording."
       }
     }
   ],
