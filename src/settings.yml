@@ -6,7 +6,7 @@ static_data: "{}"
 polling_verb: get
 framework_version: 3.3.1
 serverless_language: node
-polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/b7523e9afaae55dc81ab928475aeead1a6727be6/review/fixtures/sr-71-blackbird.json
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/b7523e9afaae55dc81ab928475aeead1a6727be6/review/fixtures/ikea-catalogue.json
 polling_headers: ''
 polling_body: ''
 id: 467205
