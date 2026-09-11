@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "sr-71-blackbird",
+      "name": "SR-71 BLACKBIRD",
+      "lifespan": "1964–1999",
+      "end_year": "1999",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "It crossed continents at Mach 3. Its final destination was the museum.",
+      "why": "High operating costs and shrinking defence budgets ended its frontline role; NASA research flying continued until 1999.",
+      "afterlife": "Preserved aircraft and flight records keep its extraordinary speed and engineering on display.",
+      "source_name": "National Museum of the USAF",
+      "source_url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/lockheed-sr-71a/",
+      "note": "1964 is first flight; 1999 is the final NASA flight. USAF initially retired it in 1990, briefly reactivated it, and retired it again in 1998.",
+      "exhibit": "025",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-sr71-ikea/assets/exhibits/responsive-v2/sr-71-blackbird-standard-4x3.jpg?preview=batch5",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-sr71-ikea/assets/exhibits/responsive-v2/sr-71-blackbird-standard-4x3.jpg?preview=batch5",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-sr71-ikea/assets/exhibits/responsive-v2/sr-71-blackbird-master-2x1.jpg?preview=batch5",
+      "image_alt": "Monochrome illustration of an SR-71A Blackbird in flight"
+    }
+  ]
+}

@@ -99,38 +99,6 @@
       }
     },
     {
-      "id": "sr-71-blackbird",
-      "name": "THE SR-71 BLACKBIRD",
-      "lifespan": "1964–1999",
-      "end_year": "1999",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Retired",
-      "epitaph": "At Mach 3, reconnaissance arrived before the age of drones.",
-      "why": "Operating cost, changing intelligence needs, satellites, and unmanned systems brought its flying career to an end.",
-      "afterlife": "Every surviving Blackbird is preserved, and its speed records and engineering remain legendary.",
-      "source_name": "Smithsonian National Air and Space Museum",
-      "source_url": "https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000",
-      "note": "The dates run from first flight to the final NASA flight; the US Air Force retirement history is more complicated.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 4,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "original-routemaster",
       "name": "THE ORIGINAL ROUTEMASTER",
       "lifespan": "1956–2005*",
@@ -189,38 +157,6 @@
         "endpoint_clarity": 3,
         "catalogue_fit": 3,
         "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
-      "id": "ikea-catalogue",
-      "name": "THE IKEA CATALOGUE",
-      "lifespan": "1951–2021",
-      "end_year": "2021",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Discontinued",
-      "epitaph": "For seventy years, the future of the living room arrived through the letterbox.",
-      "why": "Customer behaviour moved online, reducing the purpose and readership of a huge annual printed catalogue.",
-      "afterlife": "IKEA Museum has digitised the historical catalogues, turning decades of domestic design into an online archive.",
-      "source_name": "IKEA Museum",
-      "source_url": "https://ikeamuseum.com/en/explore/ikea-catalogue/",
-      "note": "The 2021 edition was the final IKEA catalogue printed on paper.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 22,
         "status": "provisional",
         "rated_on": "2026-09-06",
         "note": "Initial editorial rating; revise after verification and preview testing."
@@ -832,6 +768,70 @@
         "status": "provisional",
         "rated_on": "2026-09-11",
         "note": "Distinctive insect broadens Nature; exact extinction date and causes require qualified wording."
+      }
+    },
+    {
+      "id": "cassini-orbiter",
+      "name": "CASSINI",
+      "lifespan": "1997–2017",
+      "end_year": "2017",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Mission ended",
+      "epitaph": "It became part of the world it had spent thirteen years revealing.",
+      "why": "With fuel running low, Cassini was sent into Saturn to protect potentially habitable moons from contamination.",
+      "afterlife": "Its images and scientific data keep revealing Saturn, its rings, and its moons long after the final signal.",
+      "source_name": "NASA JPL",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/",
+      "note": "Dates run from launch in 1997 to intentional atmospheric entry on 15 September 2017. This entry is the orbiter, not the Huygens lander.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-09-11",
+        "note": "Strong deliberate farewell, precise endpoint and distinctive spacecraft; verify instrument geometry before artwork."
+      }
+    },
+    {
+      "id": "huia",
+      "name": "THE HUIA",
+      "lifespan": "Ancient–1907*",
+      "end_year": "1907*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "Its white-tipped feathers outlasted the forest voice that wore them.",
+      "why": "Introduced mammal predators and hunting likely drove this New Zealand forest bird to extinction.",
+      "afterlife": "Museum specimens and its enduring cultural significance preserve the memory of this distinctive bird.",
+      "source_name": "New Zealand Birds Online",
+      "source_url": "https://www.nzbirdsonline.org.nz/species/huia",
+      "note": "1907 is the last accepted sighting. Some huia likely survived into the 1920s; the exact extinction date is unknown.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 3,
+        "catalogue_fit": 5,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-09-11",
+        "note": "Distinctive bill dimorphism and cultural story; uncertain final date must remain qualified."
       }
     }
   ],

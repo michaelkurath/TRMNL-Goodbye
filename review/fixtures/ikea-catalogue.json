@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "ikea-catalogue",
+      "name": "THE IKEA CATALOGUE",
+      "lifespan": "1951–2021*",
+      "end_year": "2021*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "epitaph": "For seventy years, the future of the living room arrived through the letterbox.",
+      "why": "Customer behaviour moved online, reducing the purpose and readership of a huge annual printed catalogue.",
+      "afterlife": "IKEA Museum has digitised the historical catalogues, turning decades of domestic design into an online archive.",
+      "source_name": "IKEA Museum",
+      "source_url": "https://ikeamuseum.com/en/explore/ikea-catalogue/",
+      "note": "Dates identify catalogue editions. The final 2021 edition was released in 2020; discontinuation was announced in December 2020.",
+      "exhibit": "026",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-sr71-ikea/assets/exhibits/responsive-v2/ikea-catalogue-standard-4x3.jpg?preview=batch5",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-sr71-ikea/assets/exhibits/responsive-v2/ikea-catalogue-standard-4x3.jpg?preview=batch5",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-sr71-ikea/assets/exhibits/responsive-v2/ikea-catalogue-master-2x1.jpg?preview=batch5",
+      "image_alt": "Interpretive monochrome illustration of an open furniture catalogue"
+    }
+  ]
+}
