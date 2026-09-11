@@ -64,3 +64,6 @@ Constraints: change only scale and placement; do not redesign the aircraft; do n
 ## Automated verification
 
 `node scripts/validate-data.js`, `node scripts/validate-candidates.js`, `node scripts/test-transform.js`, `trmnlp lint`, `git diff --check`, and all eight OG/X `trmnlp` layout renders must pass before promotion is proposed for merge.
+
+- Golden Toad: all four OG and four X layouts inspected and approved in [TRMNL run 123](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34647710000).
+- Tu-144 passenger service: all four OG and four X layouts inspected and approved in [TRMNL run 124](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34648009035).
