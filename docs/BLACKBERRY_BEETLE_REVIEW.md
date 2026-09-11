@@ -15,7 +15,15 @@ User requested two promotions and pictures plus two replacement candidates. Sele
 
 Built-in image generation. BlackBerry initial result rejected for portrait-like screen; corrected result uses landscape screen, trackball and physical keyboard. Key marks are illustrative, not a transcription. Beetle preserves period Type 1 silhouette, separate fenders, running boards and round headlights. Both centered 4:3 derivatives inspected: complete objects, no clipped identifying parts. Generated artwork is illustrative, not documentary photography.
 
-TRMNL OG/X layout verification pending. User authorized promotion; no separate human preview approval is claimed.
+Reviewer: Codex, 2026-09-11. Fact check and text review: approved. Epitaphs are editorial interpretations; the explanatory fields carry qualified factual claims. Creator: OpenAI built-in image generation, with grayscale/size normalization and centered crop only; no third-party image was copied into the assets. No external attribution requirement was identified for these generated illustrations.
+
+BlackBerry trmnlp OG/X: all four layouts inspected and approved; [run 34584760432](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34584760432), artifact 10193141439. X Full and OG Full inspected at native resolution, compact views inspected together.
+
+Beetle trmnlp OG/X: all four layouts inspected and approved; [run 34585514904](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/34585514904), artifact 10193451605. Initial OG Full title was truncated, so the display title was shortened to ORIGINAL VW BEETLE. A branch-feed rerun served stale content; pinning the polling URL to the exact corrected commit verified the final title. Complete car and readable text confirmed on both device families.
+
+Image review: approved by Codex after all 16 final layouts were inspected. User authorized promotion; no separate human preview approval is claimed. Final production feed restores all 24 entries and permanent main asset URLs. Local data/candidate validators, Saved State tests and whitespace checks pass; final CI remains a pre-merge gate.
+
+Preserved priority scores (recognition / visual / story / endpoint / fit): BlackBerry 5 / 5 / 5 / 4 / 4 = 23, originally rated 2026-09-06; Beetle 5 / 5 / 4 / 5 / 3 = 22, originally rated 2026-09-08. Scores retained after editorial review; these are not factual-confidence measures.
 
 ## Exact prompt set
 
