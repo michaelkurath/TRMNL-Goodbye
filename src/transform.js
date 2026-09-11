@@ -56,7 +56,7 @@ function selectEntry(input, randomValue = Math.random()) {
 function run(input) {
   const safeInput = input && typeof input === "object" ? input : {};
   const reviewItem = Array.isArray(safeInput.items)
-    ? safeInput.items.find((item) => item.id === "golden-toad")
+    ? safeInput.items.find((item) => item.id === "tu-144-passenger-service")
     : null;
   if (reviewItem) {
     return {
