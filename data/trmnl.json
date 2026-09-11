@@ -480,6 +480,46 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-volkswagen-beetle-master-2x1.jpg",
       "image_alt": "Monochrome engraving of an original Volkswagen Type 1 Beetle"
+    },
+    {
+      "id": "sr-71-blackbird",
+      "name": "SR-71 BLACKBIRD",
+      "lifespan": "1964–1999",
+      "end_year": "1999",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "It crossed continents at Mach 3. Its final destination was the museum.",
+      "why": "High operating costs and shrinking defence budgets ended its frontline role; NASA research flying continued until 1999.",
+      "afterlife": "Preserved aircraft and flight records keep its extraordinary speed and engineering on display.",
+      "source_name": "National Museum of the USAF",
+      "source_url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/lockheed-sr-71a/",
+      "note": "1964 is first flight; 1999 is the final NASA flight. USAF initially retired it in 1990, briefly reactivated it, and retired it again in 1998.",
+      "exhibit": "025",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/sr-71-blackbird-standard-4x3.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/sr-71-blackbird-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/sr-71-blackbird-master-2x1.jpg",
+      "image_alt": "Monochrome illustration of an SR-71A Blackbird in flight"
+    },
+    {
+      "id": "ikea-catalogue",
+      "name": "THE IKEA CATALOGUE",
+      "lifespan": "1951–2021*",
+      "end_year": "2021*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Discontinued",
+      "epitaph": "For seventy years, the future of the living room arrived through the letterbox.",
+      "why": "Customer behaviour moved online, reducing the purpose and readership of a huge annual printed catalogue.",
+      "afterlife": "IKEA Museum has digitised the historical catalogues, turning decades of domestic design into an online archive.",
+      "source_name": "IKEA Museum",
+      "source_url": "https://ikeamuseum.com/en/explore/ikea-catalogue/",
+      "note": "Dates identify catalogue editions. The final 2021 edition was released in 2020; discontinuation was announced in December 2020.",
+      "exhibit": "026",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/ikea-catalogue-standard-4x3.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/ikea-catalogue-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/ikea-catalogue-master-2x1.jpg",
+      "image_alt": "Interpretive monochrome illustration of an open furniture catalogue"
     }
   ]
 }
