@@ -171,3 +171,26 @@ gates in `ROADMAP.md`.
 > 10–15% breathing room; outer wings contain empty tabletop and subdued room
 > background only. Pages may use abstract marks but no legible names, words,
 > numbers, headings, logos, Swiss cross, captions, watermark, or colour.
+
+### Netflix DVD-by-mail
+
+> Create a 2:1 monochrome museum-catalog engraving of a generic unbranded
+> postal DVD sleeve with circular window, a reflective disc partly withdrawn,
+> and a modest residential mailbox suggesting home delivery. Use
+> late-1990s-to-2000s material details and crisp black-ink crosshatching on
+> warm off-white paper. Keep every meaningful object fully inside the centered
+> 4:3 safe zone with 12–15% breathing room; outer wings contain quiet paper
+> texture only. No people, logos, readable text, captions, border, watermark,
+> gradients, or colour.
+
+### Google Stadia
+
+> Create a 2:1 monochrome museum-catalog engraving of an unbranded cloud-gaming
+> controller in front of a home television. The screen shows an abstract,
+> non-copyrighted polygonal game landscape dissolving into cloud-server and
+> wireless-signal motifs. Use a late-2010s living-room setting and crisp
+> black-ink crosshatching on warm off-white paper. Keep the controller,
+> television, cloud, and signals fully inside the centered 4:3 safe zone with
+> 12–15% breathing room; outer wings contain quiet room background only. No
+> people, logos, readable text, captions, border, watermark, gradients, or
+> colour.
