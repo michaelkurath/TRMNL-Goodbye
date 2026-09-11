@@ -643,70 +643,6 @@
       }
     },
     {
-      "id": "golden-toad",
-      "name": "THE GOLDEN TOAD",
-      "lifespan": "1964–1989*",
-      "end_year": "1989*",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Extinct",
-      "epitaph": "A jewel-bright toad vanished from one small cloud forest in a single generation.",
-      "why": "Its tiny range made it vulnerable as changing climate and disease destabilised the Monteverde cloud forest.",
-      "afterlife": "Museum specimens and its role as an emblem of the amphibian extinction crisis preserve its warning.",
-      "source_name": "AmphibiaWeb",
-      "source_url": "https://amphibiaweb.org/species/253",
-      "note": "Discovered in 1964 and last seen in 1989; AmphibiaWeb records its later formal classification as extinct.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-11",
-        "note": "Strong conservation story and distinctive visual; the asterisk marks last sighting rather than formal declaration."
-      }
-    },
-    {
-      "id": "tu-144-passenger-service",
-      "name": "TUPOLEV TU-144 PASSENGER SERVICE",
-      "lifespan": "1977–1978",
-      "end_year": "1978",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Discontinued",
-      "epitaph": "The first supersonic airliner reached passengers first—and left them after only seven months.",
-      "why": "Limited range, technical problems, and a fatal test-flight crash ended its scheduled passenger career.",
-      "afterlife": "Preserved aircraft and NASA’s later flying laboratory kept its remarkable engineering story airborne.",
-      "source_name": "NASA History",
-      "source_url": "https://www.nasa.gov/history/the-tu-144ll-a-supersonic-flying-laboratory/",
-      "note": "Passenger flights began on 1 November 1977 and ended in 1978; cargo, test, and research flights continued later.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-11",
-        "note": "The candidate is specifically the short passenger service, avoiding the aircraft’s later cargo and research career."
-      }
-    },
-    {
       "id": "cern-lep-collider",
       "name": "CERN'S LEP COLLIDER",
       "lifespan": "1989–2000",
@@ -832,6 +768,70 @@
         "status": "provisional",
         "rated_on": "2026-09-11",
         "note": "Distinctive bill dimorphism and cultural story; uncertain final date must remain qualified."
+      }
+    },
+    {
+      "id": "bbc-ceefax",
+      "name": "BBC CEEFAX",
+      "lifespan": "1974–2012",
+      "end_year": "2012",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "Before the web, news arrived one numbered page at a time.",
+      "why": "The UK’s digital television switchover ended the analogue signal that carried the original teletext service.",
+      "afterlife": "Archives, recreations, and its blocky visual language preserve a pre-web way of browsing information.",
+      "source_name": "ITV News",
+      "source_url": "https://www.itv.com/news/2012-10-24/ceefax-switches-off-as-britain-goes-fully-digital",
+      "note": "Ceefax launched in 1974 and ended with the final UK analogue television switchover on 23 October 2012.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-09-11",
+        "note": "A clear analogue endpoint and instantly distinctive screen language; recognition is strongest in the UK."
+      }
+    },
+    {
+      "id": "original-penn-station",
+      "name": "THE ORIGINAL PENN STATION",
+      "lifespan": "1910–1963*",
+      "end_year": "1963*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Demolished",
+      "epitaph": "New York tore down a gateway grand enough to make arrival feel like an event.",
+      "why": "Declining rail traffic and a redevelopment deal traded its above-ground halls for Madison Square Garden.",
+      "afterlife": "Surviving fragments, photographs, and the preservation movement born from its loss keep the station present.",
+      "source_name": "Museum of the City of New York",
+      "source_url": "https://blog.mcny.org/2012/05/08/penn-station-and-the-rise-of-historic-preservation/",
+      "note": "1963 marks the start of demolition; the above-ground building was removed by 1966 while the underground station continued.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 4,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-09-11",
+        "note": "A visually powerful loss with a major preservation afterlife; the asterisk distinguishes demolition’s start from completion."
       }
     }
   ],

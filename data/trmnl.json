@@ -520,6 +520,46 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/ikea-catalogue-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/ikea-catalogue-master-2x1.jpg",
       "image_alt": "Interpretive monochrome illustration of an open furniture catalogue"
+    },
+    {
+      "id": "golden-toad",
+      "exhibit": "027",
+      "name": "THE GOLDEN TOAD",
+      "lifespan": "1964–1989*",
+      "end_year": "1989*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/golden-toad-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/golden-toad-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/golden-toad-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a Golden Toad in Monteverde cloud forest",
+      "epitaph": "A jewel-bright toad vanished from one small cloud forest in a single generation.",
+      "why": "Its tiny range left it exposed; extreme dry weather and chytrid disease are leading explanations for the collapse.",
+      "afterlife": "Museum specimens and its role as an emblem of the amphibian extinction crisis preserve its warning.",
+      "source_name": "AmphibiaWeb",
+      "source_url": "https://amphibiaweb.org/species/253",
+      "note": "Discovered in 1964 and last seen in 1989; the asterisk marks the last sighting rather than an exact extinction date."
+    },
+    {
+      "id": "tu-144-passenger-service",
+      "exhibit": "028",
+      "name": "TUPOLEV TU-144 PASSENGER SERVICE",
+      "lifespan": "1977–1978",
+      "end_year": "1978",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/tu-144-passenger-service-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/tu-144-passenger-service-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/tu-144-passenger-service-master-2x1.jpg",
+      "image_alt": "Monochrome technical engraving of a Tu-144S airliner on final approach",
+      "epitaph": "It promised a second supersonic future—and carried passengers for only seven months.",
+      "why": "Operational difficulties and high costs ended passenger service after a fatal test-flight crash.",
+      "afterlife": "Preserved aircraft and NASA’s later flying laboratory kept its remarkable engineering story airborne.",
+      "source_name": "Technik Museum Sinsheim",
+      "source_url": "https://www.technik-museum.de/en/community/museum-stories/25-years-on-the-museum-roof-the-tupolev-tu-144/",
+      "note": "Passenger flights began in November 1977 and ended in 1978; cargo, test, and research flights continued later."
     }
   ]
 }
