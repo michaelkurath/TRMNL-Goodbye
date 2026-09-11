@@ -24,7 +24,9 @@ function validHistory(history, poolIds) {
 }
 
 function selectEntry(input, randomValue = Math.random()) {
-  const items = Array.isArray(input?.items) ? input.items : [];
+  const items = Array.isArray(input?.items)
+    ? input.items.filter((item) => item.id === "golden-toad")
+    : [];
   if (items.length === 0) {
     return { selectedEntry: null, category: ALL_CATEGORIES, histories: {} };
   }
