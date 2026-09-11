@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "original-volkswagen-beetle",
-      "name": "THE ORIGINAL VOLKSWAGEN BEETLE",
+      "name": "ORIGINAL VW BEETLE",
       "lifespan": "1945–2003*",
       "end_year": "2003*",
       "category": "Transport",
@@ -16,9 +16,9 @@
       "source_url": "https://www.volkswagen-newsroom.com/en/beetle-kaefer-3587",
       "note": "Dates refer to postwar series production of the original Type 1; the last was produced in Puebla in 2003. The New Beetle and later Beetle are separate models.",
       "exhibit": "024",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-blackberry-beetle/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg?preview=beetle4",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-blackberry-beetle/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg?preview=beetle4",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-blackberry-beetle/assets/exhibits/responsive-v2/original-volkswagen-beetle-master-2x1.jpg?preview=beetle4",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-blackberry-beetle/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg?preview=beetle-title4",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-blackberry-beetle/assets/exhibits/responsive-v2/original-volkswagen-beetle-standard-4x3.jpg?preview=beetle-title4",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-blackberry-beetle/assets/exhibits/responsive-v2/original-volkswagen-beetle-master-2x1.jpg?preview=beetle-title4",
       "image_alt": "Monochrome engraving of an original Volkswagen Type 1 Beetle"
     }
   ]
