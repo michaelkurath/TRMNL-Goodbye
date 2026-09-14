@@ -771,19 +771,19 @@
       }
     },
     {
-      "id": "bbc-ceefax",
-      "name": "BBC CEEFAX",
-      "lifespan": "1974–2012",
-      "end_year": "2012",
+      "id": "skype",
+      "name": "SKYPE",
+      "lifespan": "2003–2025",
+      "end_year": "2025",
       "category": "Internet",
       "category_key": "internet",
       "status": "Discontinued",
-      "epitaph": "Before the web, news arrived one numbered page at a time.",
-      "why": "The UK’s digital television switchover ended the analogue signal that carried the original teletext service.",
-      "afterlife": "Archives, recreations, and its blocky visual language preserve a pre-web way of browsing information.",
-      "source_name": "ITV News",
-      "source_url": "https://www.itv.com/news/2012-10-24/ceefax-switches-off-as-britain-goes-fully-digital",
-      "note": "Ceefax launched in 1974 and ended with the final UK analogue television switchover on 23 October 2012.",
+      "epitaph": "The call that made distance feel free finally went quiet.",
+      "why": "Microsoft retired the consumer service to focus its free communication products on Teams.",
+      "afterlife": "Its ringtone, usernames, chat histories, and role in normalising internet calls remain part of online culture.",
+      "source_name": "Microsoft",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/28/the-next-chapter-moving-from-skype-to-microsoft-teams/",
+      "note": "Skype launched in 2003 and was retired on 5 May 2025. Skype for Business is a separate product with a different lifecycle.",
       "review": {
         "fact_check": "pending",
         "text_review": "pending",
@@ -791,15 +791,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
+        "recognition": 5,
+        "visual_strength": 3,
         "story_strength": 5,
         "endpoint_clarity": 5,
         "catalogue_fit": 4,
-        "total": 23,
+        "total": 22,
         "status": "provisional",
-        "rated_on": "2026-09-11",
-        "note": "A clear analogue endpoint and instantly distinctive screen language; recognition is strongest in the UK."
+        "rated_on": "2026-09-14",
+        "note": "Globally recognisable and precisely dated with a strong communication-history story; artwork must avoid relying on the trademarked logo."
       }
     },
     {

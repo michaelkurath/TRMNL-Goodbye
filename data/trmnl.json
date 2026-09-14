@@ -560,6 +560,26 @@
       "source_name": "Technik Museum Sinsheim",
       "source_url": "https://www.technik-museum.de/en/community/museum-stories/25-years-on-the-museum-roof-the-tupolev-tu-144/",
       "note": "Passenger flights began in November 1977 and ended in 1978; cargo, test, and research flights continued later."
+    },
+    {
+      "id": "bbc-ceefax",
+      "exhibit": "029",
+      "name": "BBC CEEFAX",
+      "lifespan": "1974–2012",
+      "end_year": "2012",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/bbc-ceefax-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/bbc-ceefax-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/bbc-ceefax-master-2x1.jpg",
+      "image_alt": "Monochrome engraving of a period CRT television displaying a blocky teletext information page",
+      "epitaph": "Before the web, news arrived one numbered page at a time.",
+      "why": "The UK’s digital television switchover ended the analogue signal that carried the original teletext service.",
+      "afterlife": "Archives, recreations, and its blocky visual language preserve a pre-web way of browsing information.",
+      "source_name": "BBC News",
+      "source_url": "https://www.bbc.com/news/uk-20032882",
+      "note": "Ceefax launched on 23 September 1974 and ended with the final UK analogue television switchover on 23 October 2012."
     }
   ]
 }
