@@ -194,3 +194,16 @@ gates in `ROADMAP.md`.
 > 12–15% breathing room; outer wings contain quiet room background only. No
 > people, logos, readable text, captions, border, watermark, gradients, or
 > colour.
+
+### BBC Ceefax
+
+> Create a historically grounded 2:1 monochrome museum-catalog engraving of a
+> late-1980s British living room with one period CRT television on a simple
+> stand and a remote control nearby. The screen shows a generic teletext-style
+> information page made from chunky pixel blocks, simple columns, a blocky
+> header band, a page-number area, and weather- and news-like panels. Keep the
+> complete television, stand, remote, screen, power cord, feet, and shadows
+> inside the centered 4:3 safe area with 12–15% breathing room; outer wings
+> contain room background only. No people, readable words, headlines, logos,
+> trademarks, captions, watermark, border, colour, modern flat-screen TV,
+> smartphone, or extra screen.
