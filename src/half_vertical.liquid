@@ -2,8 +2,8 @@
 <div class="layout layout--col layout--stretch">
   <div class="outline rounded p--3 flex flex--col flex--between gap--small w--full h--full">
     <div class="flex flex--row flex--between flex--center-y gap--small">
-      <span class="label goodbye-wordmark">GOODBYE,</span>
-      <span class="label label--outline">{{ selected.status | upcase }}</span>
+      <span class="label goodbye-wordmark lg:label--base">GOODBYE,</span>
+      <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
     </div>
     <div class="goodbye-image-frame goodbye-image--vertical rounded">
       <img class="goodbye-image image-dither" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
@@ -14,11 +14,11 @@
 </div>
 {% else %}
 <div class="layout layout--col layout--center">
-  <span class="title title--xlarge">No farewell data</span>
+  <span class="title title--xlarge lg:title--xxlarge">No farewell data</span>
 </div>
 {% endif %}
 
 <div class="title_bar">
   <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
-  <span class="instance">{% if selected %}{{ selected.lifespan }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
+  <span class="instance 1bit:text--black">{% if selected %}{{ selected.lifespan }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
 </div>

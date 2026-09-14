@@ -8,8 +8,8 @@
     </div>
     <div class="outline rounded p--3 col--span-3 flex flex--col flex--between gap--small">
       <div class="flex flex--row flex--between flex--center-y gap--small">
-        <span class="label goodbye-wordmark">GOODBYE,</span>
-        <span class="label label--outline">{{ selected.status | upcase }}</span>
+        <span class="label goodbye-wordmark lg:label--base">GOODBYE,</span>
+        <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
       </div>
       <span class="title {{ compact_name_size }}" data-clamp="2">{{ selected.name }}</span>
       <div class="divider"></div>
@@ -19,11 +19,11 @@
 </div>
 {% else %}
 <div class="layout layout--col layout--center">
-  <span class="title title--xlarge">No farewell data</span>
+  <span class="title title--xlarge lg:title--xxlarge">No farewell data</span>
 </div>
 {% endif %}
 
 <div class="title_bar">
   <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
-  <span class="instance">{% if selected %}{{ selected.lifespan }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
+  <span class="instance 1bit:text--black">{% if selected %}{{ selected.lifespan }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
 </div>
