@@ -2,10 +2,10 @@
 <div class="layout layout--col layout--stretch goodbye-full-layout">
   <div class="goodbye-exhibit-bar flex flex--row flex--between flex--center-y gap--small w--full pb--small lg:pb--medium">
     <div class="flex flex--row flex--center-y gap--small">
-      <span class="label goodbye-wordmark">MUSEUM OF LOST THINGS</span>
-      <span class="label label--outline">{{ selected.status | upcase }}</span>
+      <span class="label goodbye-wordmark lg:label--base">MUSEUM OF LOST THINGS</span>
+      <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
     </div>
-    <span class="label text--gray-30 text--right">{{ selected.lifespan }} · EXHIBIT {{ selected.exhibit }}</span>
+    <span class="label label--small lg:label--base text--gray-30 1bit:text--black text--right">{{ selected.lifespan }} · EXHIBIT {{ selected.exhibit }}</span>
   </div>
 
   <div class="goodbye-full-stage">
@@ -18,7 +18,7 @@
 
     <div class="goodbye-full-copy flex flex--col flex--between gap--small p--2">
       <div class="goodbye-full-identity flex flex--col gap--small">
-        <span class="label goodbye-wordmark">GOODBYE,</span>
+        <span class="label goodbye-wordmark lg:label--base">GOODBYE,</span>
         <span class="title {{ full_name_size }}" data-clamp="2">{{ selected.name }}</span>
         <div class="divider"></div>
         <span class="description description--base lg:description--large font--bold" data-clamp="3">{{ selected.epitaph }}</span>
@@ -26,12 +26,12 @@
 
       <div class="goodbye-full-details flex flex--col gap--small">
         <div class="flex flex--col gap--xsmall">
-          <span class="label text--gray-30">WHY IT DISAPPEARED</span>
+          <span class="label label--small lg:label--base text--gray-30 1bit:text--black">WHY IT DISAPPEARED</span>
           <span class="description description--base lg:description--large" data-clamp="3">{{ selected.why }}</span>
         </div>
 
         <div class="goodbye-afterlife flex flex--row gap--small pt--small">
-          <span class="label label--inverted">STILL HERE</span>
+          <span class="label label--inverted lg:label--base">STILL HERE</span>
           <span class="description description--base lg:description--large" data-clamp="3">{{ selected.afterlife }}</span>
         </div>
       </div>
@@ -41,16 +41,16 @@
 {% else %}
 <div class="layout layout--col layout--center">
   <div class="outline rounded p--4 flex flex--col flex--center gap--small w--full h--full text--center">
-    <span class="label goodbye-wordmark">GOODBYE</span>
+    <span class="label goodbye-wordmark lg:label--base">GOODBYE</span>
     <span class="title title--xxlarge">The museum is closed</span>
-    <span class="description description--large">No farewell entries were received. Check the polling source.</span>
+    <span class="description description--large lg:description--xlarge">No farewell entries were received. Check the polling source.</span>
   </div>
 </div>
 {% endif %}
 
 <div class="title_bar">
   <span class="title goodbye-titlebar">{{ goodbye_mark }} GOODBYE</span>
-  <span class="instance">
+  <span class="instance 1bit:text--black">
     {% if selected %}
       {{ selected.status }} · {{ selected.category }} · LAST SEEN {{ selected.end_year }}
     {% elsif filter_fallback %}
