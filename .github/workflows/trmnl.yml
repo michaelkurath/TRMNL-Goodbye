@@ -32,7 +32,7 @@ jobs:
       - name: Lint plugin
         run: trmnlp lint
 
-      - name: Render TRMNL OG and X
+      - name: Render TRMNL OG, X landscape, and X portrait
         run: |
           trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp.log 2>&1 &
           trmnlp_pid=$!
@@ -49,18 +49,23 @@ jobs:
             sleep 1
           done
 
-          mkdir -p _build-og _build-x
+          mkdir -p _build-og _build-x _build-x-portrait
           for view in full half_horizontal half_vertical quadrant; do
-            curl --get --fail --silent --show-error \
+            curl --get --fail --silent --show-error --retry 2 --retry-all-errors \
               --data-urlencode "screen_classes=screen screen--1bit screen--og_png screen--md screen--density-1x screen--1x" \
               --data "width=800" --data "height=480" --data "color_depth=1" \
               "http://127.0.0.1:4567/render/${view}.png" \
               --output "_build-og/${view}.png"
-            curl --get --fail --silent --show-error \
+            curl --get --fail --silent --show-error --retry 2 --retry-all-errors \
               --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--density-2x screen--1x" \
               --data "width=1040" --data "height=780" --data "color_depth=4" \
               "http://127.0.0.1:4567/render/${view}.png" \
               --output "_build-x/${view}.png"
+            curl --get --fail --silent --show-error --retry 2 --retry-all-errors \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--portrait screen--density-2x screen--1x" \
+              --data "width=780" --data "height=1040" --data "color_depth=4" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build-x-portrait/${view}.png"
           done
 
       - name: Upload render previews
@@ -70,3 +75,4 @@ jobs:
           path: |
             _build-og/*.png
             _build-x/*.png
+            _build-x-portrait/*.png
