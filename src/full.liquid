@@ -1,46 +1,43 @@
 {% if selected %}
-<div class="layout layout--col layout--stretch gap--small lg:gap--large">
-  <div class="border--h-black flex flex--row flex--between flex--center-y gap--small w--full pb--small lg:pb--medium shrink-0">
-    <div class="flex flex--row flex--center-y gap--small">
-      <span class="label lg:label--base">MUSEUM OF LOST THINGS</span>
-      <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
-    </div>
-    <span class="label label--small lg:label--base text--gray-30 1bit:text--black text--right">{{ selected.lifespan }} · EXHIBIT {{ selected.exhibit }}</span>
+<div class="layout layout--col layout--stretch gap--small lg:gap--medium">
+  <div class="outline rounded aspect--21/9 w--full shrink-0">
+    <picture class="w--full h--full">
+      <img class="image image--cover image-dither rounded w--full h--full" src="{{ selected.image_url_wide | default: selected.image_url }}" alt="{{ selected.image_alt }}">
+    </picture>
   </div>
 
-  <div class="flex flex--row lg:portrait:flex--col flex--center-y flex--stretch gap--medium lg:gap--large lg:portrait:gap--medium w--full">
-    <div class="outline rounded aspect--4/3 lg:aspect--16/9 w--[58cqw] lg:portrait:w--[82cqw] shrink-0">
-      <picture class="block w--full h--full">
-        <source media="(min-width: 1000px)" srcset="{{ selected.image_url_wide | default: selected.image_url }}">
-        <img class="image image--contain image-dither rounded w--full h--full" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
-      </picture>
-    </div>
-
-    <div class="flex flex--col flex--between gap--small lg:gap--medium lg:portrait:gap--small p--2 w--full">
-      <div class="flex flex--col gap--small">
-        <span class="label lg:label--base">GOODBYE,</span>
-        <span class="title {{ full_name_size }} lg:portrait:title--xlarge" data-clamp="2">{{ selected.name }}</span>
-        <div class="divider"></div>
-        <span class="description description--base lg:description--large font--bold" data-clamp="3">{{ selected.epitaph }}</span>
+  <div class="flex flex--row lg:portrait:flex--col gap--medium lg:gap--large lg:portrait:gap--medium w--full">
+    <div class="flex flex--col gap--small w--full">
+      <div class="flex flex--row flex--between flex--center-y gap--small w--full">
+        <div class="flex flex--row flex--center-y gap--small">
+          <span class="label lg:label--base">MUSEUM OF LOST THINGS</span>
+          <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
+        </div>
+        <span class="label label--small lg:label--base text--gray-30 1bit:text--black text--right">{{ selected.lifespan }} · EXHIBIT {{ selected.exhibit }}</span>
       </div>
 
-      <div class="flex flex--col gap--small lg:gap--medium">
-        <div class="flex flex--col gap--xsmall">
-          <span class="label label--small lg:label--base text--gray-30 1bit:text--black">WHY IT DISAPPEARED</span>
-          <span class="description description--base lg:description--large" data-clamp="3">{{ selected.why }}</span>
-        </div>
+      <div class="flex flex--row flex--center-y gap--small">
+        <span class="label lg:label--base">GOODBYE,</span>
+        <span class="title {{ full_name_size }} lg:portrait:title--xlarge" data-clamp="2">{{ selected.name }}</span>
+      </div>
+      <span class="description description--base lg:description--large font--bold" data-clamp="2">{{ selected.epitaph }}</span>
+    </div>
 
-        <div class="divider"></div>
-        <div class="flex flex--row gap--small">
-          <span class="label label--inverted lg:label--base">STILL HERE</span>
-          <span class="description description--base lg:description--large" data-clamp="3">{{ selected.afterlife }}</span>
-        </div>
+    <div class="hidden lg:flex flex--col gap--small w--full">
+      <div class="flex flex--col gap--xsmall">
+        <span class="label label--base text--gray-30">WHY IT DISAPPEARED</span>
+        <span class="description description--large" data-clamp="2" data-clamp-lg-portrait="3">{{ selected.why }}</span>
+      </div>
 
-        <div class="hidden lg:flex flex--col gap--xsmall">
-          <span class="label label--small text--gray-30">ARCHIVE NOTE</span>
-          <span class="description description--base" data-clamp="3" data-clamp-lg-portrait="4">{{ selected.note }}</span>
-          <span class="label label--small text--gray-30">SOURCE · {{ selected.source_name }}</span>
-        </div>
+      <div class="divider"></div>
+      <div class="flex flex--row gap--small">
+        <span class="label label--inverted label--base">STILL HERE</span>
+        <span class="description description--large" data-clamp="2" data-clamp-lg-portrait="3">{{ selected.afterlife }}</span>
+      </div>
+
+      <div class="hidden lg:portrait:flex flex--col gap--xsmall">
+        <span class="label label--small text--gray-30">ARCHIVE NOTE</span>
+        <span class="description description--base" data-clamp-lg-portrait="4">{{ selected.note }}</span>
       </div>
     </div>
   </div>
