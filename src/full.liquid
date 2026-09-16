@@ -8,7 +8,7 @@
     <span class="label label--small lg:label--base text--gray-30 1bit:text--black text--right">{{ selected.lifespan }} · EXHIBIT {{ selected.exhibit }}</span>
   </div>
 
-  <div class="flex flex--row lg:portrait:flex--col flex--center-y flex--stretch gap--medium lg:gap--large lg:portrait:gap--medium w--full stretch-y">
+  <div class="flex flex--row lg:portrait:flex--col flex--center-y flex--stretch gap--medium lg:gap--large lg:portrait:gap--medium w--full">
     <div class="outline rounded aspect--4/3 lg:aspect--16/9 w--[58cqw] lg:portrait:w--[82cqw] shrink-0">
       <picture class="block w--full h--full">
         <source media="(min-width: 1000px)" srcset="{{ selected.image_url_wide | default: selected.image_url }}">
@@ -16,7 +16,7 @@
       </picture>
     </div>
 
-    <div class="flex flex--col flex--between gap--small lg:gap--medium lg:portrait:gap--small p--2 w--full stretch-y">
+    <div class="flex flex--col flex--between gap--small lg:gap--medium lg:portrait:gap--small p--2 w--full">
       <div class="flex flex--col gap--small">
         <span class="label lg:label--base">GOODBYE,</span>
         <span class="title {{ full_name_size }} lg:portrait:title--xlarge" data-clamp="2">{{ selected.name }}</span>
