@@ -6,7 +6,7 @@
       <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
     </div>
     <div class="flex flex--row flex--center-x w--full shrink-0">
-      <div class="aspect--3/2 w--[36cqw] lg:w--[44cqw] rounded">
+      <div class="aspect--3/2 w--[36cqw] lg:w--[44cqw] lg:portrait:w--[84cqw] rounded">
         <img class="image image--contain image-dither rounded w--full h--full" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
       </div>
     </div>
