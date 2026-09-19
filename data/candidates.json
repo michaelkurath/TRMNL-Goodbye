@@ -131,38 +131,6 @@
       }
     },
     {
-      "id": "dodo",
-      "name": "THE DODO",
-      "lifespan": "Ancient–c.1662",
-      "end_year": "c.1662",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Extinct",
-      "epitaph": "It became the symbol of extinction after disappearing before extinction was understood.",
-      "why": "Hunting, habitat disturbance, and introduced animals devastated a flightless bird adapted to life on Mauritius.",
-      "afterlife": "A few remains, subfossil bones, historical descriptions, and modern reconstructions are all that survive.",
-      "source_name": "Natural History Museum",
-      "source_url": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
-      "note": "The last reliable sighting is generally dated to 1662, although later possible dates remain debated.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 3,
-        "catalogue_fit": 3,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "britannica-print-edition",
       "name": "PRINTED ENCYCLOPAEDIA BRITANNICA",
       "lifespan": "1768–2010*",
@@ -611,38 +579,6 @@
       }
     },
     {
-      "id": "internet-explorer",
-      "name": "INTERNET EXPLORER",
-      "lifespan": "1995–2022*",
-      "end_year": "2022*",
-      "category": "Internet",
-      "category_key": "internet",
-      "status": "Retired",
-      "epitaph": "For years, the web arrived through a blue ‘e’—whether users chose it or not.",
-      "why": "Modern browsers overtook it while Microsoft replaced it with Edge and retired the IE11 desktop application.",
-      "afterlife": "IE mode and Trident compatibility remain available for organisations that still depend on legacy websites.",
-      "source_name": "Microsoft",
-      "source_url": "https://www.microsoft.com/en-us/download/internet-explorer",
-      "note": "The 2022 date applies to the Internet Explorer 11 desktop application on certain Windows 10 versions; IE mode remains supported in Microsoft Edge.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 4,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-08",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "cern-lep-collider",
       "name": "CERN'S LEP COLLIDER",
       "lifespan": "1989–2000",
@@ -832,6 +768,70 @@
         "status": "provisional",
         "rated_on": "2026-09-19",
         "note": "Distinctive silhouette and strong transport-era story; final verification should distinguish Pan Am scheduled service from the type’s last operation."
+      }
+    },
+    {
+      "id": "new-york-subway-token",
+      "name": "THE NEW YORK SUBWAY TOKEN",
+      "lifespan": "1953–2003",
+      "end_year": "2003",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Replaced",
+      "epitaph": "For fifty years, one small brass coin opened the city beneath the streets.",
+      "why": "MetroCard automation replaced tokens with stored-value and unlimited-ride magnetic cards.",
+      "afterlife": "Collectors, jewellery, museum displays, and the token’s cut-out Y preserve a pocket-sized city symbol.",
+      "source_name": "WNYC",
+      "source_url": "https://www.wnyc.org/story/15-years-ago-today-new-york-city-subway-tokens-rode-rails/",
+      "note": "Tokens went off sale on 12 April 2003 and were accepted on the subway through 4 May 2003.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-09-19",
+        "note": "A precise endpoint and strong everyday-life story; the small object will need an enlarged, tactile composition."
+      }
+    },
+    {
+      "id": "palm-pda",
+      "name": "THE PALM PDA",
+      "lifespan": "1996–2010*",
+      "end_year": "2010*",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Replaced",
+      "epitaph": "A calendar, address book, and tiny computer lived in one pocket before the phone absorbed them.",
+      "why": "Smartphones combined mobile data, cameras, media, and apps with the organiser functions Palm pioneered.",
+      "afterlife": "Surviving handhelds, Graffiti handwriting, HotSync cradles, and museum collections preserve its influence.",
+      "source_name": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/revolution/mobile-computing/18/321",
+      "note": "1996 marks the original Pilot. The 2010 endpoint marks HP’s acquisition of Palm, not one exact model retirement.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 3,
+        "catalogue_fit": 4,
+        "total": 20,
+        "status": "provisional",
+        "rated_on": "2026-09-19",
+        "note": "A highly readable object and strong smartphone-prehistory story; its product-family endpoint needs careful definition."
       }
     }
   ],

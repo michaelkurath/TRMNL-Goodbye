@@ -134,6 +134,26 @@ gates in `ROADMAP.md`.
 > shadow only. No modern signs, Madison Square Garden, readable text, logos,
 > captions, watermark, frame, colour, or cropped central arch.
 
+### Internet Explorer
+
+> Create a monochrome museum engraving of a complete late-1990s beige desktop
+> computer displaying a period browser window and one recognisable lowercase
+> “e” with an orbital swoosh. Make the complete monitor, tower, keyboard, mouse,
+> and visible cables substantially smaller than the canvas and keep every item
+> strictly inside the centred 4:3 safe zone. Outer wings contain empty wall and
+> desk only. No readable webpage text, slogans, wordmarks, additional logos,
+> people, modern flat panels, colour, watermark, frame, or cropped hardware.
+
+### Dodo
+
+> Create a scientifically grounded monochrome natural-history engraving of one
+> living dodo in a restrained Mauritius forest. Preserve a robust hooked bill,
+> small wings, rounded body, strong legs, and short tufted tail without using
+> the exaggerated obese Victorian caricature. Keep the complete bird—from bill
+> and tail tuft to every toe—strictly inside the centred 4:3 safe zone with at
+> least 15% breathing room. Outer wings contain habitat only. No text, humans,
+> ships, predators, colour, watermark, frame, or cropped anatomy.
+
 ### Saturn V
 
 > Create a historically accurate 2:1 monochrome museum engraving of a complete
