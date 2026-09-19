@@ -580,6 +580,46 @@
       "source_name": "BBC News",
       "source_url": "https://www.bbc.com/news/uk-20032882",
       "note": "Ceefax launched on 23 September 1974 and ended with the final UK analogue television switchover on 23 October 2012."
+    },
+    {
+      "id": "cassini-orbiter",
+      "name": "CASSINI",
+      "lifespan": "1997–2017",
+      "end_year": "2017",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Mission ended",
+      "epitaph": "It became part of the world it had spent thirteen years revealing.",
+      "why": "With fuel running low, Cassini was sent into Saturn to protect potentially habitable moons from contamination.",
+      "afterlife": "Its images and scientific data keep revealing Saturn, its rings, and its moons long after the final signal.",
+      "source_name": "NASA JPL",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/",
+      "note": "Dates run from launch in 1997 to intentional atmospheric entry on 15 September 2017. This entry is the orbiter, not the Huygens lander.",
+      "exhibit": "030",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cassini-orbiter-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cassini-orbiter-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cassini-orbiter-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of the Cassini orbiter approaching Saturn"
+    },
+    {
+      "id": "original-penn-station",
+      "name": "THE ORIGINAL PENN STATION",
+      "lifespan": "1910–1963*",
+      "end_year": "1963*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Demolished",
+      "epitaph": "New York tore down a gateway grand enough to make arrival feel like an event.",
+      "why": "Declining rail traffic and a redevelopment deal traded its above-ground halls for Madison Square Garden.",
+      "afterlife": "Surviving fragments, photographs, and the preservation movement born from its loss keep the station present.",
+      "source_name": "Museum of the City of New York",
+      "source_url": "https://blog.mcny.org/2012/05/08/penn-station-and-the-rise-of-historic-preservation/",
+      "note": "1963 marks the start of demolition; the above-ground building was removed by 1966 while the underground station continued.",
+      "exhibit": "031",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-master-2x1.jpg",
+      "image_alt": "Monochrome architectural engraving of the original Penn Station waiting room"
     }
   ]
 }

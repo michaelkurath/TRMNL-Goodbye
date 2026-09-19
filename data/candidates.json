@@ -707,38 +707,6 @@
       }
     },
     {
-      "id": "cassini-orbiter",
-      "name": "CASSINI",
-      "lifespan": "1997–2017",
-      "end_year": "2017",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Mission ended",
-      "epitaph": "It became part of the world it had spent thirteen years revealing.",
-      "why": "With fuel running low, Cassini was sent into Saturn to protect potentially habitable moons from contamination.",
-      "afterlife": "Its images and scientific data keep revealing Saturn, its rings, and its moons long after the final signal.",
-      "source_name": "NASA JPL",
-      "source_url": "https://www.jpl.nasa.gov/news/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/",
-      "note": "Dates run from launch in 1997 to intentional atmospheric entry on 15 September 2017. This entry is the orbiter, not the Huygens lander.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-09-11",
-        "note": "Strong deliberate farewell, precise endpoint and distinctive spacecraft; verify instrument geometry before artwork."
-      }
-    },
-    {
       "id": "huia",
       "name": "THE HUIA",
       "lifespan": "Ancient–1907*",
@@ -803,19 +771,19 @@
       }
     },
     {
-      "id": "original-penn-station",
-      "name": "THE ORIGINAL PENN STATION",
-      "lifespan": "1910–1963*",
-      "end_year": "1963*",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Demolished",
-      "epitaph": "New York tore down a gateway grand enough to make arrival feel like an event.",
-      "why": "Declining rail traffic and a redevelopment deal traded its above-ground halls for Madison Square Garden.",
-      "afterlife": "Surviving fragments, photographs, and the preservation movement born from its loss keep the station present.",
-      "source_name": "Museum of the City of New York",
-      "source_url": "https://blog.mcny.org/2012/05/08/penn-station-and-the-rise-of-historic-preservation/",
-      "note": "1963 marks the start of demolition; the above-ground building was removed by 1966 while the underground station continued.",
+      "id": "bramble-cay-melomys",
+      "name": "THE BRAMBLE CAY MELOMYS",
+      "lifespan": "Ancient–2009*",
+      "end_year": "2009*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "A small island mammal disappeared as the sea erased the ground beneath it.",
+      "why": "Rising seas and extreme inundation destroyed most vegetation on its only known low-lying island habitat.",
+      "afterlife": "Museum specimens and field records preserve a warning from a species lost within living memory.",
+      "source_name": "Australian Museum",
+      "source_url": "https://australian.museum/learn/australia-over-time/extinct-animals/melomys-rubicola/",
+      "note": "Last seen in 2009 and declared extinct by Australia in 2019; possible occurrence in Papua New Guinea remains unproven.",
       "review": {
         "fact_check": "pending",
         "text_review": "pending",
@@ -823,15 +791,47 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
+        "recognition": 2,
+        "visual_strength": 4,
         "story_strength": 5,
         "endpoint_clarity": 4,
         "catalogue_fit": 5,
-        "total": 23,
+        "total": 20,
         "status": "provisional",
-        "rated_on": "2026-09-11",
-        "note": "A visually powerful loss with a major preservation afterlife; the asterisk distinguishes demolition’s start from completion."
+        "rated_on": "2026-09-19",
+        "note": "Low recognition, but a powerful modern extinction story and strong Nature fit; wording keeps the endpoint and PNG uncertainty qualified."
+      }
+    },
+    {
+      "id": "boeing-314-clipper",
+      "name": "THE BOEING 314 CLIPPER",
+      "lifespan": "1939–1951",
+      "end_year": "1951",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "The ocean liner of the sky vanished when runways made the water unnecessary.",
+      "why": "Faster landplanes and expanding long-runway airports made the huge flying boat obsolete after the war.",
+      "afterlife": "Photographs, wreck sites, and a full-size museum replica preserve the age of airborne ocean crossings.",
+      "source_name": "Foynes Flying Boat Museum",
+      "source_url": "https://flyingboatmuseum.com/aviation-museum/b314-replica/",
+      "note": "Twelve Boeing 314s were built from 1938 to 1941; none survives intact, and the type was retired by 1951.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 4,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-09-19",
+        "note": "Distinctive silhouette and strong transport-era story; final verification should distinguish Pan Am scheduled service from the type’s last operation."
       }
     }
   ],

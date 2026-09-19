@@ -10,12 +10,12 @@ until every entry in the selected category has appeared.
 
 ## First version
 
-- Twenty-six sourced live entries
+- Thirty-one sourced live entries
 - A shuffled, no-repeat rotation using TRMNL Saved State
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
-- Twenty-two original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
+- Thirty-one original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
 - No third-party image or hotlink dependencies
 
 ## Plugin icon
