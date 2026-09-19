@@ -620,6 +620,46 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-master-2x1.jpg",
       "image_alt": "Monochrome architectural engraving of the original Penn Station waiting room"
+    },
+    {
+      "id": "dodo",
+      "name": "THE DODO",
+      "lifespan": "Ancient–c.1662",
+      "end_year": "c.1662",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "It became the symbol of extinction after disappearing before extinction was understood.",
+      "why": "Hunting, habitat disturbance, and introduced animals devastated a flightless bird adapted to life on Mauritius.",
+      "afterlife": "A few remains, subfossil bones, historical descriptions, and modern reconstructions are all that survive.",
+      "source_name": "Natural History Museum",
+      "source_url": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+      "note": "The last reliable sighting is generally dated to 1662, although later possible dates remain debated.",
+      "exhibit": "033",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/dodo-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/dodo-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/dodo-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a dodo in Mauritius forest"
+    },
+    {
+      "id": "internet-explorer",
+      "name": "INTERNET EXPLORER",
+      "lifespan": "1995–2022*",
+      "end_year": "2022*",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Retired",
+      "epitaph": "For years, the web arrived through a blue ‘e’—whether users chose it or not.",
+      "why": "Modern browsers overtook it while Microsoft replaced it with Edge and retired the IE11 desktop application.",
+      "afterlife": "IE mode and Trident compatibility remain available for organisations that still depend on legacy websites.",
+      "source_name": "Microsoft",
+      "source_url": "https://www.microsoft.com/en-us/download/internet-explorer",
+      "note": "The 2022 date applies to the Internet Explorer 11 desktop application on certain Windows 10 versions; IE mode remains supported in Microsoft Edge.",
+      "exhibit": "032",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/internet-explorer-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/internet-explorer-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/internet-explorer-master-2x1.jpg",
+      "image_alt": "Monochrome engraving of a late-1990s computer displaying Internet Explorer"
     }
   ]
 }
