@@ -112,6 +112,28 @@ gates in `ROADMAP.md`.
 > logos, app icons, readable screen text, modern multi-lens camera clusters,
 > captions, watermark, frame, or colour.
 
+### Cassini
+
+> Create a historically accurate monochrome museum engraving of NASA's Cassini
+> orbiter approaching Saturn at the end of its mission. Keep the complete
+> spacecraft substantially smaller than the canvas and strictly inside the
+> centred 4:3 safe zone, including the full magnetometer boom, antenna rods,
+> high-gain dish, generators, and thrusters. Outer wings contain Saturn, rings,
+> stars, and empty space only. Use crisp, high-contrast archival linework. One
+> spacecraft only; no text, logos, captions, watermark, frame, colour, flames,
+> explosion, or cropped appendages.
+
+### Original Penn Station
+
+> Create a historically accurate monochrome architectural engraving of the
+> monumental main waiting room of New York's original Pennsylvania Station
+> before demolition. Preserve the immense Roman-inspired hall, coffered barrel
+> vaults, tall arched thermal windows, stone columns, and tiny period travellers
+> for scale. Keep the central vault, complete major arches, and defining columns
+> inside the centred 4:3 safe zone; outer wings contain secondary colonnades and
+> shadow only. No modern signs, Madison Square Garden, readable text, logos,
+> captions, watermark, frame, colour, or cropped central arch.
+
 ### Saturn V
 
 > Create a historically accurate 2:1 monochrome museum engraving of a complete
