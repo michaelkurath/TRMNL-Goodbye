@@ -387,38 +387,6 @@
       }
     },
     {
-      "id": "iata-paper-airline-ticket",
-      "name": "THE PAPER AIRLINE TICKET",
-      "lifespan": "20th century–2008*",
-      "end_year": "2008*",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Replaced",
-      "epitaph": "The journey once began with a document too valuable to lose.",
-      "why": "Electronic ticket records were cheaper, easier to update, and impossible for passengers to leave at home.",
-      "afterlife": "Old ticket wallets, coupons, stubs, and collectors preserve the paperwork of commercial flight.",
-      "source_name": "ABC News",
-      "source_url": "https://abcnews.com/Travel/story?id=4976367&page=1",
-      "note": "The date refers specifically to IATA ending paper ticket stock for its agency system on 1 June 2008, not every paper travel document.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 3,
-        "total": 20,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "windows-phone",
       "name": "WINDOWS PHONE",
       "lifespan": "2010–2019*",
@@ -771,19 +739,51 @@
       }
     },
     {
-      "id": "new-york-subway-token",
-      "name": "THE NEW YORK SUBWAY TOKEN",
-      "lifespan": "1953–2003",
-      "end_year": "2003",
+      "id": "domestic-icebox",
+      "name": "THE DOMESTIC ICEBOX",
+      "lifespan": "Late 1800s–1930s*",
+      "end_year": "1930s*",
       "category": "Everyday life",
       "category_key": "everyday",
       "status": "Replaced",
-      "epitaph": "For fifty years, one small brass coin opened the city beneath the streets.",
-      "why": "MetroCard automation replaced tokens with stored-value and unlimited-ride magnetic cards.",
-      "afterlife": "Collectors, jewellery, museum displays, and the token’s cut-out Y preserve a pocket-sized city symbol.",
-      "source_name": "WNYC",
-      "source_url": "https://www.wnyc.org/story/15-years-ago-today-new-york-city-subway-tokens-rode-rails/",
-      "note": "Tokens went off sale on 12 April 2003 and were accepted on the subway through 4 May 2003.",
+      "epitaph": "Keeping food cold once meant waiting for a heavy block of winter.",
+      "why": "Affordable electric refrigerators held steadier temperatures without daily ice deliveries, meltwater, or lost storage space.",
+      "afterlife": "Antique cabinets, ice-delivery cards, tongs, and family stories preserve the household ritual of the iceman.",
+      "source_name": "National Museum of American History",
+      "source_url": "https://americanhistory.si.edu/explore/stories/keeping-your-food-cool-ice-harvesting-electric-refrigeration",
+      "note": "The endpoint is approximate: American households increasingly replaced iceboxes with affordable electric refrigerators during the 1930s.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 3,
+        "catalogue_fit": 5,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-09-19",
+        "note": "A tactile household object with a strong replacement story; its gradual, regionally uneven endpoint needs careful wording."
+      }
+    },
+    {
+      "id": "borders-bookstores",
+      "name": "BORDERS BOOKSTORES",
+      "lifespan": "1971–2011",
+      "end_year": "2011",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Closed",
+      "epitaph": "The bookstore built for lingering could not outlast buying books without leaving home.",
+      "why": "Debt, the shift to online retail and e-books, and a late digital strategy ended the chain in liquidation.",
+      "afterlife": "Bookmarks, loyalty cards, storefront memories, and former stores preserve the era of the big-box book browse.",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/2011/07/borders-liquidation",
+      "note": "Borders was founded in Ann Arbor in 1971 and announced liquidation of its remaining 399 stores in July 2011.",
       "review": {
         "fact_check": "pending",
         "text_review": "pending",
@@ -793,13 +793,13 @@
       "rating": {
         "recognition": 4,
         "visual_strength": 4,
-        "story_strength": 5,
+        "story_strength": 4,
         "endpoint_clarity": 5,
         "catalogue_fit": 4,
-        "total": 22,
+        "total": 21,
         "status": "provisional",
         "rated_on": "2026-09-19",
-        "note": "A precise endpoint and strong everyday-life story; the small object will need an enlarged, tactile composition."
+        "note": "A clear endpoint and widely shared retail memory; the eventual image must avoid relying only on the trademarked storefront sign."
       }
     },
     {

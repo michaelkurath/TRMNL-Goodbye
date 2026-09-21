@@ -660,6 +660,46 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/internet-explorer-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/internet-explorer-master-2x1.jpg",
       "image_alt": "Monochrome engraving of a late-1990s computer displaying Internet Explorer"
+    },
+    {
+      "id": "new-york-subway-token",
+      "name": "THE NEW YORK SUBWAY TOKEN",
+      "lifespan": "1953–2003",
+      "end_year": "2003",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Replaced",
+      "epitaph": "For fifty years, one small brass coin opened the city beneath the streets.",
+      "why": "MetroCard automation replaced tokens with stored-value and unlimited-ride magnetic cards.",
+      "afterlife": "Collectors, jewellery, museum displays, and the token’s cut-out Y preserve a pocket-sized city symbol.",
+      "source_name": "WNYC",
+      "source_url": "https://www.wnyc.org/story/15-years-ago-today-new-york-city-subway-tokens-rode-rails/",
+      "note": "Tokens went off sale on 12 April 2003 and were accepted on the subway through 4 May 2003.",
+      "exhibit": "034",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/new-york-subway-token-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/new-york-subway-token-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/new-york-subway-token-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a New York subway token beside a turnstile"
+    },
+    {
+      "id": "iata-paper-airline-ticket",
+      "name": "THE PAPER AIRLINE TICKET",
+      "lifespan": "20th century–2008*",
+      "end_year": "2008*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Replaced",
+      "epitaph": "The journey once began with a document too valuable to lose.",
+      "why": "Electronic ticket records were cheaper, easier to update, and impossible for passengers to leave at home.",
+      "afterlife": "Old ticket wallets, coupons, stubs, and collectors preserve the paperwork of commercial flight.",
+      "source_name": "ABC News",
+      "source_url": "https://abcnews.com/Travel/story?id=4976367&page=1",
+      "note": "The date refers specifically to IATA ending paper ticket stock for its agency system on 1 June 2008, not every paper travel document.",
+      "exhibit": "035",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/iata-paper-airline-ticket-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/iata-paper-airline-ticket-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/iata-paper-airline-ticket-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a paper airline ticket wallet, coupon, and luggage tag"
     }
   ]
 }
