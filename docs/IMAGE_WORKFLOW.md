@@ -249,3 +249,33 @@ gates in `ROADMAP.md`.
 > contain room background only. No people, readable words, headlines, logos,
 > trademarks, captions, watermark, border, colour, modern flat-screen TV,
 > smartphone, or extra screen.
+
+### New York subway token
+
+> Create a 2:1 monochrome museum-catalog engraving of an iconic New York City
+> subway token with its distinctive Y-shaped cutout, standing upright on a
+> worn station counter with a period turnstile and tiled subway wall behind
+> it. Keep the complete token and turnstile inside the centered 4:3 safe zone
+> with generous breathing room; outer wings contain station background only.
+> Use tactile metal texture and crisp black-ink crosshatching. No readable
+> lettering, logos, MetroCards, people, captions, watermark, border, or colour.
+
+### Paper airline ticket
+
+> Create a historically grounded 2:1 monochrome museum-catalog engraving of a
+> late-20th-century airport counter with an open multi-coupon paper airline
+> ticket wallet, one loose boarding coupon, and one luggage tag. Keep the
+> complete document group substantially smaller than the frame and strictly
+> inside the middle 55% safe zone; outer wings contain quiet airport
+> background only. Use abstract unreadable marks on all paper. No airline
+> branding, readable words, names, dates, logos, modern phone, QR code,
+> barcode, captions, watermark, border, or colour.
+
+Correction pass:
+
+> Preserve the composition and object positions. Remove or replace every
+> readable word, number, airline name, destination, date, code, and logo from
+> the airport sign, flight board, wallet, tickets, coupons, and luggage tag.
+> Use only soft abstract bars, rectangles, tiny lines, grids, perforations,
+> and illegible marks. No readable text anywhere, logos, QR codes, barcodes,
+> watermark, caption, or colour.
