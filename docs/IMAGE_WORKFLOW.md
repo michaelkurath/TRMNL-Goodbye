@@ -11,7 +11,6 @@ Each exhibit uses two production assets:
 - `<id>-master-2x1.jpg` — 1600 x 800 px, used by TRMNL X Full.
 - `<id>-standard-4x3.jpg` — 1067 x 800 px, used by OG and compact layouts.
 
-For original monochrome line art created directly as vector artwork, `.svg` is also permitted with equivalent `viewBox` dimensions (`1600 800` and `1067 800`). Do not convert clean vector line art to JPEG solely for format consistency; validate both rendered crops in TRMNL before promotion.
 
 Store both files in `assets/exhibits/responsive-v2/` and reference them through
 `image_url_wide` and `image_url_standard` in `data/trmnl.json`.
@@ -292,9 +291,11 @@ Correction pass:
 > desk and quiet room background. No Skype logo, wordmark, readable interface
 > text, captions, watermark, border, or colour.
 
-Production note: the approved asset uses a simplified original line-art
-composition to avoid trademark dependence while preserving the recognisable
-desktop video-call context. Exported at 1600×800 and 1067×800.
+Production note: the approved asset uses a detailed AI-generated archival
+engraving/halftone scene with period-appropriate laptop, webcam, headset, and a
+generic video-call window. It intentionally avoids the Skype logo, wordmark,
+and readable interface text. Exported as grayscale JPEG at 1600×800 and
+1067×800.
 
 ### Domestic icebox
 
@@ -307,7 +308,9 @@ desktop video-call context. Exported at 1600×800 and 1067×800.
 > electric compressor, readable text, branding, captions, watermark, border,
 > or colour.
 
-Production note: the approved asset uses a simplified original line-art
-composition based on museum descriptions of wood-and-metal iceboxes and daily
-block-ice delivery. Exported at 1600×800 and 1067×800.
+Production note: the approved asset uses a detailed AI-generated archival
+engraving/halftone kitchen scene based on museum descriptions of wooden,
+metal-lined iceboxes and block-ice delivery. The upper ice chamber, lower food
+storage, hinges, latches, drain hardware, and ice tools remain visually clear.
+Exported as grayscale JPEG at 1600×800 and 1067×800.
 
