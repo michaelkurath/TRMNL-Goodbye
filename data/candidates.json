@@ -643,38 +643,6 @@
       }
     },
     {
-      "id": "skype",
-      "name": "SKYPE",
-      "lifespan": "2003–2025",
-      "end_year": "2025",
-      "category": "Internet",
-      "category_key": "internet",
-      "status": "Discontinued",
-      "epitaph": "The call that made distance feel free finally went quiet.",
-      "why": "Microsoft retired the consumer service to focus its free communication products on Teams.",
-      "afterlife": "Its ringtone, usernames, chat histories, and role in normalising internet calls remain part of online culture.",
-      "source_name": "Microsoft",
-      "source_url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/28/the-next-chapter-moving-from-skype-to-microsoft-teams/",
-      "note": "Skype launched in 2003 and was retired on 5 May 2025. Skype for Business is a separate product with a different lifecycle.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 3,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-14",
-        "note": "Globally recognisable and precisely dated with a strong communication-history story; artwork must avoid relying on the trademarked logo."
-      }
-    },
-    {
       "id": "bramble-cay-melomys",
       "name": "THE BRAMBLE CAY MELOMYS",
       "lifespan": "Ancient–2009*",
@@ -739,38 +707,6 @@
       }
     },
     {
-      "id": "domestic-icebox",
-      "name": "THE DOMESTIC ICEBOX",
-      "lifespan": "Late 1800s–1930s*",
-      "end_year": "1930s*",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Replaced",
-      "epitaph": "Keeping food cold once meant waiting for a heavy block of winter.",
-      "why": "Affordable electric refrigerators held steadier temperatures without daily ice deliveries, meltwater, or lost storage space.",
-      "afterlife": "Antique cabinets, ice-delivery cards, tongs, and family stories preserve the household ritual of the iceman.",
-      "source_name": "National Museum of American History",
-      "source_url": "https://americanhistory.si.edu/explore/stories/keeping-your-food-cool-ice-harvesting-electric-refrigeration",
-      "note": "The endpoint is approximate: American households increasingly replaced iceboxes with affordable electric refrigerators during the 1930s.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "endpoint_clarity": 3,
-        "catalogue_fit": 5,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-09-19",
-        "note": "A tactile household object with a strong replacement story; its gradual, regionally uneven endpoint needs careful wording."
-      }
-    },
-    {
       "id": "borders-bookstores",
       "name": "BORDERS BOOKSTORES",
       "lifespan": "1971–2011",
@@ -832,6 +768,70 @@
         "status": "provisional",
         "rated_on": "2026-09-19",
         "note": "A highly readable object and strong smartphone-prehistory story; its product-family endpoint needs careful definition."
+      }
+    },
+    {
+      "id": "mir-space-station",
+      "name": "MIR SPACE STATION",
+      "lifespan": "1986–2001",
+      "end_year": "2001",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Deorbited",
+      "epitaph": "Fifteen years in orbit ended with a deliberate fall into the South Pacific.",
+      "why": "Russia retired Mir as ageing systems and limited funding shifted attention toward the International Space Station.",
+      "afterlife": "Museum hardware, photographs, research records, and the Shuttle–Mir programme preserve its orbital legacy.",
+      "source_name": "NASA History",
+      "source_url": "https://www.nasa.gov/history/SP-4225/mir/mir.htm",
+      "note": "Mir's first module launched in 1986; the station was deliberately deorbited on 23 March 2001.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-09-23",
+        "note": "Top-priority candidate: iconic silhouette, exact endpoint, strong space-history story, and good catalogue variety."
+      }
+    },
+    {
+      "id": "netscape-navigator",
+      "name": "NETSCAPE NAVIGATOR",
+      "lifespan": "1994–2008",
+      "end_year": "2008",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "The browser that opened the early web lost the browser war, then handed its code legacy onward.",
+      "why": "AOL ended development after years of declining market share and directed remaining users toward Firefox.",
+      "afterlife": "Mozilla and Firefox carried forward much of its open-source code lineage and browser culture.",
+      "source_name": "The Register",
+      "source_url": "https://www.theregister.com/2008/03/03/netscape_navigator_put_out_to_pasture/",
+      "note": "AOL ended official Netscape browser support on 1 March 2008; existing copies continued to run.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-09-23",
+        "note": "Top-priority internet-history candidate with a clear support endpoint; artwork should avoid trademark dependence."
       }
     }
   ],
