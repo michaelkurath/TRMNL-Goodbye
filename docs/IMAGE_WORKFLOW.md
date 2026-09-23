@@ -11,6 +11,8 @@ Each exhibit uses two production assets:
 - `<id>-master-2x1.jpg` — 1600 x 800 px, used by TRMNL X Full.
 - `<id>-standard-4x3.jpg` — 1067 x 800 px, used by OG and compact layouts.
 
+For original monochrome line art created directly as vector artwork, `.svg` is also permitted with equivalent `viewBox` dimensions (`1600 800` and `1067 800`). Do not convert clean vector line art to JPEG solely for format consistency; validate both rendered crops in TRMNL before promotion.
+
 Store both files in `assets/exhibits/responsive-v2/` and reference them through
 `image_url_wide` and `image_url_standard` in `data/trmnl.json`.
 
