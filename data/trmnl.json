@@ -16,9 +16,9 @@
       "source_url": "https://americanhistory.si.edu/explore/stories/keeping-your-food-cool-ice-harvesting-electric-refrigeration",
       "note": "The endpoint is approximate: American households increasingly replaced iceboxes with affordable electric refrigerators during the 1930s.",
       "exhibit": "037",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/domestic-icebox-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/domestic-icebox-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/domestic-icebox-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/qa-goodbye-icebox-style/assets/exhibits/responsive-v2/domestic-icebox-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/qa-goodbye-icebox-style/assets/exhibits/responsive-v2/domestic-icebox-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/qa-goodbye-icebox-style/assets/exhibits/responsive-v2/domestic-icebox-master-2x1.jpg",
       "image_alt": "Monochrome museum illustration of a wooden domestic icebox with an ice block and delivery tools"
     }
   ]
