@@ -700,6 +700,46 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/iata-paper-airline-ticket-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/iata-paper-airline-ticket-master-2x1.jpg",
       "image_alt": "Monochrome museum engraving of a paper airline ticket wallet, coupon, and luggage tag"
+    },
+    {
+      "id": "skype",
+      "name": "SKYPE",
+      "lifespan": "2003–2025",
+      "end_year": "2025",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "The call that made distance feel free finally went quiet.",
+      "why": "Microsoft retired the consumer service to focus its free communication products on Teams.",
+      "afterlife": "Its ringtone, usernames, chat histories, and role in normalising internet calls remain part of online culture.",
+      "source_name": "Microsoft Support",
+      "source_url": "https://support.microsoft.com/en-us/skype/f596c90a-b3b0-42c2-b120-d0630642f1f9",
+      "note": "Skype launched in 2003 and Microsoft retired the consumer service on 5 May 2025; Skype for Business is separate.",
+      "exhibit": "036",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/skype-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/skype-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/skype-master-2x1.jpg",
+      "image_alt": "Monochrome museum illustration of a desktop video call setup with webcam and headset"
+    },
+    {
+      "id": "domestic-icebox",
+      "name": "THE DOMESTIC ICEBOX",
+      "lifespan": "Late 1800s–1930s*",
+      "end_year": "1930s*",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Replaced",
+      "epitaph": "Keeping food cold once meant waiting for a heavy block of winter.",
+      "why": "Affordable electric refrigerators held steadier temperatures without daily ice deliveries, meltwater, or lost storage space.",
+      "afterlife": "Antique cabinets, ice-delivery cards, tongs, and family stories preserve the household ritual of the iceman.",
+      "source_name": "National Museum of American History",
+      "source_url": "https://americanhistory.si.edu/explore/stories/keeping-your-food-cool-ice-harvesting-electric-refrigeration",
+      "note": "The endpoint is approximate: American households increasingly replaced iceboxes with affordable electric refrigerators during the 1930s.",
+      "exhibit": "037",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/domestic-icebox-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/domestic-icebox-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/domestic-icebox-master-2x1.jpg",
+      "image_alt": "Monochrome museum illustration of a wooden domestic icebox with an ice block and delivery tools"
     }
   ]
 }
