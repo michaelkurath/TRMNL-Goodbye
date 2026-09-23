@@ -11,6 +11,8 @@ Each exhibit uses two production assets:
 - `<id>-master-2x1.jpg` — 1600 x 800 px, used by TRMNL X Full.
 - `<id>-standard-4x3.jpg` — 1067 x 800 px, used by OG and compact layouts.
 
+For original monochrome line art created directly as vector artwork, `.svg` is also permitted with equivalent `viewBox` dimensions (`1600 800` and `1067 800`). Do not convert clean vector line art to JPEG solely for format consistency; validate both rendered crops in TRMNL before promotion.
+
 Store both files in `assets/exhibits/responsive-v2/` and reference them through
 `image_url_wide` and `image_url_standard` in `data/trmnl.json`.
 
@@ -279,3 +281,33 @@ Correction pass:
 > Use only soft abstract bars, rectangles, tiny lines, grids, perforations,
 > and illegible marks. No readable text anywhere, logos, QR codes, barcodes,
 > watermark, caption, or colour.
+
+### Skype
+
+> Create a 2:1 monochrome museum-catalog illustration of a mid-2000s desktop
+> video-calling setup: a complete flat-panel monitor with a small webcam, a
+> generic two-person video-call interface, and a wired headset. Keep the
+> complete monitor, stand, webcam, headset, cables, and controls inside the
+> centered 4:3 safe zone with 12–15% breathing room; outer wings contain only
+> desk and quiet room background. No Skype logo, wordmark, readable interface
+> text, captions, watermark, border, or colour.
+
+Production note: the approved asset uses a simplified original line-art
+composition to avoid trademark dependence while preserving the recognisable
+desktop video-call context. Exported at 1600×800 and 1067×800.
+
+### Domestic icebox
+
+> Create a historically grounded 2:1 monochrome museum-catalog illustration of
+> a late-19th/early-20th-century wooden household icebox with insulated upper
+> ice compartment, lower food compartment, metal hinges and latches, a block of
+> ice, drain pan, and simple ice-delivery tools nearby. Keep every meaningful
+> object inside the centered 4:3 safe zone with 12–15% breathing room; outer
+> wings contain only floor and subdued room background. No modern refrigerator,
+> electric compressor, readable text, branding, captions, watermark, border,
+> or colour.
+
+Production note: the approved asset uses a simplified original line-art
+composition based on museum descriptions of wood-and-metal iceboxes and daily
+block-ice delivery. Exported at 1600×800 and 1067×800.
+

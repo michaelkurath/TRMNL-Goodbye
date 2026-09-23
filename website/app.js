@@ -20,7 +20,9 @@ const els = {
 };
 
 function imagePath(item) {
-  return `assets/${item.id}-standard-4x3.jpg`;
+  const source = item.image_url_standard || item.image_url;
+  const filename = source ? source.split('/').pop() : `${item.id}-standard-4x3.jpg`;
+  return `assets/${filename}`;
 }
 
 function dayNumber() {

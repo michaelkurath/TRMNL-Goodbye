@@ -8,6 +8,7 @@ on:
       - "data/trmnl.json"
       - "assets/icon/goodbye-icon.svg"
       - "assets/exhibits/responsive-v2/*-standard-4x3.jpg"
+      - "assets/exhibits/responsive-v2/*-standard-4x3.svg"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -42,6 +43,7 @@ jobs:
           cp data/trmnl.json _site/catalogue.json
           cp assets/icon/goodbye-icon.svg _site/assets/
           cp assets/exhibits/responsive-v2/*-standard-4x3.jpg _site/assets/
+          cp assets/exhibits/responsive-v2/*-standard-4x3.svg _site/assets/ 2>/dev/null || true
           touch _site/.nojekyll
 
       - name: Upload website
