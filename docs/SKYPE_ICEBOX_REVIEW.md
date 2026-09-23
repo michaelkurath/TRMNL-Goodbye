@@ -24,11 +24,14 @@ Text review:
   date.
 
 Image review:
-- Original monochrome line art; no third-party image is embedded.
-- The composition shows a generic desktop video-call setup rather than a Skype
-  logo or copied interface.
-- Master and standard crops are 1600×800 and 1067×800 and keep the identifying
-  hardware inside the centered safe zone.
+- AI-generated monochrome archival engraving/halftone artwork; no third-party
+  photograph is embedded.
+- The composition uses period-appropriate laptop, webcam, headset, and a
+  generic two-person video-call window without the Skype logo or readable UI.
+- Master and standard JPEG crops are 1600×800 and 1067×800 and keep the
+  identifying hardware inside the centered safe zone.
+- The first flat/vector treatment was rejected on 23 September 2026 because it
+  did not match GOODBYE's established museum-engraving visual language.
 
 ## Domestic icebox
 
@@ -51,11 +54,15 @@ Text review:
   universal worldwide disappearance.
 
 Image review:
-- Original monochrome line art; no third-party image is embedded.
+- AI-generated monochrome archival engraving/halftone artwork; no third-party
+  photograph is embedded.
 - The composition depicts a wooden insulated cabinet, upper ice compartment,
-  block ice, drain pan, hinges, and delivery tools without a modern compressor.
-- Master and standard crops are 1600×800 and 1067×800 and keep the subject
+  block ice, lower storage, drain hardware, hinges, and ice tools without a
+  modern compressor.
+- Master and standard JPEG crops are 1600×800 and 1067×800 and keep the subject
   inside the centered safe zone.
+- The first flat/vector treatment was rejected on 23 September 2026 because it
+  did not match GOODBYE's established museum-engraving visual language.
 
 ## Final gate
 
