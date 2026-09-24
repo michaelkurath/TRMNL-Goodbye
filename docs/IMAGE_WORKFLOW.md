@@ -86,6 +86,32 @@ gates in `ROADMAP.md`.
 
 ## Generation records
 
+### Mir Space Station
+
+> Create a historically grounded 2:1 monochrome museum engraving of the
+> Russian Mir space station in its completed late-1990s configuration. Preserve
+> the long cylindrical core axis with Kvant-1 aft, the docking node and the
+> asymmetric radial Kvant-2, Kristall, Spektr, and Priroda modules, plus the
+> irregular solar arrays attached directly to modules. Show the station in a
+> three-quarter view above a restrained Earth limb. Keep every module, array
+> tip, boom, and antenna inside the centered 4:3 safe zone with at least 12%
+> breathing room; outer wings contain only Earth and stars. No ISS-style long
+> truss, symmetrical four-arm cross, huge ISS solar wings, Shuttle, re-entry,
+> text, flags, logos, captions, border, watermark, colour, or cropped parts.
+
+### Netscape Navigator
+
+> Create a 2:1 monochrome museum-catalog engraving evoking Netscape Navigator
+> and early graphical web browsing circa 1995 without using trademarked logos.
+> Show a complete beige CRT monitor with a generic early browser window and
+> abstract starry-horizon page, a beige tower, full keyboard, external dial-up
+> modem, wired mouse, and cables as a compact group. Keep every object and
+> shadow strictly inside the centered 4:3 safe zone with 12% breathing room;
+> outer wings contain only an empty desk and wall. Use crisp black-ink archival
+> crosshatching on warm off-white paper. No readable web text, Netscape logo,
+> company names, people, extra desk objects, modern screen, captions, border,
+> watermark, colour, or cropped hardware.
+
 ### Sears Big Book
 
 > Recompose the existing Sears catalogue scene by making the entire open book
@@ -313,4 +339,3 @@ engraving/halftone kitchen scene based on museum descriptions of wooden,
 metal-lined iceboxes and block-ice delivery. The upper ice chamber, lower food
 storage, hinges, latches, drain hardware, and ice tools remain visually clear.
 Exported as grayscale JPEG at 1600×800 and 1067×800.
-
