@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "mir-space-station",
-      "exhibit": "038",
-      "name": "MIR SPACE STATION",
-      "lifespan": "1986–2001",
-      "end_year": "2001",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Deorbited",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-mir-netscape/assets/exhibits/responsive-v2/mir-space-station-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-mir-netscape/assets/exhibits/responsive-v2/mir-space-station-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-mir-netscape/assets/exhibits/responsive-v2/mir-space-station-master-2x1.jpg",
-      "image_alt": "Monochrome museum engraving of the completed Mir space station above Earth",
-      "epitaph": "Fifteen years in orbit ended with a deliberate fall into the South Pacific.",
-      "why": "Russia retired Mir as ageing systems and limited funding shifted attention toward the International Space Station.",
-      "afterlife": "Museum hardware, photographs, research records, and the Shuttle–Mir programme preserve its orbital legacy.",
-      "source_name": "NASA History",
-      "source_url": "https://www.nasa.gov/history/SP-4225/mir/mir.htm",
-      "note": "Mir's first module launched in 1986; the station was deliberately deorbited on 23 March 2001."
+      "id": "netscape-navigator",
+      "exhibit": "039",
+      "name": "NETSCAPE NAVIGATOR",
+      "lifespan": "1994–2008",
+      "end_year": "2008",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-mir-netscape/assets/exhibits/responsive-v2/netscape-navigator-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-mir-netscape/assets/exhibits/responsive-v2/netscape-navigator-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-mir-netscape/assets/exhibits/responsive-v2/netscape-navigator-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a 1990s computer displaying an early web browser",
+      "epitaph": "The browser that opened the early web lost the browser war, then handed its code legacy onward.",
+      "why": "AOL ended development after years of declining market share and directed remaining users toward Firefox.",
+      "afterlife": "Mozilla and Firefox carried forward much of its open-source code lineage and browser culture.",
+      "source_name": "The Register",
+      "source_url": "https://www.theregister.com/2008/03/03/netscape_navigator_put_out_to_pasture/",
+      "note": "AOL ended official Netscape browser support on 1 March 2008; existing copies continued to run."
     }
   ]
 }
