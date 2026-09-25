@@ -61,6 +61,15 @@ Device-layout review and final approval are recorded by the green workflow runs
 and pull request history. Production data must be restored after forced-entry
 review before merge.
 
+- AOL dial-up: all 12 OG, X landscape, and X portrait layouts inspected and
+  approved in [workflow run 36102835166](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36102835166),
+  artifact `10850530462`.
+- Huia: the first targeted run exposed truncated afterlife text in X landscape
+  Full, so that wording was shortened and the draft rejected. All 12 corrected
+  layouts were inspected and approved in
+  [workflow run 36103300898](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36103300898),
+  artifact `10849763723`.
+
 ## Replacement candidates
 
 - Argos catalogue: 4 / 5 / 4 / 5 / 3 = **21/25**. The Guardian's 30 July
