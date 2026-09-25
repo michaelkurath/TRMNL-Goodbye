@@ -56,7 +56,14 @@ convert source.png -colorspace Gray -resize '1600x800^' \
 convert assets/exhibits/responsive-v2/<id>-master-2x1.jpg \
   -gravity center -crop 1067x800+0+0 +repage -quality 88 \
   assets/exhibits/responsive-v2/<id>-standard-4x3.jpg
+
+identify assets/exhibits/responsive-v2/<id>-{master-2x1,standard-4x3}.jpg
 ```
+
+The final `identify` check must report exactly `1600x800` for the master and
+`1067x800` for the standard crop. Keep rejected generations out of production;
+record only the prompt that produced the approved composition, including any
+crop-safety correction that materially changed it.
 
 If the centered crop cuts any part of the subject, regenerate or recompose the
 master. Do not solve the problem with a one-off crop offset: that hides a bad
@@ -70,6 +77,8 @@ Before connecting the files to production data:
    species, era, and identifying physical details.
 2. Inspect both JPEGs directly and reject clipped wings, tails, cables, limbs,
    shadows, signs, or other meaningful parts.
+   Review the centered 4:3 derivative as its own image rather than inferring
+   crop safety from the 2:1 master.
 3. Check that small details do not turn into misleading shapes after grayscale
    conversion and e-ink dithering.
 4. Temporarily point asset URLs at the feature branch and render all four views
@@ -339,3 +348,38 @@ engraving/halftone kitchen scene based on museum descriptions of wooden,
 metal-lined iceboxes and block-ice delivery. The upper ice chamber, lower food
 storage, hinges, latches, drain hardware, and ice tools remain visually clear.
 Exported as grayscale JPEG at 1600×800 and 1067×800.
+
+### AOL dial-up internet
+
+> Regenerate the AOL dial-up museum still life as a much smaller, tightly
+> packed central composition on a 2:1 landscape canvas. Every meaningful object
+> must fit entirely within the middle 55% of the canvas width, leaving very
+> wide empty desk-and-wall wings. Show one complete late-1990s beige CRT
+> monitor, compact tower, full keyboard, wired mouse, small external dial-up
+> modem with indicator lights, compact corded landline telephone, phone cable,
+> and exactly two generic CD-ROM discs. Stack the telephone and modem beside
+> the tower and tuck both discs near the keyboard. Keep the entire group,
+> including all corners, cables, shadows, handset, coiled cord, mouse, and disc
+> edges, inside the centered 4:3 safe zone with at least 12% breathing room.
+> The screen has only abstract unreadable connection marks. Crisp monochrome
+> archival crosshatching; no people, AOL branding, running-man icon, company
+> name, readable text, modern screen, laptop, Wi-Fi symbol, caption, border,
+> watermark, colour, or cropped parts.
+
+The first draft was rejected because the telephone and discs fell outside the
+centered crop. The correction above produced the approved master and derivative.
+
+### Huia
+
+> Create a scientifically grounded 2:1 monochrome natural-history engraving
+> of one adult male and one adult female Huia (`Heteralocha acutirostris`) on a
+> restrained native New Zealand forest branch. Show both as glossy-black
+> wattlebirds with long black tails ending in a bold white band, pale ivory
+> bills, sturdy legs, and small wattles at the bill base. Preserve the defining
+> bill dimorphism: the female has a very long, fine, strongly down-curved bill;
+> the male has a shorter, thicker, nearly straight tapering bill. Keep both
+> birds complete from bill tip to tail tip and every toe inside the centered
+> 4:3 safe zone with at least 15% breathing room; outer wings contain habitat
+> only. Crisp high-contrast scientific linework; no text, humans, ornaments,
+> cages, museum mounts, other species, frame, watermark, cropped anatomy,
+> fantasy plumage, invented features, or colour.

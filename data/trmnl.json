@@ -780,6 +780,46 @@
       "source_name": "The Register",
       "source_url": "https://www.theregister.com/2008/03/03/netscape_navigator_put_out_to_pasture/",
       "note": "AOL ended official Netscape browser support on 1 March 2008; existing copies continued to run."
+    },
+    {
+      "id": "aol-dial-up",
+      "exhibit": "040",
+      "name": "AOL DIAL-UP INTERNET",
+      "lifespan": "1991–2025",
+      "end_year": "2025",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/aol-dial-up-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/aol-dial-up-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/aol-dial-up-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a 1990s computer, dial-up modem, telephone, and trial discs",
+      "epitaph": "The handshake that announced the internet finally fell silent after thirty-four years.",
+      "why": "Broadband, fibre, mobile networks, and satellite access made telephone-line internet obsolete.",
+      "afterlife": "Modems, trial discs, connection tones, and the memory of tying up the phone line preserve its era.",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/08162912737f2fb221f10ba87ce5fc41",
+      "note": "AOL discontinued its dial-up internet service and associated dialer software on 30 September 2025."
+    },
+    {
+      "id": "huia",
+      "exhibit": "041",
+      "name": "THE HUIA",
+      "lifespan": "Ancient–1907*",
+      "end_year": "1907*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/huia-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/huia-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/huia-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of female and male Huia showing their different bills",
+      "epitaph": "Its white-tipped feathers outlasted the forest voice that wore them.",
+      "why": "Introduced mammal predators and hunting likely drove this New Zealand forest bird to extinction.",
+      "afterlife": "Museum specimens and cultural memory preserve this distinctive bird.",
+      "source_name": "New Zealand Birds Online",
+      "source_url": "https://www.nzbirdsonline.org.nz/species/huia",
+      "note": "1907 is the last accepted sighting. Some huia likely survived into the 1920s; the exact extinction date is unknown."
     }
   ]
 }
