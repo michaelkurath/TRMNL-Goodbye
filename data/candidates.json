@@ -451,38 +451,6 @@
       }
     },
     {
-      "id": "rms-queen-mary-service",
-      "name": "RMS QUEEN MARY PASSENGER SERVICE",
-      "lifespan": "1936–1967",
-      "end_year": "1967",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Retired",
-      "epitaph": "The Atlantic crossing became a destination only after the aeroplane made it unnecessary.",
-      "why": "Jet airliners made scheduled transatlantic sea travel slower and less competitive, and Cunard retired the ageing liner.",
-      "afterlife": "Queen Mary remains permanently moored in Long Beach as a preserved ship, hotel, museum, and event venue.",
-      "source_name": "The Queen Mary",
-      "source_url": "https://www.queenmary.com/history/",
-      "note": "Only the ship's active passenger service is gone. The vessel survives and remains open to visitors.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 2,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "carolina-parakeet",
       "name": "THE CAROLINA PARAKEET",
       "lifespan": "Ancient–1918",
@@ -608,38 +576,6 @@
         "status": "provisional",
         "rated_on": "2026-09-11",
         "note": "Distinctive insect broadens Nature; exact extinction date and causes require qualified wording."
-      }
-    },
-    {
-      "id": "bramble-cay-melomys",
-      "name": "THE BRAMBLE CAY MELOMYS",
-      "lifespan": "Ancient–2009*",
-      "end_year": "2009*",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Extinct",
-      "epitaph": "A small island mammal disappeared as the sea erased the ground beneath it.",
-      "why": "Rising seas and extreme inundation destroyed most vegetation on its only known low-lying island habitat.",
-      "afterlife": "Museum specimens and field records preserve a warning from a species lost within living memory.",
-      "source_name": "Australian Museum",
-      "source_url": "https://australian.museum/learn/australia-over-time/extinct-animals/melomys-rubicola/",
-      "note": "Last seen in 2009 and declared extinct by Australia in 2019; possible occurrence in Papua New Guinea remains unproven.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 2,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 5,
-        "total": 20,
-        "status": "provisional",
-        "rated_on": "2026-09-19",
-        "note": "Low recognition, but a powerful modern extinction story and strong Nature fit; wording keeps the endpoint and PNG uncertainty qualified."
       }
     },
     {
@@ -832,6 +768,70 @@
         "status": "provisional",
         "rated_on": "2026-09-25",
         "note": "A landmark pre-smartphone mobile-internet story with a primary-source endpoint; recognition is strongest in Japan."
+      }
+    },
+    {
+      "id": "srn4-hovercraft",
+      "name": "THE SR.N4 CHANNEL HOVERCRAFT",
+      "lifespan": "1968–2000",
+      "end_year": "2000",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Retired",
+      "epitaph": "The ferry that flew above the Channel lost its race to tunnels and faster ships.",
+      "why": "Ageing craft, high fuel and maintenance costs, catamarans, and the Channel Tunnel ended regular hovercraft service.",
+      "afterlife": "Princess Anne survives at the Hovercraft Museum, preserving the largest civil hovercraft class ever operated.",
+      "source_name": "James Hovercraft",
+      "source_url": "https://www.jameshovercraft.co.uk/srn4-last-days",
+      "note": "SR.N4 cross-Channel service ran from 1968 until Hoverspeed's final services on 1 October 2000; one craft survives.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-09-26",
+        "note": "An unmistakable transport silhouette, a precisely documented final service, and a surviving museum craft make this a top-priority candidate."
+      }
+    },
+    {
+      "id": "caribbean-monk-seal",
+      "name": "THE CARIBBEAN MONK SEAL",
+      "lifespan": "Ancient–1952*",
+      "end_year": "1952*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "epitaph": "The Caribbean's only native seal vanished from waters that once held it by the thousands.",
+      "why": "Centuries of hunting for oil and meat drove the species toward extinction.",
+      "afterlife": "Museum specimens, historical accounts, and DNA studies preserve the lost seal's place among monk seals.",
+      "source_name": "NOAA Fisheries",
+      "source_url": "https://www.fisheries.noaa.gov/national/endangered-species-conservation/delisting-species-under-endangered-species-act",
+      "note": "1952 is the last confirmed sighting; NOAA declared the species extinct and removed it from the U.S. endangered list in 2008.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "endpoint_clarity": 4,
+        "catalogue_fit": 5,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-09-26",
+        "note": "A compelling regional extinction with a strong natural-history image; the asterisk keeps the last sighting distinct from the 2008 legal finding."
       }
     }
   ],

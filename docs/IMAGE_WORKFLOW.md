@@ -383,3 +383,36 @@ centered crop. The correction above produced the approved master and derivative.
 > only. Crisp high-contrast scientific linework; no text, humans, ornaments,
 > cages, museum mounts, other species, frame, watermark, cropped anatomy,
 > fantasy plumage, invented features, or colour.
+
+### RMS Queen Mary passenger service
+
+> Create a historically accurate monochrome museum-engraving exhibit image of
+> RMS Queen Mary during her active transatlantic passenger service. Show the
+> complete ocean liner in port-bow three-quarter view at sea, with exactly
+> three large funnels, two masts, long stepped superstructure, dark hull, pale
+> upperworks, cruiser stern, and period 1930s–1960s proportions. Keep the
+> entire ship—bow, stern, mast tops, funnel tops, and wake—inside the central
+> 60% of the canvas with at least 15% breathing room, so a centered 4:3 crop
+> retains the whole subject. Outer wings contain only calm ocean and open sky.
+> Fine black-and-white copperplate linework on a light paper background. No
+> four-funnel Titanic silhouette, modern cruise ship, readable ship name,
+> Cunard logo, people, other ships, text, border, watermark, or colour.
+
+### Bramble Cay melomys
+
+> Create a scientifically grounded monochrome natural-history engraving of
+> one Bramble Cay melomys (`Melomys rubicola`) on coral rubble with sparse cay
+> vegetation, shallow water, and a low horizon. Preserve the compact body,
+> slightly blunt snout, fine whiskers, rounded ears, dark dorsal fur, pale
+> underside, slender limbs, and long scaly sparsely haired tail. Keep the
+> complete animal—from nose and whiskers through every toe and the curved tail
+> tip—strictly inside the middle 55% of the 2:1 canvas, with at least 12%
+> breathing room inside the centered 4:3 safe zone. Outer wings contain only
+> habitat and water/sky. No giant rat, fantasy traits, dramatic flood, dead
+> animal, other animals, text, labels, caption, border, watermark, or colour.
+
+The first melomys draft was rejected because its tail tip crossed the centered
+4:3 crop. The approved correction made the animal substantially smaller while
+preserving the habitat and scientific-plate treatment. Both exhibits were
+generated with the built-in image generator, normalized to grayscale JPEG, and
+exported at 1600×800 and 1067×800.
