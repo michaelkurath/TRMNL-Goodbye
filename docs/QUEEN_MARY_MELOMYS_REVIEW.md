@@ -36,5 +36,20 @@ biological identifiers, grayscale readability, and complete safe-zone crops.
 The first melomys generation was rejected because its tail crossed the crop;
 the corrected version keeps every identifying part inside both assets.
 
-CI run and artifact references are added after the forced-exhibit OG and TRMNL
-X review passes.
+## CI and render evidence
+
+- Production-data validation, Saved State tests, `trmnlp lint`, and the 12-view
+  render workflow passed in [run 36224813510](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36224813510).
+- Queen Mary was forced through all four OG, X landscape, and X portrait views
+  in [run 36225104588](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36225104588), artifact
+  `goodbye-render-previews` 10900970160. The complete three-funnel silhouette,
+  title, epitaph, metadata, and long-form copy remained readable or used the
+  templates' intended compact truncation.
+- The Bramble Cay melomys was forced through the same 12 views in
+  [run 36225267239](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36225267239), artifact
+  `goodbye-render-previews` 10900935466. The nose, feet, and tail tip remained
+  present in all image-bearing crops; type and spacing passed at each size.
+
+The forced commits temporarily used branch polling and image URLs so GitHub
+Actions could retrieve unmerged assets. The final commit restores the complete
+43-entry feed, permanent `main` asset URLs, and the production polling URL.
