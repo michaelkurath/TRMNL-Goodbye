@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "rms-queen-mary-service",
-      "exhibit": "042",
-      "name": "RMS QUEEN MARY PASSENGER SERVICE",
-      "lifespan": "1936–1967",
-      "end_year": "1967",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Retired",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-queen-mary-melomys/assets/exhibits/responsive-v2/rms-queen-mary-service-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-queen-mary-melomys/assets/exhibits/responsive-v2/rms-queen-mary-service-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-queen-mary-melomys/assets/exhibits/responsive-v2/rms-queen-mary-service-master-2x1.jpg",
-      "image_alt": "Monochrome museum engraving of RMS Queen Mary at sea during her passenger-service years",
-      "epitaph": "The Atlantic crossing became a destination only after the aeroplane made it unnecessary.",
-      "why": "Cunard sold the ageing liner after 31 years on North Atlantic routes, ending her passenger voyages in 1967.",
-      "afterlife": "Queen Mary remains permanently moored in Long Beach as a preserved ship, hotel, museum, and event venue.",
-      "source_name": "The Queen Mary",
-      "source_url": "https://www.queenmary.com/timeline-stats--fun-facts.htm",
-      "note": "The official timeline records the last eastbound transatlantic crossing as Voyage 513 in September 1967; the ship survives."
+      "id": "bramble-cay-melomys",
+      "exhibit": "043",
+      "name": "THE BRAMBLE CAY MELOMYS",
+      "lifespan": "Ancient–2009*",
+      "end_year": "2009*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-queen-mary-melomys/assets/exhibits/responsive-v2/bramble-cay-melomys-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-queen-mary-melomys/assets/exhibits/responsive-v2/bramble-cay-melomys-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-queen-mary-melomys/assets/exhibits/responsive-v2/bramble-cay-melomys-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a Bramble Cay melomys on its low coral-cay habitat",
+      "epitaph": "A small island mammal disappeared as the sea erased the ground beneath it.",
+      "why": "Rising seas and extreme inundation destroyed most vegetation on its only known low-lying island habitat.",
+      "afterlife": "Museum specimens and field records preserve a warning from a species lost within living memory.",
+      "source_name": "Australian Museum",
+      "source_url": "https://australian.museum/learn/australia-over-time/extinct-animals/melomys-rubicola/",
+      "note": "Last seen in 2009 and declared extinct by Australia in 2019; possible occurrence in Papua New Guinea remains unproven."
     }
   ]
 }
