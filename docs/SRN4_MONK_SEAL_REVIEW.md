@@ -35,4 +35,21 @@ safe zone. Corrected masters and their centered derivatives preserve all four
 SR.N4 propellers and the full skirt, and the seal's nose, foreflippers, and
 hind-flipper tips.
 
-CI run and artifact references are added after targeted OG and TRMNL X review.
+## CI and render evidence
+
+- The complete production-data branch passed validation, Saved State tests,
+  `trmnlp lint`, and its 12-view render in
+  [run 36301281259](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36301281259).
+- The SR.N4 was forced through all four OG, X landscape, and X portrait views
+  in [run 36301378568](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36301378568), artifact
+  `goodbye-render-previews` 10926015763. Its complete skirt, body, and
+  propeller silhouette remained clear at each size; type used only intended
+  compact truncation.
+- The Caribbean monk seal passed the same 12 targeted views in
+  [run 36301490980](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36301490980), artifact
+  `goodbye-render-previews` 10925661191. Its nose, foreflippers, body, and hind
+  flippers remained intact in all image-bearing crops.
+
+The targeted commits temporarily used branch polling and image URLs so Actions
+could retrieve unmerged assets. The final commit restores the full 45-entry
+catalogue, permanent `main` asset URLs, and the production polling URL.
