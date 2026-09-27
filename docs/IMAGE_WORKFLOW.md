@@ -416,3 +416,35 @@ The first melomys draft was rejected because its tail tip crossed the centered
 preserving the habitat and scientific-plate treatment. Both exhibits were
 generated with the built-in image generator, normalized to grayscale JPEG, and
 exported at 1600×800 and 1067×800.
+
+### SR.N4 Channel hovercraft
+
+> Create a historically accurate 2:1 monochrome museum engraving of an SR.N4
+> Mk III cross-Channel hovercraft in service. Preserve its broad rectangular
+> ferry body, blunt bow loading-ramp form, deep flexible skirt, two-level
+> passenger superstructure, bridge windows, and four huge propellers mounted
+> high on pylons. Keep the complete craft, every propeller blade, pylon, skirt
+> edge, bow, stern, and immediate spray strictly inside the middle 55% of the
+> canvas, with at least 12% background breathing room inside the centered 4:3
+> safe zone. Outer wings contain only water, sky, and distant coast. No people,
+> readable vessel name, operator branding, text, border, watermark, colour,
+> aircraft wings, enclosed jet engines, conventional hull, or extra craft.
+
+### Caribbean monk seal
+
+> Create a scientifically grounded 2:1 natural-history engraving of one living
+> Caribbean monk seal (`Neomonachus tropicalis`) on a sandy Caribbean cay.
+> Preserve its robust true-seal body, rounded head, short broad muzzle, large
+> eyes, absent external ear flaps, short foreflippers, tapering hind flippers,
+> dark dorsal coat, and paler underside. Keep the complete animal—from nose and
+> whiskers through every flipper tip—strictly inside the middle 50% of the
+> canvas with at least 15% breathing room inside the centered 4:3 safe zone.
+> Outer wings contain only sand, low vegetation, water, and sky. No sea-lion
+> posture, tusks, spots, people, boats, other animals, hunting, death imagery,
+> text, labels, border, watermark, or colour.
+
+The initial hovercraft and seal generations were rejected because their
+extremities crossed or approached the centered crop. The approved correction
+passes scaled both subjects down while preserving their identifying anatomy
+and machinery. Both exhibits were generated with the built-in image generator,
+normalized to grayscale JPEG, and exported at 1600×800 and 1067×800.
