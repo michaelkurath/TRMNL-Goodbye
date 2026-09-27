@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "srn4-hovercraft",
-      "exhibit": "044",
-      "name": "THE SR.N4 CHANNEL HOVERCRAFT",
-      "lifespan": "1968–2000",
-      "end_year": "2000",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Retired",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-srn4-monk-seal/assets/exhibits/responsive-v2/srn4-hovercraft-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-srn4-monk-seal/assets/exhibits/responsive-v2/srn4-hovercraft-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-srn4-monk-seal/assets/exhibits/responsive-v2/srn4-hovercraft-master-2x1.jpg",
-      "image_alt": "Monochrome museum engraving of an SR.N4 Mk III cross-Channel hovercraft at speed",
-      "epitaph": "The ferry that flew above the Channel lost its race to tunnels and faster ships.",
-      "why": "Ageing craft and high maintenance costs ended regular cross-Channel car-hovercraft service.",
-      "afterlife": "Princess Anne survives at the Hovercraft Museum as the sole surviving Dover–Calais SR.N4.",
-      "source_name": "James Hovercraft",
-      "source_url": "https://www.jameshovercraft.co.uk/srn4-last-days",
-      "note": "The final Hoverspeed services ran over the weekend of 1 October 2000; the Hovercraft Museum preserves Princess Anne."
+      "id": "caribbean-monk-seal",
+      "exhibit": "045",
+      "name": "THE CARIBBEAN MONK SEAL",
+      "lifespan": "Ancient–1952*",
+      "end_year": "1952*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-srn4-monk-seal/assets/exhibits/responsive-v2/caribbean-monk-seal-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-srn4-monk-seal/assets/exhibits/responsive-v2/caribbean-monk-seal-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-srn4-monk-seal/assets/exhibits/responsive-v2/caribbean-monk-seal-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a Caribbean monk seal resting on a sandy cay",
+      "epitaph": "The Caribbean's only native seal vanished from waters that once held it by the thousands.",
+      "why": "Centuries of intensive hunting for oil and food drove the species toward extinction.",
+      "afterlife": "Museum specimens, historical accounts, and DNA studies preserve the lost seal's place among monk seals.",
+      "source_name": "NOAA Fisheries",
+      "source_url": "https://www.fisheries.noaa.gov/national/endangered-species-conservation/delisting-species-under-endangered-species-act",
+      "note": "1952 is the last confirmed sighting; NOAA declared the species extinct and removed it from the U.S. list in 2008."
     }
   ]
 }
