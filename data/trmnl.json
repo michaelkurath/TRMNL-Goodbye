@@ -900,6 +900,46 @@
       "source_name": "NOAA Fisheries",
       "source_url": "https://www.fisheries.noaa.gov/national/endangered-species-conservation/delisting-species-under-endangered-species-act",
       "note": "1952 is the last confirmed sighting; NOAA declared the species extinct and removed it from the U.S. list in 2008."
+    },
+    {
+      "id": "laserdisc-players",
+      "exhibit": "046",
+      "name": "LASERDISC PLAYERS",
+      "lifespan": "1980–2009*",
+      "end_year": "2009*",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/laserdisc-players-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/laserdisc-players-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/laserdisc-players-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a LaserDisc player, two large optical discs, and a CRT television",
+      "epitaph": "The future once arrived on a silver platter the size of a record.",
+      "why": "DVD and Blu-ray dominated home video while scarce parts made the last players difficult to manufacture.",
+      "afterlife": "Collectors, film archives, arcade hardware, and preserved discs keep the analogue optical format spinning.",
+      "source_name": "Pioneer",
+      "source_url": "https://global.pioneer/en/corp/news/press/index/1380/",
+      "note": "Pioneer announced on 14 January 2009 that it would end LaserDisc-player production after about 3,000 final units."
+    },
+    {
+      "id": "google-hangouts",
+      "exhibit": "047",
+      "name": "GOOGLE HANGOUTS",
+      "lifespan": "2013–2022",
+      "end_year": "2022",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Replaced",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-hangouts-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-hangouts-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-hangouts-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a laptop, phone, and webcam in a group video call",
+      "epitaph": "The chat window that gathered messages and video calls was redirected into another room.",
+      "why": "Google migrated remaining users and most conversations to Google Chat as it consolidated communication products.",
+      "afterlife": "Archived conversations, screenshots, and Google Takeout exports preserve its decade of chats and calls.",
+      "source_name": "Google",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/hangouts-to-chat/",
+      "note": "Google introduced the cross-platform Hangouts service in 2013 and made it unavailable in November 2022."
     }
   ]
 }
