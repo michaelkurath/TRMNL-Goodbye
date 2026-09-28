@@ -448,3 +448,40 @@ extremities crossed or approached the centered crop. The approved correction
 passes scaled both subjects down while preserving their identifying anatomy
 and machinery. Both exhibits were generated with the built-in image generator,
 normalized to grayscale JPEG, and exported at 1600×800 and 1067×800.
+
+### LaserDisc players
+
+> Recompose a historically grounded LaserDisc exhibit as a small, tightly
+> centred still life on a 2:1 canvas. Show a complete late-1980s home-video
+> player with its disc tray open, one unmistakably large 30-centimetre optical
+> disc on the tray, a second full-size disc leaning against a plain square
+> sleeve, a compact period CRT television, and a simple remote. The discs must
+> read as much larger than CDs. Keep the complete tray, player, both discs,
+> sleeve, remote, and television within the middle 60% of the canvas with at
+> least 12% breathing room; outer wings contain only shelf, wall, and shadow.
+> Crisp high-contrast monochrome archival engraving with restrained halftone
+> shading. No people, brand marks, logos, readable labels, modern flat screen,
+> Blu-ray cases, caption, frame, watermark, colour, or cropped objects.
+
+The first composition was rejected because its open tray crossed the centred
+4:3 crop. The approved correction reduced and regrouped the full still life.
+
+### Google Hangouts
+
+> Create a historically grounded monochrome museum engraving evoking a
+> mid-2010s group video call without using protected branding. Show a complete
+> 2014-era laptop with a generic three-person call grid, a complete
+> single-camera smartphone, and a compact webcam. Use abstract silhouettes and
+> blank speech bubbles only. Keep every device and cable entirely inside the
+> centred 4:3 safe zone with clear breathing room; outer wings contain only a
+> quiet period room and desk. Crisp high-contrast black-and-white archival
+> linework with restrained halftone shading. No identifiable people, Google or
+> Hangouts logos, app icons, readable interface text, modern multi-camera phone,
+> caption, frame, watermark, colour, or cropped hardware.
+
+The first two wide compositions were rejected because peripherals crossed the
+centred crop. The final correction removed the nonessential headset and kept
+the laptop, phone, and webcam intact. Its 3:2 source was fitted to 1200×800 and
+extended with neutral background wings to 1600×800 before the standard centred
+4:3 derivative was exported. Both approved exhibits were generated with the
+built-in image generator and normalized to monochrome JPEG.
