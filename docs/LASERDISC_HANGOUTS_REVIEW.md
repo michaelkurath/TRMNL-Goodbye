@@ -42,5 +42,17 @@ logos or text.
 
 ## CI and render evidence
 
-Render-run and artifact identifiers will be recorded here after the targeted
-OG, TRMNL X landscape, and TRMNL X portrait reviews pass.
+- The LaserDisc fixture passed validation, Saved State tests, `trmnlp lint`,
+  and all 12 OG, TRMNL X landscape, and X portrait renders in
+  [run 36387036299](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36387036299),
+  artifact `goodbye-render-previews` 10954803182. The complete tray, player,
+  discs, sleeve, remote, and CRT remain intact from full through quadrant.
+- The Google Hangouts fixture passed the same gate and all 12 layouts in
+  [run 36387406015](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36387406015),
+  artifact `goodbye-render-previews` 10954947924. The laptop, phone, webcam,
+  cable, title, and intended compact copy remain clear across both device
+  generations and orientations.
+
+The targeted commits temporarily used branch polling and image URLs so Actions
+could retrieve unmerged assets. The final commit restores the full 47-entry
+catalogue, permanent `main` asset URLs, and the production polling URL.
