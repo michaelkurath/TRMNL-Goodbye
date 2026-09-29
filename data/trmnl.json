@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "segway-pt",
-      "exhibit": "048",
-      "name": "THE SEGWAY PT",
-      "lifespan": "2001–2020",
-      "end_year": "2020",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Discontinued",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-segway-pipistrelle/assets/exhibits/responsive-v2/segway-pt-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-segway-pipistrelle/assets/exhibits/responsive-v2/segway-pt-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-segway-pipistrelle/assets/exhibits/responsive-v2/segway-pt-master-2x1.jpg",
-      "image_alt": "Monochrome museum engraving of an original Segway PT on an empty urban promenade",
-      "epitaph": "The machine promised to reinvent walking, then rolled into tours, patrols, and punchlines.",
-      "why": "The original self-balancing transporter remained a niche product as lighter electric mobility took over.",
-      "afterlife": "Surviving machines, city tours, collectors, and later Segway-branded scooters preserve its unlikely silhouette.",
-      "source_name": "Associated Press",
-      "source_url": "https://abcnews.com/Business/segway-ending-production-iconic-personal-vehicle/story?id=71425788",
-      "note": "Segway ended production of the original Personal Transporter on 15 July 2020; the wider Segway brand continued."
+      "id": "christmas-island-pipistrelle",
+      "exhibit": "049",
+      "name": "THE CHRISTMAS ISLAND PIPISTRELLE",
+      "lifespan": "Ancient–2009*",
+      "end_year": "2009*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-segway-pipistrelle/assets/exhibits/responsive-v2/christmas-island-pipistrelle-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-segway-pipistrelle/assets/exhibits/responsive-v2/christmas-island-pipistrelle-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-segway-pipistrelle/assets/exhibits/responsive-v2/christmas-island-pipistrelle-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a Christmas Island pipistrelle in flight above rainforest",
+      "epitaph": "The island's smallest bat faded until one final call crossed an unattended detector.",
+      "why": "A rapid decline linked to introduced predators and ecological disruption ended before rescue could succeed.",
+      "afterlife": "Museum specimens, acoustic records, and the failed rescue effort preserve an urgent conservation lesson.",
+      "source_name": "Australia State of the Environment",
+      "source_url": "https://soe.dcceew.gov.au/biodiversity/environment/flora-and-fauna",
+      "note": "Its last echolocation call was detected in August 2009; Australia formally listed the species as extinct in 2021."
     }
   ]
 }
