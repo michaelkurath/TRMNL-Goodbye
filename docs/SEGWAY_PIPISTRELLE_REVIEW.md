@@ -1,0 +1,42 @@
+# Segway PT and Christmas Island pipistrelle review
+
+## Promotion decisions
+
+- **Segway PT (048)** — promoted at 23/25. Associated Press reporting records
+  15 July 2020 as the end of production for the original Personal Transporter;
+  the wider Segway brand continued with other mobility products.
+- **Christmas Island pipistrelle (049)** — promoted at 22/25. Australia's
+  State of the Environment records the final echolocation call in August 2009
+  and the formal extinction listing in 2021. The government's consultation
+  record narrows the final nightly detection to 26 August 2009.
+
+The promotions bring Everyday life, Internet, Nature, and Transport to ten
+live exhibits each, with Technology at nine.
+
+## Sources checked
+
+- Segway PT production endpoint: <https://abcnews.com/Business/segway-ending-production-iconic-personal-vehicle/story?id=71425788>
+- Christmas Island pipistrelle status: <https://soe.dcceew.gov.au/biodiversity/environment/flora-and-fauna>
+- Final detection consultation record: <https://www.dcceew.gov.au/sites/default/files/env/consultations/27bdb669-bdd2-4778-b679-652da87c20c1/files/consultation-document-pipistrellus-murrayi.docx>
+
+## New candidates
+
+- **Printed UK Yellow Pages — 23/25:** recognition 5, visual strength 5,
+  story strength 4, endpoint clarity 5, catalogue fit 4. Yell records the
+  directory's 1966 launch and distribution of the final printed issue in 2019.
+- **Microsoft Kinect — 22/25:** recognition 5, visual strength 5, story
+  strength 4, endpoint clarity 5, catalogue fit 3. Kinect creator Alex Kipman
+  and Xbox devices marketing general manager Matthew Lapsen confirmed in 2017
+  that manufacturing had ended after approximately 35 million units.
+
+## Visual review
+
+The first-pass Segway and pipistrelle masters both passed direct 2:1 and centred
+4:3 derivative inspection. The complete Segway silhouette, wheels, platform,
+shaft, and handlebar remain intact; the bat's full wings, ears, feet, and tail
+area remain inside the safe zone without relying on an offset crop.
+
+## CI and render evidence
+
+Render-run and artifact identifiers will be recorded here after the targeted
+OG, TRMNL X landscape, and TRMNL X portrait reviews pass.

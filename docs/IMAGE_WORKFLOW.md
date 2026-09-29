@@ -485,3 +485,37 @@ the laptop, phone, and webcam intact. Its 3:2 source was fitted to 1200×800 and
 extended with neutral background wings to 1600×800 before the standard centred
 4:3 derivative was exported. Both approved exhibits were generated with the
 built-in image generator and normalized to monochrome JPEG.
+
+### Segway PT
+
+> Create a historically accurate 2:1 monochrome museum engraving of one
+> original Segway PT personal transporter in the classic early-2000s to 2010s
+> i2 form. Show its broad upright handlebars, central steering shaft, low
+> standing platform, paired side-by-side wheels, full tyres, and fenders in a
+> three-quarter front view on a restrained empty urban promenade. Keep the
+> complete handlebars, shaft, platform, both wheels, tyres, fenders, and cast
+> shadow strictly inside the middle 50% of the canvas with at least 15%
+> breathing room inside the centred 4:3 safe zone; outer wings contain only
+> paving and distant architecture. Crisp black-and-white archival copperplate
+> linework with restrained halftone shading. One machine only; no rider,
+> Segway wordmark, logos, readable text, modern kick scooter, hoverboard,
+> bicycle seat, third wheel, caption, frame, watermark, colour, or cropped parts.
+
+### Christmas Island pipistrelle
+
+> Create a scientifically grounded 2:1 monochrome natural-history engraving
+> of one living Christmas Island pipistrelle (`Pipistrellus murrayi`) in
+> natural banking flight at a restrained dusk rainforest edge. Preserve its
+> compact dark-furred body, short muzzle without a nose leaf, small triangular
+> ears, broad membranous wings, visible wing fingers, tiny feet, and tail
+> enclosed in the interfemoral membrane. Keep both wing tips, ears, feet, and
+> tail membrane strictly inside the middle 50% of the canvas with at least 15%
+> breathing room inside the centred 4:3 safe zone; outer wings contain only sky
+> and habitat. Crisp black-and-white scientific-plate linework with restrained
+> halftone shading. One bat only; no vampire fangs, fruit-bat head, exaggerated
+> claws, dead animal, skeleton, detector, people, text, labels, caption, frame,
+> watermark, colour, or cropped anatomy.
+
+Both first-pass compositions passed direct master and centred-derivative crop
+inspection. They were generated with the built-in image generator, normalized
+to grayscale JPEG, and exported at 1600×800 and 1067×800.
