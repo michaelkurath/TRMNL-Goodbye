@@ -36,6 +36,9 @@
   {% if name_length > 20 %}
     {% assign quadrant_name_size = "title--base lg:title--large" %}
   {% endif %}
+  {% if name_length > 28 %}
+    {% assign quadrant_name_size = "title--small lg:title--base" %}
+  {% endif %}
 {% endif %}
 
 {% capture goodbye_mark %}
