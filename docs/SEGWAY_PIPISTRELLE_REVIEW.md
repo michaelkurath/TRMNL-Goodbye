@@ -43,5 +43,18 @@ longer than 28 characters; the corrected fixture must pass before merge.
 
 ## CI and render evidence
 
-Render-run and artifact identifiers will be recorded here after the targeted
-OG, TRMNL X landscape, and TRMNL X portrait reviews pass.
+- The Segway fixture passed validation, Saved State tests, `trmnlp lint`, and
+  all 12 OG, TRMNL X landscape, and X portrait renders in
+  [run 36531019709](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36531019709),
+  artifact `goodbye-render-previews` 11016194111. Its handlebar, shaft,
+  platform, both wheels, and title remain intact from full through quadrant.
+- The initial pipistrelle workflow passed mechanically in run 36531303983, but
+  artifact review rejected its OG quadrant because the long name collided with
+  the epitaph. After the responsive title rule was corrected, all 12 layouts
+  passed visual review in
+  [run 36531710655](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36531710655),
+  artifact `goodbye-render-previews` 11016850528.
+
+The targeted commits temporarily used branch polling and image URLs so Actions
+could retrieve unmerged assets. The final commit restores the full 49-entry
+catalogue, permanent `main` asset URLs, and the production polling URL.
