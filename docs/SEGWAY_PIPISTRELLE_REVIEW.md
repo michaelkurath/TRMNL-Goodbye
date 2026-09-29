@@ -36,6 +36,11 @@ The first-pass Segway and pipistrelle masters both passed direct 2:1 and centred
 shaft, and handlebar remain intact; the bat's full wings, ears, feet, and tail
 area remain inside the safe zone without relying on an offset crop.
 
+The first pipistrelle device render exposed an OG quadrant collision between
+its 34-character name and the epitaph. The shared responsive name-size rule now
+uses the framework's small title below `lg` and base title at `lg` for names
+longer than 28 characters; the corrected fixture must pass before merge.
+
 ## CI and render evidence
 
 Render-run and artifact identifiers will be recorded here after the targeted
