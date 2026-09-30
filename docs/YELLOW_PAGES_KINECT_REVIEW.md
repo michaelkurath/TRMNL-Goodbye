@@ -46,7 +46,18 @@ contains branding or a caption.
 
 ## CI and render evidence
 
-Targeted branch-feed renders and final production-catalogue CI are recorded
-here after visual approval. Temporary fixture commits use branch polling and
-image URLs so Actions can retrieve unmerged assets; the final commit restores
-the complete production catalogue and permanent `main` URLs.
+- The Yellow Pages fixture passed validation, Saved State tests, `trmnlp lint`,
+  and all 12 OG, TRMNL X landscape, and X portrait renders in
+  [run 36678916571](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36678916571),
+  artifact `goodbye-render-previews` 11081166207. The title wraps cleanly and
+  the directory and telephone remain legible in every view.
+- Kinect's first mechanical pass in run 36679432167 was rejected during visual
+  review because the rationale was ellipsized in X portrait half-horizontal.
+  The rationale was shortened without changing its meaning. The corrected
+  fixture passed all validation and all 12 rendered views in
+  [run 36679774076](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36679774076),
+  artifact `goodbye-render-previews` 11081780965.
+
+The targeted commits temporarily used branch polling and image URLs so Actions
+could retrieve unmerged assets. The final commit restores the complete 51-entry
+catalogue, permanent `main` asset URLs, and the production polling URL.
