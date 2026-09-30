@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "printed-uk-yellow-pages",
-      "exhibit": "050",
-      "name": "THE PRINTED UK YELLOW PAGES",
-      "lifespan": "1966–2019",
-      "end_year": "2019",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Replaced",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-yellow-pages-kinect/assets/exhibits/responsive-v2/printed-uk-yellow-pages-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-yellow-pages-kinect/assets/exhibits/responsive-v2/printed-uk-yellow-pages-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-yellow-pages-kinect/assets/exhibits/responsive-v2/printed-uk-yellow-pages-master-2x1.jpg",
-      "image_alt": "Monochrome museum still life of an open telephone directory beside a corded landline",
-      "epitaph": "The book that knew every local business was finally outnumbered by search boxes.",
-      "why": "Online search and Yell's digital marketplace replaced the need to print and deliver regional directories.",
-      "afterlife": "Final editions, phone-box memories, recycled paper, and Yell's online service preserve the yellow book.",
-      "source_name": "Yell",
-      "source_url": "https://business.yell.com/yellow-pages/",
-      "note": "Yell says the UK directory launched in 1966 and its final printed issue was distributed in 2019."
+      "id": "microsoft-kinect",
+      "exhibit": "051",
+      "name": "MICROSOFT KINECT",
+      "lifespan": "2010–2017",
+      "end_year": "2017",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-yellow-pages-kinect/assets/exhibits/responsive-v2/microsoft-kinect-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-yellow-pages-kinect/assets/exhibits/responsive-v2/microsoft-kinect-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-yellow-pages-kinect/assets/exhibits/responsive-v2/microsoft-kinect-master-2x1.jpg",
+      "image_alt": "Monochrome museum still life of a three-aperture motion sensor before a television",
+      "epitaph": "It asked players to become the controller, then watched the living room move on.",
+      "why": "Limited developer support and declining console integration left the motion sensor without a lasting role.",
+      "afterlife": "Researchers, artists, hackers, rehabilitation projects, and later depth cameras carried its ideas forward.",
+      "source_name": "Fast Company",
+      "source_url": "https://www.fastcompany.com/90147868/exclusive-microsoft-has-stopped-manufacturing-the-kinect",
+      "note": "Microsoft executives confirmed on 25 October 2017 that manufacturing had ended after about 35 million units."
     }
   ]
 }
