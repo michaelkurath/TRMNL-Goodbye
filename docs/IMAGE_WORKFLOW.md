@@ -519,3 +519,43 @@ built-in image generator and normalized to monochrome JPEG.
 Both first-pass compositions passed direct master and centred-derivative crop
 inspection. They were generated with the built-in image generator, normalized
 to grayscale JPEG, and exported at 1600×800 and 1067×800.
+
+### Printed UK Yellow Pages
+
+> Create a finished exhibit illustration for a monochrome e-ink museum
+> catalogue, landscape 2:1 composition. Subject: the final era of the printed
+> UK Yellow Pages, a very thick well-used business telephone directory resting
+> on a modest late-1990s hallway table beside a classic corded landline
+> handset. The directory is open enough to reveal dense abstract column
+> texture and thumb-tab edges, but absolutely no readable words, no logos, no
+> walking-fingers mark, no trademarks. Documentary still-life, quiet elegiac
+> mood, tactile paper and plastic. Strict black, white, and neutral gray only,
+> high contrast, coarse halftone/stipple shading suitable for an e-ink screen,
+> no color tint. Keep the complete directory and complete telephone entirely
+> within the central 50% of the canvas with generous calm background extending
+> on both sides; no important detail near any edge, because the same master
+> will be center-cropped to 4:3. No border, no caption, no typography, no
+> watermark.
+
+### Microsoft Kinect
+
+> Create a finished exhibit illustration for a monochrome e-ink museum
+> catalogue, landscape 2:1 composition. Subject: Microsoft Kinect's 2010s
+> motion-control era, centered on a complete black horizontal depth-sensor bar
+> with its characteristic three circular camera/sensor apertures, sitting on
+> its small pedestal in front of a simple early-2010s living-room television
+> and game console. Suggest invisible motion sensing with a restrained fan of
+> tiny abstract infrared dots in the air; no people. No logos, no Xbox symbol,
+> no readable text, no trademarks. Documentary product still-life, nostalgic
+> but unsentimental. Strict black, white, and neutral gray only, high contrast,
+> coarse halftone/stipple shading suitable for an e-ink screen. Keep the
+> complete sensor bar, pedestal, console, and essential scene entirely within
+> the central 50% of the canvas with generous background on both sides; no
+> important detail near any edge, because the same master will be
+> center-cropped to 4:3. No border, no caption, no typography, no watermark.
+
+Both first-pass compositions passed direct master and centred-derivative crop
+inspection. They were generated with the built-in image generator, normalized
+to grayscale JPEG, and exported at 1600×800 and 1067×800. The standard files
+are strict centred crops of the corresponding masters; no subject-specific
+offset was required.
