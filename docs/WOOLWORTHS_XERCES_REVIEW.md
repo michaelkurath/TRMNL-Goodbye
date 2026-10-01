@@ -38,12 +38,26 @@ beyond the centred 4:3 safe zone. The approved edit scaled the complete façade
 down and added neutral brick wings. Both outer jambs, windows, entrance,
 fascia, shutters, and threshold remain intact in the centred derivative.
 
+The first OG quadrant render was also rejected because the long display title
+collided with the epitaph. The catalogue display title was tightened from
+`WOOLWORTHS UK STORES` to `WOOLWORTHS UK`; the exhibit subject, ID, source,
+copy, and artwork are unchanged.
+
 The first-pass Xerces master passed direct 2:1 and centred 4:3 inspection. All
 four wing tips, antennae, legs, body, and deerweed sprig remain complete.
 
 ## CI and render evidence
 
-Targeted branch-feed renders and final production-catalogue CI are recorded
-here after visual approval. Temporary fixture commits use branch polling and
-image URLs so Actions can retrieve unmerged assets; the final commit restores
-the complete production catalogue and permanent `main` URLs.
+- **Woolworths UK:** approved in all 12 OG, TRMNL X landscape, and TRMNL X
+  portrait layouts in Actions run
+  [36828424888](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36828424888),
+  artifact `11146650565`.
+- **Xerces blue butterfly:** approved in all 12 corresponding layouts in
+  Actions run
+  [36828694557](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36828694557),
+  artifact `11146885150`.
+
+Temporary fixture commits used branch polling and image URLs so Actions could
+retrieve unmerged assets. The final commit restores the complete 53-entry
+production catalogue and permanent `main` URLs. Its CI run is recorded after
+the final gate passes.
