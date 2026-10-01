@@ -60,4 +60,7 @@ four wing tips, antennae, legs, body, and deerweed sprig remain complete.
 Temporary fixture commits used branch polling and image URLs so Actions could
 retrieve unmerged assets. The final commit restores the complete 53-entry
 production catalogue and permanent `main` URLs. Its CI run is recorded after
-the final gate passes.
+the final gate passes: Actions run
+[36829001742](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36829001742)
+completed successfully with all validation, Saved State, `trmnlp` lint, and
+render steps green.
