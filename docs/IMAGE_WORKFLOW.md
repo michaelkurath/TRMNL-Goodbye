@@ -559,3 +559,60 @@ inspection. They were generated with the built-in image generator, normalized
 to grayscale JPEG, and exported at 1600×800 and 1067×800. The standard files
 are strict centred crops of the corresponding masters; no subject-specific
 offset was required.
+
+### Woolworths UK stores
+
+> Create a documentary museum illustration of a complete late-2000s British
+> high-street variety-store frontage at closing time, evoking Woolworths UK
+> without copying branding: broad blank fascia, recessed glass entrance, large
+> display windows with abstract toys, household goods, record cases and
+> distinctive pick-and-mix sweet bins visible inside, several checkout
+> counters beyond, security shutters partly lowered, quiet pavement. No
+> people. The mood is elegiac but ordinary, the final trading day of a familiar
+> neighbourhood shop. Strict black, white and neutral gray only, crisp
+> high-contrast archival ink drawing with coarse halftone/stipple shading for
+> e-ink. Keep the entire shopfront, both outer jambs, fascia, doorway and
+> pavement threshold inside the central 50% of the wide canvas with at least
+> 15% breathing room; outer wings contain only neighbouring blank brick
+> façades and pavement so a centered 4:3 crop preserves the complete subject.
+> No Woolworths name, no red color cue, no logos, no readable sale signs, no
+> trademarks, no caption, no border, no watermark.
+
+The initial storefront filled too much of the wide canvas and was rejected.
+The approved edit used this correction:
+
+> Recompose only the supplied monochrome British high-street variety-store
+> illustration for a crop-safe GOODBYE master. Preserve the same storefront
+> design, blank fascia, glass entrance, display windows, toys, household goods,
+> record cases, pick-and-mix sweet bins, checkout counters, partly lowered
+> shutters, documentary engraving style, and empty street. Scale the complete
+> shopfront down by about 35% and center it. The entire fascia, both outer stone
+> jambs, both complete display windows, doorway, shutter edges, and pavement
+> threshold must fit inside the middle 48% of the 2:1 canvas with at least 15%
+> breathing room on every side. Extend both outer wings with quiet blank
+> neighbouring brick façades and pavement only. Do not crop the storefront.
+> Keep strict black, white and neutral gray. No people, Woolworths name, logos,
+> readable signs, trademarks, caption, border, watermark or color.
+
+### Xerces blue butterfly
+
+> Create a scientifically grounded natural-history plate of one living adult
+> male Xerces blue butterfly (`Glaucopsyche xerces`), seen slightly from above
+> with all four wings fully open while perched on a small sprig of deerweed in
+> San Francisco coastal dune habitat. Preserve the species' delicate lycaenid
+> proportions, velvety blue dorsal wing fields translated into light
+> silvery-gray stippling, narrow dark outer margins, subtle pale fringe,
+> slender body, clubbed antennae and six fine legs. Low sand, sparse native
+> dune plants and a faint fog-softened horizon only. Strict black, white and
+> neutral gray, crisp nineteenth-century scientific engraving with controlled
+> crosshatching and stippling, high contrast for e-ink. Keep the complete
+> butterfly, both antenna tips, all wing tips, legs, plant sprig and shadow
+> inside the central 45% of the wide canvas with at least 18% breathing room;
+> outer wings contain only empty sand and faint habitat so a centered 4:3 crop
+> preserves all anatomy. One butterfly only; no modern city skyline, no
+> specimen pins, no dead animal, no labels, no text, no frame, no watermark,
+> no color.
+
+The corrected storefront and first-pass butterfly both passed direct 2:1 and
+centred 4:3 inspection. The approved files were normalized to grayscale JPEG
+and exported at 1600×800 and 1067×800 without an offset crop.

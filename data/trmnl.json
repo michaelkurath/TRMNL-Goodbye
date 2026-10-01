@@ -1020,6 +1020,46 @@
       "source_name": "Fast Company",
       "source_url": "https://www.fastcompany.com/90147868/exclusive-microsoft-has-stopped-manufacturing-the-kinect",
       "note": "Microsoft executives confirmed on 25 October 2017 that manufacturing had ended after about 35 million units."
+    },
+    {
+      "id": "woolworths-uk-stores",
+      "exhibit": "052",
+      "name": "WOOLWORTHS UK STORES",
+      "lifespan": "1909–2009",
+      "end_year": "2009",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Closed",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/woolworths-uk-stores-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/woolworths-uk-stores-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/woolworths-uk-stores-master-2x1.jpg",
+      "image_alt": "Monochrome museum engraving of a closing British high-street variety store",
+      "epitaph": "The red-fronted high-street variety store closed its last tills just short of a century.",
+      "why": "Administration during the financial crisis ended the chain after falling sales and failed rescue efforts.",
+      "afterlife": "Memories, shop signs, pick-and-mix counters, archives, and an unrelated online brand preserve its name.",
+      "source_name": "RTÉ News",
+      "source_url": "https://www.rte.ie/news/2009/0103/112254-woolworths/",
+      "note": "The remaining 200 of Woolworths' 807 UK stores were scheduled to close on 6 January 2009."
+    },
+    {
+      "id": "xerces-blue-butterfly",
+      "exhibit": "053",
+      "name": "THE XERCES BLUE BUTTERFLY",
+      "lifespan": "Ancient–1943*",
+      "end_year": "1943*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xerces-blue-butterfly-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xerces-blue-butterfly-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xerces-blue-butterfly-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a Xerces blue butterfly on deerweed",
+      "epitaph": "San Francisco's iridescent blue vanished as its coastal dunes became a city.",
+      "why": "Urban development destroyed and fragmented the specialised dune habitat on which the butterfly depended.",
+      "afterlife": "Museum specimens, genomic research, habitat restoration, and silvery blue stand-ins carry its warning forward.",
+      "source_name": "California Academy of Sciences",
+      "source_url": "https://www.calacademy.org/press/releases/california-academy-of-sciences-and-presidio-trust-repopulate-sand-dunes-with-relative",
+      "note": "The Academy describes the Xerces blue as extinct and records its disappearance from San Francisco in 1943."
     }
   ]
 }
