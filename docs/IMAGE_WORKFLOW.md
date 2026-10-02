@@ -616,3 +616,89 @@ The approved edit used this correction:
 The corrected storefront and first-pass butterfly both passed direct 2:1 and
 centred 4:3 inspection. The approved files were normalized to grayscale JPEG
 and exported at 1600×800 and 1067×800 without an offset crop.
+
+### Boeing 747 production
+
+> Use case: historical-scene. Asset type: responsive GOODBYE museum exhibit
+> image, master intended for both 2:1 and centered 4:3 crops. Create a
+> documentary museum illustration of the final Boeing 747 production era: one
+> complete unbranded 747-8 freighter standing on the Everett factory apron
+> after delivery preparations, viewed from a slightly low front three-quarter
+> angle so the unmistakable upper-deck hump, four engines, swept wings, tall
+> tail and landing gear are immediately legible. Quiet aircraft factory apron
+> with a restrained hangar facade and distant service equipment; no people or
+> ceremony. Crisp archival technical engraving with controlled crosshatching,
+> coarse halftone and stippling, optimized for e-ink. 2:1 landscape. Keep the
+> entire aircraft from nose to tail, both wing tips, all four engines, landing
+> gear and shadow inside the central 48% of the canvas with at least 15%
+> breathing room. Outer wings contain only empty apron and simple hangar
+> architecture so a centered 4:3 crop preserves the complete aircraft.
+> Overcast documentary light, dignified final-production mood. Strict black,
+> white and neutral gray only. Accurate 747-8 freighter proportions; one
+> aircraft only; complete silhouette; no crop. Avoid Boeing wordmark, airline
+> livery, logos, readable registration, flags, people, celebration banners,
+> caption, border, watermark, color.
+
+The first pass placed the wing tips outside the 4:3 safe area and was rejected.
+The approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: corrected GOODBYE 2:1 master for
+> centered 4:3 derivative. Recompose only the supplied monochrome
+> final-production 747 factory-apron illustration. Preserve the same aircraft
+> type, accurate 747-8 freighter hump and proportions, four engines, landing
+> gear, overcast apron, hangar setting, grayscale technical-engraving treatment,
+> and empty documentary mood. Scale the complete aircraft down by about 38%
+> and center it. The nose, tail, top of vertical stabilizer, both complete wing
+> tips, all four engines, all landing gear and the full ground shadow must fit
+> inside the middle 48% of the wide 2:1 canvas, with at least 15% breathing room
+> on every side. Extend the outer canvas with empty apron and simple hangar
+> facade only. Do not crop any part of the aircraft. Change only scale and
+> surrounding canvas composition; one aircraft; strict black, white and neutral
+> gray. Avoid logos, airline livery, readable registration, flags, people,
+> banners, text, caption, border, watermark, color.
+
+### Orkut
+
+> Use case: historical-scene. Asset type: responsive GOODBYE museum exhibit
+> image, master intended for both 2:1 and centered 4:3 crops. Create a
+> documentary museum still life evoking the Orkut social network at its 2014
+> farewell without copying its branding: a complete mid-2000s desktop computer
+> on a modest home desk, monitor showing a generic early social-network profile
+> page with a large portrait placeholder, a grid of small friend portraits,
+> rounded community tiles, scrapbook-note cards, testimonial quotation marks
+> and simple connection lines. Quiet domestic computer corner with wired
+> keyboard, optical mouse, small webcam, a few printed snapshot photos and an
+> old mobile phone; blank wall and desk extend outward. Crisp archival ink
+> engraving with controlled crosshatching, coarse halftone and stippling,
+> optimized for e-ink. 2:1 landscape. Keep the complete monitor, computer,
+> keyboard, mouse, webcam, photos and phone inside the central 46% of the canvas
+> with at least 16% breathing room. Outer canvas contains only blank wall and
+> desk so a centered 4:3 crop preserves the entire exhibit still life. Soft
+> screen glow translated into grayscale, intimate and nostalgic, a social room
+> gone quiet. Strict black, white and neutral gray only. Generic interface
+> elements must be visually legible but contain no readable words; complete
+> objects; no crop. Avoid Orkut name or logo, Google logo, exact trademarked UI,
+> readable usernames or messages, real people, color, caption, border,
+> watermark.
+
+The first pass left the phone and photographs outside the centered 4:3 crop and
+was rejected. The approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: corrected GOODBYE 2:1 master for
+> centered 4:3 derivative. Recompose only the supplied monochrome
+> early-social-network computer still life. Preserve the same desktop monitor
+> and tower, generic profile/friends/communities/testimonial interface, webcam,
+> wired keyboard, mouse, printed snapshots, old mobile phone, engraving style,
+> grayscale screen glow and nostalgic mood. Scale the complete still life down
+> by about 35% and center it. The entire monitor and webcam, tower, keyboard,
+> mouse and mousepad, every printed snapshot, mobile phone, cables, and desk-edge
+> shadow must fit inside the middle 47% of the 2:1 canvas with at least 16%
+> breathing room. Extend both outer wings with blank wall and empty desk only.
+> Do not crop any object. Change only scale and surrounding canvas composition;
+> no readable interface text; strict black, white and neutral gray. Avoid Orkut
+> name or logo, Google logo, exact trademarked UI, readable usernames or
+> messages, real people, color, caption, border, watermark.
+
+Both approved edits passed direct 2:1 and centered 4:3 crop inspection. They
+were generated with the built-in image generator, normalized to grayscale
+JPEG, and exported at 1600×800 and 1067×800.
