@@ -32,6 +32,20 @@ The rejected first passes and complete correction prompts are recorded in
 
 ## Automated and layout review
 
-Results are recorded in the pull request after the production data validators,
-Saved State transform tests, plugin lint, and isolated 12-layout render review
-complete.
+Local validation passed for 55 production entries, 26 candidates, the Saved
+State transform tests, grayscale dimensions, and whitespace checks.
+
+- **Boeing 747 Production:** all four layouts inspected and approved on TRMNL
+  OG, X landscape, and X portrait (12 previews); [run
+  36973947176](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36973947176),
+  artifact 11213005651.
+- **Orkut:** all four layouts inspected and approved on TRMNL OG, X landscape,
+  and X portrait (12 previews); [run
+  36974247527](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/36974247527),
+  artifact 11213530056.
+
+Both targeted runs also passed the data validators, candidate validator, Saved
+State tests, and `trmnlp lint`. Temporary fixture commits used branch polling
+and image URLs so Actions could render each new exhibit deterministically. The
+final commit restores the complete 55-entry catalogue, permanent `main` asset
+URLs, and the production polling URL.
