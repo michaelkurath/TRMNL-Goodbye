@@ -33,5 +33,22 @@ corrections are recorded in `docs/IMAGE_WORKFLOW.md`.
 
 ## Automated and layout review
 
-Results are recorded after the data validators, Saved State transform tests,
-plugin lint, and isolated 12-layout render review complete.
+Local validation passed for the 57-entry catalogue and 26-candidate queue:
+
+- `node scripts/validate-data.js`
+- `node scripts/validate-candidates.js`
+- `node scripts/test-transform.js`
+- `git diff --check`
+
+Each promotion was then isolated on the pull-request branch and rendered by the
+repository workflow in all 12 OG, TRMNL X, and TRMNL X portrait layouts. The
+temporary fixture commits changed only the catalogue and branch preview
+settings; the final branch restores the complete 57-entry catalogue and normal
+production image URLs. Each targeted workflow repeated the three data and Saved
+State checks above and passed `trmnlp lint` before rendering.
+
+- MiniDisc Players: [TRMNL run 37102689360](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37102689360), artifact 11265928856 — all checks passed; no clipping, collisions, or unsafe crops.
+- Falkland Islands Wolf: [TRMNL run 37102951599](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37102951599), artifact 11266108836 — all checks passed; no clipping, collisions, or unsafe crops.
+
+The final production-catalogue commit receives a separate TRMNL workflow run
+before the pull request is made ready or merged.
