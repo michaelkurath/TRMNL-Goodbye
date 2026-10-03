@@ -702,3 +702,89 @@ was rejected. The approved edit used this correction:
 Both approved edits passed direct 2:1 and centered 4:3 crop inspection. They
 were generated with the built-in image generator, normalized to grayscale
 JPEG, and exported at 1600×800 and 1067×800.
+
+### MiniDisc players
+
+> Use case: historical-scene. Asset type: responsive GOODBYE museum exhibit
+> image, master intended for both 2:1 and centered 4:3 crops. Create a
+> documentary museum still life of the final MiniDisc-player era: one complete
+> early-2000s portable MiniDisc recorder/player with its lid open, one
+> translucent square MiniDisc cartridge beside it, small wired earphones, and
+> a compact tabletop MiniDisc deck behind it. Quiet recording desk with a blank
+> wall and a few abstract audio-wave reflections; no people. Crisp archival
+> technical engraving with controlled crosshatching, coarse halftone and
+> stippling, optimized for e-ink. 2:1 landscape. Keep the complete portable
+> player, open lid, disc cartridge, earphones including cable, and tabletop deck
+> inside the central 46% of the canvas with at least 17% breathing room on every
+> side. Outer wings contain only empty desk and blank wall so a centered 4:3
+> crop preserves every object. Soft studio light translated into grayscale;
+> tactile, precise, quietly obsolete. Strict black, white and neutral gray only.
+> Recognizable MiniDisc proportions and square disc cartridge; complete
+> objects; no crop; one portable unit and one deck only. Avoid Sony name,
+> MiniDisc wordmark, logos, readable model numbers, readable labels, album art,
+> people, color, caption, border, watermark.
+
+The first pass spread the deck and cable beyond the centered crop and was
+rejected. The approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: corrected GOODBYE 2:1 master for
+> centered 4:3 derivative. Recompose only the supplied monochrome MiniDisc
+> still life. Preserve the same open portable recorder/player, translucent
+> square disc cartridge, wired earphones, tabletop deck, blank-wall recording
+> desk, technical-engraving treatment, grayscale lighting, and quiet obsolete
+> mood. Scale the complete still life down by about 40% and center it. The full
+> tabletop deck, portable player and open lid, entire square cartridge, both
+> earphones, every cable loop and all object shadows must fit inside the middle
+> 45% of the 2:1 canvas with at least 18% breathing room on every side. Extend
+> both outer wings with empty desk and blank wall only. Do not crop any object.
+> Change only scale and surrounding canvas composition; preserve object design
+> and one-player/one-deck count; strict black, white and neutral gray. Avoid
+> Sony name, MiniDisc wordmark, logos, readable model numbers, readable labels,
+> album art, people, color, caption, border, watermark.
+
+### Falkland Islands wolf
+
+> Use case: scientific-educational. Asset type: responsive GOODBYE
+> natural-history exhibit image, master intended for both 2:1 and centered 4:3
+> crops. Create a scientifically grounded natural-history illustration of one
+> living Falkland Islands wolf or Warrah (`Dusicyon australis`), standing in
+> profile with its head turned slightly toward the viewer in windswept Falkland
+> tussac grass. A medium-sized foxlike canid with tawny brown-gray coat, paler
+> throat and belly, darker back, broad muzzle, small rounded triangular ears,
+> bushy tail with pale tip, and historically noted calm alert posture. Low
+> treeless island terrain, sparse tussac grass, distant rocky shore, cold cloudy
+> horizon; no buildings or people. Crisp nineteenth-century zoological
+> engraving with controlled crosshatching and stippling, high contrast for
+> e-ink. 2:1 landscape. Keep the entire animal from nose and ear tips through
+> all four paws to the full tail, plus its ground shadow and essential grass
+> clump, inside the central 43% of the canvas with at least 18% breathing room.
+> Outer wings contain only low grass and faint coastline so a centered 4:3 crop
+> preserves the complete animal. Overcast South Atlantic light, wary but not
+> aggressive, elegiac natural-history plate. Strict black, white and neutral
+> gray only. Anatomically coherent canid, one animal only, complete silhouette,
+> no crop. Avoid modern domestic dog traits, wolf-pack scene, exaggerated fangs,
+> aggression, collar, trap, gun, people, labels, text, frame, border, watermark,
+> color.
+
+The first pass made the animal too large for the centered derivative and was
+rejected. The approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: corrected GOODBYE 2:1 master for
+> centered 4:3 derivative. Recompose only the supplied monochrome Falkland
+> Islands wolf or Warrah natural-history illustration. Preserve the same animal
+> anatomy, tawny-gray coat translated into grayscale, calm alert pose,
+> windswept tussac habitat, rocky shore, cloudy South Atlantic horizon,
+> engraving treatment and elegiac mood. Scale the complete animal down by about
+> 42% and center it. The nose, both ear tips, all four complete paws, full bushy
+> tail including its pale tip, ground shadow, and the essential grass around
+> its feet must fit inside the middle 42% of the 2:1 canvas with at least 19%
+> breathing room. Extend both outer wings with low tussac grass, distant shore
+> and sky only. Do not crop any part of the animal. Change only scale and
+> surrounding landscape composition; one animal; anatomically coherent canid;
+> strict black, white and neutral gray. Avoid modern domestic dog traits,
+> wolf-pack scene, aggression, collar, trap, gun, people, labels, text, frame,
+> border, watermark, color.
+
+Both corrected masters passed direct 2:1 and centered 4:3 crop inspection. They
+were generated with the built-in image generator, normalized to grayscale JPEG,
+and exported at 1600×800 and 1067×800.
