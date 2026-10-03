@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "minidisc-players",
-      "exhibit": "056",
-      "name": "MINIDISC PLAYERS",
-      "lifespan": "1992–2013",
-      "end_year": "2013",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Production ended",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-minidisc-warrah/assets/exhibits/responsive-v2/minidisc-players-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-minidisc-warrah/assets/exhibits/responsive-v2/minidisc-players-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-minidisc-warrah/assets/exhibits/responsive-v2/minidisc-players-master-2x1.jpg",
-      "image_alt": "Monochrome museum still life of portable and tabletop MiniDisc players, a disc cartridge, and earphones",
-      "epitaph": "The pocket recorder that promised to replace tape was compressed by the MP3 age.",
-      "why": "Flash-memory players and downloadable music made recordable optical discs less convenient.",
-      "afterlife": "Used decks, blank discs, live recordings, and a devoted collector scene keep the format spinning.",
-      "source_name": "ITV News",
-      "source_url": "https://www.itv.com/news/update/2013-02-01/sony-ends-minidisc-production/",
-      "note": "Sony announced that its final batch of MiniDisc players would ship in March 2013 before manufacturing stopped."
+      "id": "falkland-islands-wolf",
+      "exhibit": "057",
+      "name": "THE FALKLAND ISLANDS WOLF",
+      "lifespan": "Ancient–1876*",
+      "end_year": "1876*",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Extinct",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-minidisc-warrah/assets/exhibits/responsive-v2/falkland-islands-wolf-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-minidisc-warrah/assets/exhibits/responsive-v2/falkland-islands-wolf-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-minidisc-warrah/assets/exhibits/responsive-v2/falkland-islands-wolf-master-2x1.jpg",
+      "image_alt": "Monochrome natural-history engraving of a Falkland Islands wolf in windswept tussac grass",
+      "epitaph": "The islands' only native land mammal trusted people until they hunted it away.",
+      "why": "Settlers poisoned and shot the tame canid for fur and to protect sheep.",
+      "afterlife": "Museum skins, bones, Darwin's warning, and the Warrah's island names preserve its memory.",
+      "source_name": "Falkland Islands Museum and National Trust",
+      "source_url": "https://falklands-museum.com/the-warrah",
+      "note": "The museum says the last Warrah was said to have been killed at Shallow Bay in 1876; the asterisk preserves that historical uncertainty."
     }
   ]
 }
