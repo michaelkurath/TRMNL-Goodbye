@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "betamax-videocassettes",
-      "exhibit": "058",
-      "name": "BETAMAX",
-      "lifespan": "1975–2016",
-      "end_year": "2016",
+      "id": "opportunity-rover",
+      "exhibit": "012",
+      "name": "THE OPPORTUNITY ROVER",
+      "lifespan": "2003–2019",
+      "end_year": "2019",
       "category": "Technology",
       "category_key": "technology",
-      "status": "Ended",
+      "status": "Retired",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-master-2x1.jpg",
-      "image_alt": "Monochrome museum still life of a top-loading Betamax deck, compact videocassette, and CRT television",
-      "epitaph": "The format that lost the videotape war kept recording long after the battle was over.",
-      "why": "VHS offered longer recording time and wider industry support before digital media displaced tape entirely.",
-      "afterlife": "Home recordings, surviving decks, broadcast relatives, archives, and collectors preserve the smaller cassette.",
-      "source_name": "Sony Group",
-      "source_url": "https://www.sony.com/ja/SonyInfo/News/Press/201511/15-1110/",
-      "note": "Sony introduced Betamax in 1975, ended recorder production in 2002, and ended cassette shipments in March 2016."
+      "image_alt": "Monochrome technical illustration of NASA's Opportunity rover on Mars",
+      "epitaph": "Built for ninety Martian days, it kept exploring until Mars finally went silent.",
+      "why": "A planet-wide dust storm blocked sunlight, and NASA ended recovery attempts after months without contact.",
+      "afterlife": "Its images, discoveries, scientific record, and tracks on Mars preserve nearly fifteen years of exploration.",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+      "note": "Launched in 2003, Opportunity last communicated in June 2018; NASA declared the mission complete in February 2019."
     }
   ]
 }
