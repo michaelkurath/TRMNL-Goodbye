@@ -789,6 +789,20 @@ Both corrected masters passed direct 2:1 and centered 4:3 crop inspection. They
 were generated with the built-in image generator, normalized to grayscale JPEG,
 and exported at 1600×800 and 1067×800.
 
+### Reproducible preview dependency
+
+The render workflow pins `trmnl_preview` to 0.14.2, the version used by the
+last visually approved production run (37103326782). An unpinned install
+resolved to 0.16.0 and produced oversized, clipped X landscape and portrait
+previews even for the existing Opportunity Rover exhibit. The pinned control
+run (37279120906) restored correct sizing. Treat renderer upgrades as explicit
+changes: review all twelve OG/X/X-portrait layouts before updating the pin.
+An Actions success alone does not establish that a render looks correct.
+For isolated review, point `polling_url` at the immutable commit containing the
+fixture, not a moving branch URL: raw branch caching can return an earlier
+exhibit. Confirm the exhibit ID in every artifact. Restore the full catalogue
+and main polling URL before the final production check.
+
 ### Betamax videocassettes
 
 > Use case: historical-scene. Asset type: GOODBYE exhibit master, 2:1

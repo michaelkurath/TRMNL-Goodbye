@@ -1,6 +1,6 @@
-# Betamax Videocassettes and Mercury Automobiles review
+# Betamax and Mercury Automobiles review
 
-Review date: 2026-10-04
+Review dates: 2026-10-04–2026-10-05
 
 ## Editorial selection
 
@@ -35,5 +35,18 @@ their complete prompts and approved corrections are recorded in
 
 ## Automated and layout review
 
-Results are recorded after the data validators, Saved State transform tests,
-plugin lint, and isolated 12-layout render review complete.
+- Local catalogue validation: 59 exhibits; candidate validation: 26 candidates.
+- Saved State transform tests and `git diff --check 7ac3470` passed.
+- Four JPEGs verified as 8-bit grayscale at 1600×800 and 1067×800.
+- Betamax: run [37279336610](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37279336610)
+  passed lint/tests/rendering; all 12 artifact images were individually inspected.
+  Full title, status, artwork, epitaph, rationale and footer fit without collisions.
+- The initial X clipping affected even the existing Opportunity Rover control.
+  The old approved run used `trmnl_preview` 0.14.2, while unpinned installs
+  resolved to 0.16.0. Pinning 0.14.2 restored correct sizing; no layout-template
+  changes or abbreviated Betamax title were required.
+- A Mercury attempt returned cached Opportunity data from a moving raw branch
+  URL. It was rejected and rerun with an immutable fixture commit URL.
+- The immutable Mercury run 37279793784 exposed an OG-quadrant title/epitaph
+  collision. The compact quadrant title threshold was reduced from 20 to 18
+  characters; Betamax already uses that smaller title size and is unaffected.
