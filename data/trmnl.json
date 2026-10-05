@@ -2,24 +2,24 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "betamax-videocassettes",
-      "exhibit": "058",
-      "name": "BETAMAX VIDEOCASSETTES",
-      "lifespan": "1975–2016",
-      "end_year": "2016",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Production ended",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-betamax-mercury/assets/exhibits/responsive-v2/betamax-videocassettes-standard-4x3.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-betamax-mercury/assets/exhibits/responsive-v2/betamax-videocassettes-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-betamax-mercury/assets/exhibits/responsive-v2/betamax-videocassettes-master-2x1.jpg",
-      "image_alt": "Monochrome museum still life of a top-loading Betamax deck, compact videocassette, and CRT television",
-      "epitaph": "The format that lost the videotape war kept recording long after the battle was over.",
-      "why": "VHS offered longer recording time and wider industry support before digital media displaced tape entirely.",
-      "afterlife": "Home recordings, surviving decks, broadcast relatives, archives, and collectors preserve the smaller cassette.",
-      "source_name": "Sony Group",
-      "source_url": "https://www.sony.com/ja/SonyInfo/News/Press/201511/15-1110/",
-      "note": "Sony introduced Betamax in 1975, ended recorder production in 2002, and ended cassette shipments in March 2016."
+      "id": "mercury-automobiles",
+      "exhibit": "059",
+      "name": "MERCURY AUTOMOBILES",
+      "lifespan": "1938–2011*",
+      "end_year": "2011*",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-betamax-mercury/assets/exhibits/responsive-v2/mercury-automobiles-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-betamax-mercury/assets/exhibits/responsive-v2/mercury-automobiles-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/promote-betamax-mercury/assets/exhibits/responsive-v2/mercury-automobiles-master-2x1.jpg",
+      "image_alt": "Monochrome automotive engraving of an unbadged 1967 Mercury Cougar on a dealership forecourt",
+      "epitaph": "Ford's middle marque spent seventy-two years between Ford and Lincoln, then left the showroom.",
+      "why": "Falling sales and overlap with Ford models led the company to concentrate on Ford and Lincoln.",
+      "afterlife": "Surviving Cougars, Comets, Marauders, Grand Marquis cars, clubs, and archives preserve the marque.",
+      "source_name": "Ford Motor Company",
+      "source_url": "https://corporate.ford.com/articles/history/history-of-the-mercury-brand.html",
+      "note": "Production ceased in late 2010 and the final Mercury, a Grand Marquis, left the line on 4 January 2011; the asterisk preserves the boundary."
     }
   ]
 }
