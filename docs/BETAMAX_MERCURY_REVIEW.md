@@ -50,3 +50,8 @@ their complete prompts and approved corrections are recorded in
 - The immutable Mercury run 37279793784 exposed an OG-quadrant title/epitaph
   collision. The compact quadrant title threshold was reduced from 20 to 18
   characters; Betamax already uses that smaller title size and is unaffected.
+- Corrected Mercury run [37280060789](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37280060789)
+  passed lint/tests/rendering. All 12 artifact images were individually inspected;
+  the quadrant collision is resolved and artwork, labels, text and footer fit.
+- Production catalogue and main polling URL were restored. The final merge gate
+  requires a successful production CI run at the exact PR head, recorded in PR #56.
