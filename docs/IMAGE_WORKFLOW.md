@@ -788,3 +788,93 @@ rejected. The approved edit used this correction:
 Both corrected masters passed direct 2:1 and centered 4:3 crop inspection. They
 were generated with the built-in image generator, normalized to grayscale JPEG,
 and exported at 1600×800 and 1067×800.
+
+### Reproducible preview dependency
+
+The render workflow pins `trmnl_preview` to 0.14.2, the version used by the
+last visually approved production run (37103326782). An unpinned install
+resolved to 0.16.0 and produced oversized, clipped X landscape and portrait
+previews even for the existing Opportunity Rover exhibit. The pinned control
+run (37279120906) restored correct sizing. Treat renderer upgrades as explicit
+changes: review all twelve OG/X/X-portrait layouts before updating the pin.
+An Actions success alone does not establish that a render looks correct.
+For isolated review, point `polling_url` at the immutable commit containing the
+fixture, not a moving branch URL: raw branch caching can return an earlier
+exhibit. Confirm the exhibit ID in every artifact. Restore the full catalogue
+and main polling URL before the final production check.
+
+### Betamax videocassettes
+
+> Use case: historical-scene. Asset type: GOODBYE exhibit master, 2:1
+> responsive e-ink artwork. Primary request: Create a historically accurate
+> monochrome museum still life representing Sony Betamax videocassettes and
+> home video recording from 1975–2016, without branding. Scene/backdrop:
+> restrained late-1970s living-room media cabinet and plain wall. Subject: one
+> complete early Betamax top-loading VCR, one complete compact Betamax
+> videocassette beside it, and a period CRT television showing only abstract
+> horizontal recording bands. Style/medium: crisp black-and-white archival
+> engraving with realistic mechanical detail, neutral grayscale, high contrast
+> suitable for e-ink. Composition/framing: 2:1 landscape. Scale the entire
+> group down and keep the VCR, cassette, television, all feet, cables, and
+> shadows strictly inside the centered 4:3 safe zone (middle 60% of the wide
+> canvas), with at least 15% breathing room inside that safe zone. Outer left
+> and right wings contain background and cabinet surface only. Constraints:
+> the cassette must be visibly smaller than VHS and mechanically plausible;
+> the VCR must read as mid-1970s consumer hardware. No cropped objects. Avoid:
+> Sony or Betamax logos, readable labels or screen text, people, VHS cassette,
+> DVD, modern flat screen, colour, frame, caption, border, watermark.
+
+The first pass placed the television beyond the centered crop and was rejected.
+The approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: crop-safety correction for a
+> GOODBYE 2:1 exhibit master. Primary request: Recompose only the scale and
+> placement. Reduce the VCR, Betamax cassette, CRT television, their cables,
+> and shadows together by about 40%, and center the complete group. Constraints:
+> every meaningful object and cable must fit well inside the middle 50% of the
+> canvas width with at least 18% clear breathing room before the centered 4:3
+> crop boundary. Outer wings may contain only blank wall and cabinet surface.
+> Preserve the exact historical hardware, monochrome engraving appearance,
+> lighting, and room. Avoid: adding, deleting, redesigning, or cropping the
+> hardware; no logos, text, people, colour, borders, or watermark.
+
+### Mercury automobiles
+
+> Use case: historical-scene. Asset type: GOODBYE exhibit master, 2:1
+> responsive e-ink artwork. Primary request: Create a historically accurate
+> monochrome museum automobile portrait representing the discontinued Mercury
+> marque. Scene/backdrop: quiet late-1960s American dealership forecourt with
+> restrained architecture and empty pavement. Subject: one complete unbranded
+> 1967 Mercury Cougar two-door hardtop in front three-quarter view, preserving
+> its long hood, short deck, concealed headlamp grille, period wheels, roofline,
+> and full body silhouette. Style/medium: crisp black-and-white archival
+> automotive engraving, realistic proportions, neutral grayscale, high contrast
+> suitable for e-ink. Composition/framing: 2:1 landscape. Scale the complete car
+> down and keep every part—from front bumper and wheels to roof, rear bumper,
+> full shadow, and antenna—strictly inside the centered 4:3 safe zone (middle
+> 60% of the wide canvas), with at least 15% breathing room inside that safe
+> zone. Outer left and right wings contain only empty forecourt and subdued
+> building background. Constraints: one car only; all identifying design
+> geometry must remain fully visible in both the wide image and centered 4:3
+> crop. Avoid: Mercury, Ford, Cougar or dealership logos; badges; readable signs
+> or licence plates; people; other cars; colour; frame; caption; border;
+> watermark.
+
+The first pass filled nearly the entire centered crop and was rejected. The
+approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: crop-safety correction for a
+> GOODBYE 2:1 exhibit master. Primary request: Recompose only the scale and
+> placement. Reduce the complete 1967 Mercury Cougar and its full shadow
+> together by about 42%, and center them precisely. Constraints: the whole car,
+> antenna, bumpers, wheels, roof, and shadow must fit well inside the middle 48%
+> of the canvas width with at least 18% clear breathing room before the centered
+> 4:3 crop boundary. Outer wings contain only empty forecourt and subdued
+> building. Preserve the exact car design, three-quarter view, monochrome
+> engraving appearance, lighting, and background. Avoid: adding, deleting,
+> redesigning, or cropping the car; no visible logos, badges, readable signs,
+> other vehicles, people, colour, borders, or watermark.
+
+Both corrected masters passed direct 2:1 and centered 4:3 crop inspection. They
+were generated with the built-in image generator, normalized to grayscale JPEG,
+and exported at 1600×800 and 1067×800.

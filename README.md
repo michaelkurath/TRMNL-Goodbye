@@ -15,7 +15,7 @@ until every entry in the selected category has appeared.
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
-- Fifty-seven original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
+- Fifty-nine original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
 - No third-party image or hotlink dependencies
 
 ## Plugin icon
