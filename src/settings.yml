@@ -6,7 +6,7 @@ static_data: "{}"
 polling_verb: get
 framework_version: 3.3.1
 serverless_language: node
-polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/1ac18011bd6cb615b1d4fb10f3856c2dae80622d/data/trmnl.json
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json
 polling_headers: ''
 polling_body: ''
 id: 467205

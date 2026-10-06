@@ -37,6 +37,15 @@ the Swissair correction are recorded in `docs/IMAGE_WORKFLOW.md`.
 
 ## Automated and layout review
 
-Results are recorded after the data validators, Saved State transform tests,
-plugin lint, isolated 12-layout review for each exhibit, and restored-production
-CI all pass.
+- Local catalogue validation passed with 61 exhibits and candidate validation
+  passed with 26 candidates.
+- Saved State transform tests and `git diff --check` passed.
+- `trmnlp lint`, data tests, and rendering passed in both isolated CI runs.
+- Swissair run [37427026064](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37427026064):
+  all 12 OG, X landscape, and X portrait images were inspected individually;
+  complete aircraft geometry, title, rationale, archive note and footers fit.
+- Windows Phone run [37427281346](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37427281346):
+  all 12 images were inspected individually; both devices, tiled screens,
+  title, rationale, archive note and footers fit without clipping.
+- The full 61-entry production catalogue and main polling URL are restored
+  before the final CI and merge gate.
