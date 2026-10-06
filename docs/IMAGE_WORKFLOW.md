@@ -789,6 +789,73 @@ Both corrected masters passed direct 2:1 and centered 4:3 crop inspection. They
 were generated with the built-in image generator, normalized to grayscale JPEG,
 and exported at 1600×800 and 1067×800.
 
+### Swissair
+
+> Use case: historical-scene. Asset type: GOODBYE exhibit master, responsive
+> monochrome e-ink artwork. Primary request: Create a historically grounded
+> museum portrait representing Swissair, the former Swiss national airline, at
+> its symbolic 2001 grounding. Scene/backdrop: quiet early-2000s Zurich airport
+> apron with distant hangar and Alpine horizon, no people or other aircraft.
+> Subject: one complete late-era four-engine widebody passenger jet inspired by
+> a Swissair Airbus A340, parked and motionless, viewed in elegant front
+> three-quarter profile; no readable airline name or trademarks. Style/medium:
+> crisp black-and-white archival editorial engraving, realistic aircraft
+> geometry, neutral grayscale, high contrast suitable for 1-bit and 4-bit
+> e-ink. Composition/framing: 2:1 landscape. Keep the complete aircraft, wings,
+> engines, tail, landing gear and shadow strictly inside the centered 4:3 safe
+> zone, occupying no more than the middle 48% of the wide canvas; at least 18%
+> breathing room before the centered crop boundary. Outer wings contain only
+> empty apron, distant hangar and sky. Constraints: one aircraft only; complete
+> silhouette must remain visible in both wide and centered 4:3 crops;
+> historically plausible late-1990s airport scene. Avoid: logos, airline names,
+> flags, readable text, people, service vehicles, other aircraft, colour,
+> captions, frames, borders, watermarks.
+
+The initial aircraft extended beyond the centered safe area and was rejected.
+The approved edit used this correction:
+
+> Use case: precise-object-edit. Asset type: crop-safety correction for a
+> GOODBYE 2:1 exhibit master. Primary request: Recompose only scale and
+> placement. Reduce the complete aircraft, wings, engines, landing gear and full
+> shadow together by about 55%, and center the entire aircraft precisely in the
+> canvas. Constraints: the complete nose, both wingtips, tail, engines, landing
+> gear and shadow must fit well inside the middle 46% of the canvas width, with
+> at least 18% clear breathing room before the centered 4:3 crop boundary. Outer
+> left and right wings must contain only empty apron, distant hangar, mountains
+> and sky. Preserve the exact aircraft design, viewing angle, monochrome
+> appearance, lighting, Alpine background and empty airport. Avoid: adding,
+> deleting, redesigning or cropping the aircraft; no logos, airline names,
+> flags, readable text, people, vehicles, other aircraft, colour, captions,
+> frames, borders or watermarks.
+
+### Windows Phone
+
+> Use case: product-mockup. Asset type: GOODBYE exhibit master, responsive
+> monochrome e-ink artwork. Primary request: Create a museum still life
+> representing the discontinued Windows Phone platform. Scene/backdrop:
+> restrained dark-to-light studio surface with subtle early-2010s technology
+> atmosphere. Subject: one complete unbranded 2012-era slab smartphone standing
+> upright at a slight three-quarter angle, with a distinctive grid of varied
+> rectangular live tiles on its screen; beside it, a second identical phone
+> lying flat face-up to suggest the platform ecosystem. Tile graphics are
+> abstract icons only, without readable words or trademarks. Style/medium:
+> precise black-and-white product engraving with realistic glass, plastic and
+> metal textures, neutral grayscale, high contrast suitable for 1-bit and 4-bit
+> e-ink. Composition/framing: 2:1 landscape. Keep both complete phones, screen
+> edges, buttons and shadows strictly inside the centered 4:3 safe zone,
+> occupying no more than the middle 46% of the canvas; at least 18% clear
+> breathing room before the centered crop boundary. Outer wings contain only
+> empty studio surface. Constraints: complete hardware and shadows visible in
+> both wide and centered 4:3 crops; recognisable tiled interface without
+> protected logos or readable brand text. Avoid: Microsoft, Windows, Nokia or
+> Lumia logos; readable text; hands; people; extra devices; colour; captions;
+> frames; borders; watermarks.
+
+The Windows Phone master passed on its first generation. Both approved masters
+were generated with the built-in image generator, normalized to 8-bit grayscale
+JPEG, and exported at 1600×800 and 1067×800. Direct inspection confirmed that
+the full aircraft, both phones, and their shadows survive the centered crop.
+
 ### Reproducible preview dependency
 
 The render workflow pins `trmnl_preview` to 0.14.2, the version used by the

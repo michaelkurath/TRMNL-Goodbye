@@ -1180,6 +1180,46 @@
       "source_name": "Ford Motor Company",
       "source_url": "https://corporate.ford.com/articles/history/history-of-the-mercury-brand.html",
       "note": "Production ceased in late 2010 and the final Mercury, a Grand Marquis, left the line on 4 January 2011; the asterisk preserves the boundary."
+    },
+    {
+      "id": "swissair",
+      "exhibit": "060",
+      "name": "SWISSAIR",
+      "lifespan": "1931–2001*",
+      "end_year": "2001*",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Grounded",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/swissair-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/swissair-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/swissair-master-2x1.jpg",
+      "image_alt": "Monochrome museum portrait of a grounded four-engine Swiss passenger jet before an Alpine horizon",
+      "epitaph": "The flying bank became the airline whose grounded fleet shocked a nation.",
+      "why": "An expensive acquisition strategy, heavy losses, and a liquidity crisis brought the airline down.",
+      "afterlife": "Aircraft, uniforms, posters, archives, and successor Swiss preserve the identity of the national carrier.",
+      "source_name": "Swiss National Museum and Swiss Federal Archives",
+      "source_url": "https://blog.nationalmuseum.ch/2020/06/swissair-grounding/",
+      "note": "Swissair was founded in 1931 and grounded in October 2001; limited flights and the legal transition continued, so the endpoint is marked uncertain."
+    },
+    {
+      "id": "windows-phone",
+      "exhibit": "061",
+      "name": "WINDOWS PHONE",
+      "lifespan": "2010–2019*",
+      "end_year": "2019*",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-phone-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-phone-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-phone-master-2x1.jpg",
+      "image_alt": "Monochrome product portrait of two smartphones displaying a grid of live tiles",
+      "epitaph": "Its tiles were different and elegant—and surrounded by apps that never arrived.",
+      "why": "Limited market share and a persistent shortage of major apps left Microsoft's mobile platform behind Android and iOS.",
+      "afterlife": "Lumia hardware, Metro design, live tiles, and surviving devices preserve Microsoft's distinct phone interface.",
+      "source_name": "Microsoft Lifecycle",
+      "source_url": "https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-mobile-end-of-support",
+      "note": "Microsoft ended support for the final Windows 10 Mobile release on 10 December 2019; some services and one additional update continued briefly, so the endpoint is marked uncertain."
     }
   ]
 }
