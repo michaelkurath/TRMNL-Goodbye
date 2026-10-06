@@ -387,38 +387,6 @@
       }
     },
     {
-      "id": "windows-phone",
-      "name": "WINDOWS PHONE",
-      "lifespan": "2010–2019*",
-      "end_year": "2019*",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Discontinued",
-      "epitaph": "Its tiles were different, elegant—and surrounded by apps that never arrived.",
-      "why": "Limited market share and a persistent shortage of major apps left Microsoft's mobile platform behind Android and iOS.",
-      "afterlife": "Lumia hardware, Metro design, live tiles, and surviving devices preserve Microsoft's distinct phone interface.",
-      "source_name": "Microsoft Lifecycle",
-      "source_url": "https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-mobile-end-of-support",
-      "note": "The 2019 date marks Microsoft's stated end of support for the final Windows 10 Mobile release; some services and one additional update continued briefly.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 4,
-        "catalogue_fit": 3,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-06",
-        "note": "Initial editorial rating; revise after verification and preview testing."
-      }
-    },
-    {
       "id": "icq",
       "name": "ICQ",
       "lifespan": "1996–2024",
@@ -803,19 +771,51 @@
       }
     },
     {
-      "id": "swissair",
-      "name": "SWISSAIR",
-      "lifespan": "1931–2001*",
-      "end_year": "2001*",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Grounded",
-      "epitaph": "The flying bank became the airline whose grounded fleet shocked a nation.",
-      "why": "An expensive acquisition strategy, heavy losses, and a liquidity crisis brought the airline down.",
-      "afterlife": "Aircraft, uniforms, posters, archives, and successor Swiss preserve the identity of the national carrier.",
-      "source_name": "Swiss National Museum",
-      "source_url": "https://blog.nationalmuseum.ch/2020/06/swissair-grounding/",
-      "note": "The museum treats the October 2001 grounding as the symbolic end; limited flights continued during the transition, so the date is marked uncertain.",
+      "id": "xbox-360-store",
+      "name": "THE XBOX 360 STORE",
+      "lifespan": "2005–2024",
+      "end_year": "2024",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Closed",
+      "epitaph": "The marketplace of a generation closed while its downloaded games kept playing.",
+      "why": "Microsoft retired purchases on the ageing console storefront as its platform moved to newer Xbox systems.",
+      "afterlife": "Owned downloads, physical discs, backward compatibility, achievements, and preserved consoles keep its library playable.",
+      "source_name": "Xbox Wire",
+      "source_url": "https://news.xbox.com/en-us/2023/08/17/xbox-360-store-will-close-july-2024/",
+      "note": "Xbox ended new purchases through the Xbox 360 Store and Marketplace on 29 July 2024; existing games, re-downloads, and supported multiplayer continued.",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-10-06",
+        "note": "A generation-defining storefront with a precise first-party closure date and distinctive console imagery; the hardware and previously purchased games continued."
+      }
+    },
+    {
+      "id": "kepler-space-telescope",
+      "name": "THE KEPLER SPACE TELESCOPE",
+      "lifespan": "2009–2018",
+      "end_year": "2018",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "It ran out of fuel after proving that planets are more common than stars.",
+      "why": "After nine years of planet hunting, the spacecraft exhausted the fuel needed for further science operations.",
+      "afterlife": "Its public data, thousands of confirmed worlds, successor missions, and safe solar orbit extend its discoveries.",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/news-release/nasa-retires-kepler-space-telescope-passes-planet-hunting-torch/",
+      "note": "NASA retired Kepler on 30 October 2018 after it ran out of fuel; the mission had confirmed more than 2,600 exoplanets at retirement.",
       "review": {
         "fact_check": "pending",
         "text_review": "pending",
@@ -826,12 +826,12 @@
         "recognition": 4,
         "visual_strength": 5,
         "story_strength": 5,
-        "endpoint_clarity": 3,
-        "catalogue_fit": 5,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
         "total": 22,
         "status": "provisional",
-        "rated_on": "2026-10-04",
-        "note": "A nationally resonant collapse with excellent aircraft imagery and strong catalogue variety; the 2001 grounding versus 2002 legal endpoint needs careful wording."
+        "rated_on": "2026-10-06",
+        "note": "A visually strong, scientifically consequential farewell with an exact first-party retirement date; catalogue fit is moderated by existing space missions."
       }
     }
   ],
