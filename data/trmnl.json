@@ -1220,6 +1220,28 @@
       "source_name": "Microsoft Lifecycle",
       "source_url": "https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-mobile-end-of-support",
       "note": "Microsoft ended support for the final Windows 10 Mobile release on 10 December 2019; some services and one additional update continued briefly, so the endpoint is marked uncertain."
+    },
+    {
+      "id": "kepler-space-telescope",
+      "name": "THE KEPLER SPACE TELESCOPE",
+      "lifespan": "2009–2018",
+      "end_year": "2018",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "It ran out of fuel after proving that planets are more common than stars.",
+      "why": "After nine years of planet hunting, the spacecraft exhausted the fuel needed for further science operations.",
+      "afterlife": "Its public data, thousands of confirmed worlds, successor missions, and safe solar orbit extend its discoveries.",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/news-release/nasa-retires-kepler-space-telescope-passes-planet-hunting-torch/",
+      "note": "NASA retired Kepler on 30 October 2018 after it ran out of fuel; the mission had confirmed more than 2,600 exoplanets at retirement.",
+      "exhibit": "062",
+      "image_alt": "Monochrome artistic illustration of Kepler with its photometer aperture and fixed solar array.",
+      "verified_on": "2026-10-08",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/kepler-space-telescope-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/kepler-space-telescope-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/kepler-space-telescope-master-2x1.jpg",
+      "image_fit": "contain"
     }
   ]
 }
