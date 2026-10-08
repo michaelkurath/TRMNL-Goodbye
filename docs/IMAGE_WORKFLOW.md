@@ -945,3 +945,7 @@ approved edit used this correction:
 Both corrected masters passed direct 2:1 and centered 4:3 crop inspection. They
 were generated with the built-in image generator, normalized to grayscale JPEG,
 and exported at 1600×800 and 1067×800.
+
+## 8 October 2026 additions
+
+Complete prompts, crop corrections and export details: [image update](IMAGE_UPDATE_2026-10-08.md).
