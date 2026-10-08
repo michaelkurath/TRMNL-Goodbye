@@ -11,3 +11,5 @@ The approved composition retains the complete identifying subject in the centere
 
 The TRMNL workflow now runs on collection branches before PR creation and pins the newest exhibit to local artwork. Review full, half horizontal, half vertical and quadrant on OG, X landscape and X portrait. Keep fixture mutations disposable; production catalogue must remain intact.
 
+
+OG Full initially cropped the tall telescope with cover mode. Kepler sets optional `image_fit: contain`; Full uses the framework image mode, defaulting to cover for existing exhibits. This preserves the whole silhouette without changing older entries. Device review must be rerun after this correction.
