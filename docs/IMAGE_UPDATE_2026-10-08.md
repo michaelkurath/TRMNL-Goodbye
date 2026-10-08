@@ -13,3 +13,5 @@ The TRMNL workflow now runs on collection branches before PR creation and pins t
 
 
 OG Full initially cropped the tall telescope with cover mode. Kepler sets optional `image_fit: contain`; Full uses the framework image mode, defaulting to cover for existing exhibits. This preserves the whole silhouette without changing older entries. Device review must be rerun after this correction.
+
+Device review approved on 8 October 2026: all twelve OG/X landscape/X portrait layouts inspected; grayscale exports and centered crops passed. Workflow evidence is linked in the promotion record.
