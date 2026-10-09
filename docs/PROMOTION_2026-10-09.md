@@ -4,7 +4,7 @@ Promote Xbox 360 Store as exhibit 063 (22/25). Add Windows XP support as a provi
 
 ## Source and text review
 
-Reviewed by the collection automation on 9 October under the user’s explicit delegated promotion-and-merge instruction. Fact and text review approved. Device/image review and final approval remain pending until actual previews pass; no human review is claimed.
+Reviewed by the collection automation on 9 October under the user’s explicit delegated promotion-and-merge instruction. Fact and text review approved. All twelve original device previews were inspected; whole subjects, title bars and primary text fit. A shorter afterlife sentence and archive note remove X Full truncation and a long device URL. Final revised previews must pass before approval; no human review is claimed.
 
 Xbox Wire’s 17 August 2023 announcement gives the 29 July 2024 purchase cutoff and continued owned games, downloads, discs, publisher-dependent multiplayer and newer-system backward-compatible sales. GameSpot’s 29 July 2024 report independently confirms the closure-day scope. The console itself is not declared obsolete or unusable. Xbox Wire’s 17 August 2005 launch details describe Marketplace access; Computer History Museum dates North American console release to 22 November 2005 and supplies the hardware reference.
 
@@ -24,4 +24,4 @@ Artwork is original interpretive engraving, with a symbolic blank shop screen. N
 
 ## Validation
 
-Pending final local validators, Saved State tests, device preview inspection and branch/PR checks. Merge only after these pass.
+Data/candidate validators, Saved State tests, whitespace checks and local website assembly passed (63 live/26 candidates). [Initial branch TRMNL checks](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37901537588) passed data checks, trmnlp lint and twelve renders. Shortened display copy requires revised render review and final branch/PR checks before merge.
