@@ -771,38 +771,6 @@
       }
     },
     {
-      "id": "xbox-360-store",
-      "name": "THE XBOX 360 STORE",
-      "lifespan": "2005–2024",
-      "end_year": "2024",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Closed",
-      "epitaph": "The marketplace of a generation closed while its downloaded games kept playing.",
-      "why": "Microsoft retired purchases on the ageing console storefront as its platform moved to newer Xbox systems.",
-      "afterlife": "Owned downloads, physical discs, backward compatibility, achievements, and preserved consoles keep its library playable.",
-      "source_name": "Xbox Wire",
-      "source_url": "https://news.xbox.com/en-us/2023/08/17/xbox-360-store-will-close-july-2024/",
-      "note": "Xbox ended new purchases through the Xbox 360 Store and Marketplace on 29 July 2024; existing games, re-downloads, and supported multiplayer continued.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-10-06",
-        "note": "A generation-defining storefront with a precise first-party closure date and distinctive console imagery; the hardware and previously purchased games continued."
-      }
-    },
-    {
       "id": "nintendo-3ds-wii-u-online",
       "name": "NINTENDO 3DS / WII U ONLINE",
       "lifespan": "Ended 8 April 2024*",
@@ -832,6 +800,38 @@
         "status": "provisional",
         "rated_on": "2026-10-08",
         "note": "Editorial rating after checking the linked primary source. Image and device review remain pending."
+      }
+    },
+    {
+      "id": "windows-xp-support",
+      "name": "WINDOWS XP SUPPORT",
+      "lifespan": "Support ended April 2014",
+      "end_year": "2014",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Support ended",
+      "epitaph": "The familiar desktop stayed. Its ordinary support did not.",
+      "why": "Microsoft ended ordinary support for the ageing system as security threats outpaced its ability to protect users.",
+      "afterlife": "Installed systems and preserved software remain; custom support and exceptional later patches complicate the endpoint.",
+      "source_name": "Microsoft Windows Experience Blog",
+      "source_url": "https://blogs.windows.com/windowsexperience/2014/05/13/windows-xp-pcs-no-longer-receiving-updates/",
+      "note": "Scope is ordinary Windows XP support ending 8 April 2014, not removal of software or every XP-derived product. Microsoft records exceptions and temporary enterprise custom support. The lifecycle page currently formats the timestamp as 9 April UTC; the contemporaneous Microsoft post explicitly gives 8 April. Secondary primary record: https://learn.microsoft.com/en-us/lifecycle/products/windows-xp",
+      "review": {
+        "fact_check": "pending",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-10-09",
+        "note": "Recognizable desktop and clear ordinary-support endpoint. Fit is reduced by surviving installations and similarity to existing software/service retirements; exact artwork and full review remain pending."
       }
     }
   ],

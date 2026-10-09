@@ -1242,6 +1242,28 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/kepler-space-telescope-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/kepler-space-telescope-master-2x1.jpg",
       "image_fit": "contain"
+    },
+    {
+      "id": "xbox-360-store",
+      "name": "THE XBOX 360 STORE",
+      "lifespan": "2005–2024",
+      "end_year": "2024",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Closed",
+      "epitaph": "The shop closed. The games people already owned kept playing.",
+      "why": "Microsoft retired purchases on the ageing console storefront as its platform moved to newer Xbox systems.",
+      "afterlife": "Owned games, re-downloads, physical discs and backward-compatible purchases on newer systems continued.",
+      "source_name": "Xbox Wire",
+      "source_url": "https://news.xbox.com/en-us/2023/08/17/xbox-360-store-will-close-july-2024/",
+      "note": "New purchases ended on 29 July 2024, not console gameplay. Multiplayer remained publisher-dependent. Xbox Wire confirms the scope; GameSpot reported the closure day: https://www.gamespot.com/articles/the-xbox-360-store-shuts-down-for-good-today/1100-6525372/. The generic shop screen is symbolic artwork, not a historical UI screenshot.",
+      "exhibit": "063",
+      "verified_on": "2026-10-09",
+      "image_alt": "Interpretive monochrome illustration of a 2005 Xbox 360, wireless controller and symbolic storefront screen.",
+      "image_fit": "contain",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xbox-360-store-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xbox-360-store-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xbox-360-store-master-2x1.jpg"
     }
   ]
 }
