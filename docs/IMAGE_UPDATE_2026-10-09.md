@@ -8,5 +8,5 @@ Full generation prompt:
 
 Exports: `assets/exhibits/responsive-v2/xbox-360-store-master-2x1.jpg` (1600×800) and `xbox-360-store-standard-4x3.jpg` (1067×800). The generated 2:1 image was resized to 1600×800, converted to 8-bit grayscale and JPEG quality 88; the standard crop is centered (x=266 through 1333). Both identifying hardware silhouettes and the monitor fit wholly inside the standard crop. No shifted crop. Full uses the existing per-entry `image_fit: contain` option to preserve the whole illustration.
 
-Image subject/crop review passed. Device review pending: inspect all four layouts at OG 800×480, X 1040×780 and X portrait 780×1040 before final approval.
+Image subject/crop review passed. Device review approved: all four layouts at OG 800×480, X 1040×780 and X portrait 780×1040 inspected. Subjects, image crops, primary text and title bars fit. [Revised render evidence](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37984785760).
 

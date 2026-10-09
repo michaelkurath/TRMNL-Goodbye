@@ -4,7 +4,7 @@ Promote Xbox 360 Store as exhibit 063 (22/25). Add Windows XP support as a provi
 
 ## Source and text review
 
-Reviewed by the collection automation on 9 October under the user’s explicit delegated promotion-and-merge instruction. Fact and text review approved. All twelve original device previews were inspected; whole subjects, title bars and primary text fit. A shorter afterlife sentence and archive note remove X Full truncation and a long device URL. Final revised previews must pass before approval; no human review is claimed.
+Reviewed by the collection automation on 9 October under the user’s explicit delegated promotion-and-merge instruction. Fact and text review approved. Fact, text, image and final review approved under the delegated instruction. All twelve revised device previews were inspected; whole subjects, title bars and primary text fit. The shorter afterlife sentence is complete in X Full and the archive note fits in X portrait. Compact secondary explanations retain existing framework truncation. No human review is claimed.
 
 Xbox Wire’s 17 August 2023 announcement gives the 29 July 2024 purchase cutoff and continued owned games, downloads, discs, publisher-dependent multiplayer and newer-system backward-compatible sales. GameSpot’s 29 July 2024 report independently confirms the closure-day scope. The console itself is not declared obsolete or unusable. Xbox Wire’s 17 August 2005 launch details describe Marketplace access; Computer History Museum dates North American console release to 22 November 2005 and supplies the hardware reference.
 
@@ -24,4 +24,4 @@ Artwork is original interpretive engraving, with a symbolic blank shop screen. N
 
 ## Validation
 
-Data/candidate validators, Saved State tests, whitespace checks and local website assembly passed (63 live/26 candidates). [Initial branch TRMNL checks](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37901537588) passed data checks, trmnlp lint and twelve renders. Shortened display copy requires revised render review and final branch/PR checks before merge.
+Data/candidate validators, Saved State tests, whitespace checks and local website assembly passed (63 live/26 candidates). [Initial branch TRMNL checks](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37901537588) passed data checks, trmnlp lint and twelve renders. [Revised branch TRMNL checks](https://github.com/michaelkurath/TRMNL-Goodbye/actions/runs/37984785760) passed on implementation commit `d96370198314813e739ad3716f6cc63be1ed984d`. All twelve revised previews visually approved: Full, Half Horizontal, Half Vertical and Quadrant on OG, X landscape and X portrait. The subsequent evidence-only commit does not change the reviewed implementation. Final branch/PR checks must pass before merge.
