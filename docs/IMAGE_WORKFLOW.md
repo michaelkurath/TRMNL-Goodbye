@@ -953,3 +953,7 @@ Complete prompts, crop corrections and export details: [image update](IMAGE_UPDA
 ## 9 October 2026 addition
 
 Full Xbox 360 Store prompt, export details and review: [image update](IMAGE_UPDATE_2026-10-09.md).
+
+## 10 October 2026 addition
+
+Full Windows XP support prompt, exports and crop review: [image update](IMAGE_UPDATE_2026-10-10.md).

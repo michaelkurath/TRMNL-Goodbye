@@ -1,0 +1,7 @@
+# Windows XP support artwork — 10 October 2026
+
+Built-in image generator prompt:
+
+> Use case: historical-scene. Asset type: GOODBYE museum exhibit master for monochrome e-ink, responsive 2:1 with a centered 4:3 safe area. Create an original historically grounded monochrome editorial illustration evoking Windows XP support ending in 2014: a beige early-2000s desktop tower, CRT monitor, keyboard and mouse on a plain office desk. On the monitor show only a generic rolling green hill beneath a bright clouded sky, unmistakably evocative of the era but not a copied wallpaper or readable operating-system interface. Place a small unplugged network cable and a closed maintenance manual beside the computer to suggest support withdrawal while the machine remains. High-contrast black, white and restrained grayscale, museum-engraving realism, clean broad tonal regions for e-paper, no pre-dithering. Wide landscape composition; keep the complete computer, monitor, keyboard and symbolic cable within the central two thirds so a centered 4:3 crop preserves the subject. No logos, trademarks, readable text, UI labels, icons, watermarks, borders, people, mascots, or modern flat-screen monitor.
+
+Exports: `assets/exhibits/responsive-v2/windows-xp-support-master-2x1.jpg` (1600×800) and `windows-xp-support-standard-4x3.jpg` (1067×800). Grayscale JPEG quality 88; centered crop. Direct inspection retained the desktop, monitor, keyboard and unplugged cable. Original interpretive artwork; no Microsoft asset or interface screenshot is redistributed.
