@@ -10,12 +10,12 @@ until every entry in the selected category has appeared.
 
 ## First version
 
-- Sixty-three sourced live entries
+- Sixty-four sourced live entries
 - A shuffled, no-repeat rotation using TRMNL Saved State
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
 - Responsive typography for TRMNL OG and TRMNL X
-- Sixty-three original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
+- Sixty-four original monochrome exhibit illustrations with responsive 4:3 and 2:1 crops
 - No third-party image or hotlink dependencies
 
 ## Plugin icon
@@ -97,4 +97,4 @@ The plugin is published under the
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license); see
 [`LICENSE.md`](LICENSE.md).
 
-Latest collection update: **63 live exhibits and 26 candidates**. See [9 October review](docs/PROMOTION_2026-10-09.md).
+Latest collection update: **64 live exhibits and 26 candidates**. See [10 October review](docs/PROMOTION_2026-10-10.md).

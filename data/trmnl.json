@@ -1264,6 +1264,28 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xbox-360-store-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xbox-360-store-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/xbox-360-store-master-2x1.jpg"
+    },
+    {
+      "id": "windows-xp-support",
+      "name": "WINDOWS XP SUPPORT",
+      "lifespan": "Support ended April 2014",
+      "end_year": "2014",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Support ended",
+      "epitaph": "The familiar desktop stayed. Its ordinary support did not.",
+      "why": "Microsoft ended ordinary support for the ageing system as security threats outpaced its ability to protect users.",
+      "afterlife": "Installed systems and preserved software remain; custom support and exceptional later patches complicate the endpoint.",
+      "source_name": "Microsoft Windows Experience Blog",
+      "source_url": "https://blogs.windows.com/windowsexperience/2014/05/13/windows-xp-pcs-no-longer-receiving-updates/",
+      "note": "Scope is ordinary Windows XP support ending 8 April 2014, not removal of software or every XP-derived product. Microsoft records exceptions and temporary enterprise custom support. The lifecycle page currently formats the timestamp as 9 April UTC; the contemporaneous Microsoft post explicitly gives 8 April. Secondary primary record: https://learn.microsoft.com/en-us/lifecycle/products/windows-xp",
+      "exhibit": "064",
+      "verified_on": "2026-10-10",
+      "image_alt": "Interpretive monochrome illustration of an early-2000s desktop computer after ordinary support ended.",
+      "image_fit": "contain",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-xp-support-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-xp-support-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-xp-support-master-2x1.jpg"
     }
   ]
 }
