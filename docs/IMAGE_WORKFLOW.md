@@ -957,3 +957,4 @@ Full Xbox 360 Store prompt, export details and review: [image update](IMAGE_UPDA
 ## 10 October 2026 addition
 
 Full Windows XP support prompt, exports and crop review: [image update](IMAGE_UPDATE_2026-10-10.md).
+[11 October LEP artwork and prompt](IMAGE_UPDATE_2026-10-11.md).

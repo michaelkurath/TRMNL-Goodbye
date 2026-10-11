@@ -1,0 +1,7 @@
+# CERN LEP collider artwork — 11 October 2026
+
+Built-in image generator prompt:
+
+> Use case: historical-scene. Asset type: GOODBYE museum exhibit master for monochrome e-ink, responsive 2:1 with a centered 4:3 safe area. Create an original historically grounded monochrome editorial illustration of CERN's dismantled Large Electron-Positron Collider: a long curving underground accelerator tunnel with repeating 1980s-era cylindrical magnet modules, beam pipe, cable trays and industrial service lights receding into the distance. Suggest the end of operation with one foreground magnet section carefully disconnected and maintenance covers resting beside it; do not show the later Large Hadron Collider. High-contrast black, white and restrained grayscale, precise museum-documentary realism, clean broad tonal regions for e-paper, no pre-dithering. Wide landscape composition; keep the distinctive tunnel curve, beam pipe and disconnected magnet section within the central two thirds so a centered 4:3 crop preserves the subject. No logos, readable text, equations, people, warning labels, watermarks, borders, glowing particle beams, science-fiction machinery, or color.
+
+Exports: `assets/exhibits/responsive-v2/cern-lep-collider-master-2x1.jpg` (1600×800) and `cern-lep-collider-standard-4x3.jpg` (1067×800). Grayscale JPEG quality 88; centered crop. Direct inspection retained the tunnel curve, magnets, beam pipe and disconnected section. Original interpretive artwork; no CERN image is redistributed.
