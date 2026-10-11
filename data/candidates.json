@@ -483,38 +483,6 @@
       }
     },
     {
-      "id": "cern-lep-collider",
-      "name": "CERN'S LEP COLLIDER",
-      "lifespan": "1989–2000",
-      "end_year": "2000",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Dismantled",
-      "epitaph": "Its particles stopped circling so a bigger question could use the same tunnel.",
-      "why": "CERN dismantled the electron-positron collider to install the Large Hadron Collider in its 27-kilometre tunnel.",
-      "afterlife": "Its precision measurements remain, and the LHC reuses the tunnel beneath the French-Swiss border.",
-      "source_name": "CERN",
-      "source_url": "https://home.cern/science/accelerators/large-electron-positron-collider/",
-      "note": "First beam: 14 July 1989. LEP closed on 2 November 2000; the reused tunnel is not itself gone.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 3,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-11",
-        "note": "Strong science story and clear retirement; a tunnel scene needs careful identification."
-      }
-    },
-    {
       "id": "st-helena-giant-earwig",
       "name": "ST HELENA GIANT EARWIG",
       "lifespan": "Ancient–1967*",
@@ -832,6 +800,38 @@
         "status": "provisional",
         "rated_on": "2026-10-10",
         "note": "Clear first-party retirement and migration record; visual distinctiveness is the limiting dimension."
+      }
+    },
+    {
+      "id": "google-jamboard",
+      "name": "GOOGLE JAMBOARD",
+      "lifespan": "2016–2024",
+      "end_year": "2024",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "The shared whiteboard went read-only, then its canvas closed.",
+      "why": "Google moved Workspace whiteboarding toward integrations with third-party tools.",
+      "afterlife": "Jam files were converted to PDFs, while supported partner whiteboards took its place.",
+      "source_name": "Google Jamboard Help",
+      "source_url": "https://support.google.com/jamboard/answer/14084927?hl=en-GB",
+      "note": "The app became view-only on 1 October 2024 and reached end of life across web, mobile and Meet devices on 31 December 2024. The 55-inch Jamboard device had a separate 1 October 2024 endpoint.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-10-11",
+        "note": "Google provides precise first-party app and hardware endpoints; visual identity requires original non-interface artwork."
       }
     }
   ],
