@@ -1,0 +1,11 @@
+# Wii Shop Channel artwork — 12 October 2026
+
+Built-in image generator prompt:
+
+> Use case: historical-scene. Asset type: GOODBYE museum exhibit master for monochrome e-ink, responsive 2:1 with a centered 4:3 safe area. Create an original monochrome editorial illustration evoking the discontinued Wii Shop Channel without copying its interface or branding. Show a slim mid-2000s white game console standing vertically beside a simple motion controller and a television. On the television, depict a generic empty digital storefront: a tidy grid of blank rounded tiles beneath a small closed shop awning icon, with one faded shopping-bag symbol and no readable labels. Place a few plain game cases on a low shelf to suggest purchased memories remain. High-contrast black, white and restrained grayscale, clean museum-engraving realism, broad e-paper-friendly tonal regions, no pre-dithering. Wide landscape composition; keep the complete console, controller, television and symbolic storefront inside the central two thirds so a centered 4:3 crop preserves every main element. No Nintendo or Wii logos, trademarks, readable text, copied user interface, copyrighted characters, game artwork, people, watermarks, borders, color, or modern competing hardware.
+
+Crop-correction edit:
+
+> Edit this image while preserving its monochrome museum-editorial style, generic mid-2000s console, controller, television, symbolic closed digital storefront, shelf and room. Make the complete console, controller, television and plain game-case group approximately 25 percent smaller as one coherent scene and recenter them so every main element fits inside the central 60 percent of the existing wide 2:1 canvas. Extend the quiet room naturally on both sides. The centered 4:3 crop must preserve the entire console, controller, TV screen and case group with margin. Preserve the generic non-branded design and blank interface. No logos, readable text, copied UI, characters, people, watermark, border, or color.
+
+Exports: `assets/exhibits/responsive-v2/wii-shop-channel-master-2x1.jpg` (1600×800) and `wii-shop-channel-standard-4x3.jpg` (1067×800). Grayscale JPEG quality 88; centered crop. Direct inspection retained the complete console, controller, television and symbolic storefront. Original interpretive artwork; no Nintendo interface or game artwork is reproduced.
