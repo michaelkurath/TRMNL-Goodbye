@@ -1308,6 +1308,28 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cern-lep-collider-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cern-lep-collider-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cern-lep-collider-master-2x1.jpg"
+    },
+    {
+      "id": "wii-shop-channel",
+      "name": "THE Wii SHOP CHANNEL",
+      "lifespan": "2006–2019",
+      "end_year": "2019",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "Its gentle menu music stopped selling games, leaving purchased memories on ageing consoles.",
+      "why": "Nintendo retired the Wii's digital storefront as the console generation and its online services aged out.",
+      "afterlife": "Existing downloads, preserved consoles, archived music, and fan documentation keep the shop remembered.",
+      "source_name": "Nintendo Support",
+      "source_url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/27560/~/wii-shop-channel-discontinuation",
+      "note": "Nintendo states that new purchases ended on 30 January 2019. Previously purchased content can still be redownloaded for now, but Nintendo warns that this remaining service will eventually end. Artwork is symbolic and does not reproduce the original interface.",
+      "exhibit": "066",
+      "verified_on": "2026-10-12",
+      "image_alt": "Interpretive monochrome illustration of a mid-2000s game console beside a television showing a symbolic closed digital storefront.",
+      "image_fit": "contain",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wii-shop-channel-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wii-shop-channel-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wii-shop-channel-master-2x1.jpg"
     }
   ]
 }

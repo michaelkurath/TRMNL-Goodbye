@@ -611,38 +611,6 @@
       }
     },
     {
-      "id": "wii-shop-channel",
-      "name": "THE Wii SHOP CHANNEL",
-      "lifespan": "2006–2019",
-      "end_year": "2019",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Discontinued",
-      "epitaph": "Its gentle menu music stopped selling games, leaving purchased memories on ageing consoles.",
-      "why": "Nintendo retired the Wii's digital storefront as the console generation and its online services aged out.",
-      "afterlife": "Existing downloads, preserved consoles, archived music, and fan documentation keep the shop remembered.",
-      "source_name": "Nintendo Support",
-      "source_url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/27560/~/wii-shop-channel-discontinuation",
-      "note": "Purchases ended on 30 January 2019; Nintendo still allows redownloads for now but warns that this will eventually end.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 4,
-        "story_strength": 4,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-24",
-        "note": "A clear official endpoint and strong generational nostalgia; future artwork must communicate the storefront without relying on protected UI or logos."
-      }
-    },
-    {
       "id": "argos-catalogue",
       "name": "THE ARGOS CATALOGUE",
       "lifespan": "1973–2020",
@@ -832,6 +800,38 @@
         "status": "provisional",
         "rated_on": "2026-10-11",
         "note": "Google provides precise first-party app and hardware endpoints; visual identity requires original non-interface artwork."
+      }
+    },
+    {
+      "id": "paint-3d",
+      "name": "PAINT 3D",
+      "lifespan": "2017–2024*",
+      "end_year": "2024*",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Removed",
+      "epitaph": "The cheerful 3D canvas stayed installed, but its door back in disappeared.",
+      "why": "Microsoft deprecated the app and removed it from the Microsoft Store.",
+      "afterlife": "Existing installations can still work; Microsoft points users to Paint, Photos and browser-based 3D tools.",
+      "source_name": "Microsoft Learn",
+      "source_url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources",
+      "note": "*Microsoft deprecated Paint 3D in August 2024 and removed it from the Microsoft Store on 4 November 2024. Scope is availability and support, not forced deletion of existing installations.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 3,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 20,
+        "status": "provisional",
+        "rated_on": "2026-10-12",
+        "note": "Microsoft provides a precise removal date and continuing-installation caveat; the story is clear but less consequential than top-priority entries."
       }
     }
   ],
