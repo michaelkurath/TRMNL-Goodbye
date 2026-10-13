@@ -771,38 +771,6 @@
       }
     },
     {
-      "id": "google-jamboard",
-      "name": "GOOGLE JAMBOARD",
-      "lifespan": "2016–2024",
-      "end_year": "2024",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Discontinued",
-      "epitaph": "The shared whiteboard went read-only, then its canvas closed.",
-      "why": "Google moved Workspace whiteboarding toward integrations with third-party tools.",
-      "afterlife": "Jam files were converted to PDFs, while supported partner whiteboards took its place.",
-      "source_name": "Google Jamboard Help",
-      "source_url": "https://support.google.com/jamboard/answer/14084927?hl=en-GB",
-      "note": "The app became view-only on 1 October 2024 and reached end of life across web, mobile and Meet devices on 31 December 2024. The 55-inch Jamboard device had a separate 1 October 2024 endpoint.",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 4,
-        "story_strength": 4,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-10-11",
-        "note": "Google provides precise first-party app and hardware endpoints; visual identity requires original non-interface artwork."
-      }
-    },
-    {
       "id": "paint-3d",
       "name": "PAINT 3D",
       "lifespan": "2017–2024*",
@@ -832,6 +800,38 @@
         "status": "provisional",
         "rated_on": "2026-10-12",
         "note": "Microsoft provides a precise removal date and continuing-installation caveat; the story is clear but less consequential than top-priority entries."
+      }
+    },
+    {
+      "id": "google-glass-enterprise",
+      "name": "GOOGLE GLASS ENTERPRISE",
+      "lifespan": "2017–2023",
+      "end_year": "2023",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "The computer over one eye stopped looking toward its next shift.",
+      "why": "Google ended sales and support for its workplace-focused assisted-reality glasses.",
+      "afterlife": "Existing devices and software may still work; their ideas continue through newer smart glasses.",
+      "source_name": "Google Glass Enterprise Edition Help",
+      "source_url": "https://support.google.com/glass-enterprise/customer/answer/13417888?hl=en",
+      "note": "Google stopped selling Glass Enterprise Edition on 15 March 2023 and ended support on 15 September 2023. Existing hardware and software could continue working; this endpoint is distinct from the earlier consumer Explorer programme.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-13",
+        "note": "Google provides exact sales and support endpoints; the distinctive wearable is visually strong, with careful scope needed around continuing device use."
       }
     }
   ],

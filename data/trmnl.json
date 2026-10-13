@@ -1330,6 +1330,45 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wii-shop-channel-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wii-shop-channel-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wii-shop-channel-master-2x1.jpg"
+    },
+    {
+      "id": "google-jamboard",
+      "name": "GOOGLE JAMBOARD",
+      "lifespan": "2016–2024",
+      "end_year": "2024",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "The shared whiteboard went read-only, then its canvas closed.",
+      "why": "Google moved Workspace whiteboarding toward integrations with third-party tools.",
+      "afterlife": "Jam files were converted to PDFs, while supported partner whiteboards took its place.",
+      "source_name": "Google Jamboard Help",
+      "source_url": "https://support.google.com/jamboard/answer/14084927?hl=en-GB",
+      "note": "The app became view-only on 1 October 2024 and reached end of life across web, mobile and Meet devices on 31 December 2024. The 55-inch Jamboard device had a separate 1 October 2024 endpoint.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-10-13",
+        "note": "First-party Google dates clearly distinguish the app shutdown from the separate 55-inch device endpoint; original non-interface artwork passed all device layouts."
+      },
+      "exhibit": "067",
+      "verified_on": "2026-10-13",
+      "image_alt": "Interpretive monochrome illustration of a retired wall-mounted collaborative digital whiteboard in an empty meeting room.",
+      "image_fit": "contain",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-jamboard-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-jamboard-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-jamboard-master-2x1.jpg"
     }
   ]
 }
