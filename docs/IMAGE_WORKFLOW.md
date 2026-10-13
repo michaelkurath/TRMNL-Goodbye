@@ -962,3 +962,7 @@ Full Windows XP support prompt, exports and crop review: [image update](IMAGE_UP
 ## 12 October 2026 addition
 
 [Wii Shop Channel artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-12.md).
+
+## 13 October 2026 addition
+
+[Google Jamboard artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-13.md).

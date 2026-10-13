@@ -1,0 +1,11 @@
+# Google Jamboard artwork — 13 October 2026
+
+Built-in image generator prompt:
+
+> Use case: historical-scene. Asset type: GOODBYE museum exhibit master for monochrome e-ink, responsive 2:1 with a centered 4:3 safe area. Create an original monochrome editorial illustration evoking the retired Google Jamboard app and 55-inch collaborative whiteboard without copying its branding or interface. Show a large wall-mounted digital whiteboard in a quiet meeting room, with a simple blank white canvas containing only a few generic hand-drawn circles, arrows and pale square notes; beside it, a small rolling stand and two capped styluses. Suggest shutdown with the board powered down around the edges and a single generic closed-folder symbol, but no readable words. High-contrast black, white and restrained grayscale, clean museum-engraving realism, broad e-paper-friendly tonal regions, no pre-dithering. Wide landscape composition; keep the complete whiteboard, stand, styluses and symbolic canvas inside the central 60 percent so a centered 4:3 crop preserves every main element with margin. No Google or Jamboard logos, trademarks, recognizable UI, readable text, real meeting content, people, watermarks, borders, color, or competing product branding.
+
+Crop-correction edit:
+
+> Use case: precise-object-edit. Asset type: crop-safety correction for a GOODBYE 2:1 exhibit master. Preserve the exact monochrome meeting-room scene, generic wall-mounted whiteboard, symbolic blank canvas, rolling stand and capped styluses. Make the entire whiteboard-and-stand group approximately 18 percent smaller as one coherent scene and recenter it so the complete screen, rolling stand, wheels, styluses and closed-folder symbol fit inside the central 60 percent of the existing 2:1 canvas with clear margin. Extend the quiet room naturally on both sides. Change only scale and placement; no logos, readable text, copied interface, people, watermark, border or color.
+
+Exports: `assets/exhibits/responsive-v2/google-jamboard-master-2x1.jpg` (1600×800) and `google-jamboard-standard-4x3.jpg` (1067×800). Grayscale JPEG quality 88; centered crop. Both exports preserve the complete board, rolling stand and generic canvas. Original interpretive artwork; no Google interface is reproduced.
