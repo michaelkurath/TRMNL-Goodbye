@@ -1369,6 +1369,45 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-jamboard-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-jamboard-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-jamboard-master-2x1.jpg"
+    },
+    {
+      "id": "google-glass-enterprise",
+      "name": "GOOGLE GLASS ENTERPRISE",
+      "lifespan": "2017–2023",
+      "end_year": "2023",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Discontinued",
+      "epitaph": "The computer over one eye stopped looking toward its next shift.",
+      "why": "Google ended sales and support for its workplace-focused assisted-reality glasses.",
+      "afterlife": "Existing devices and software may still work; their ideas continue through newer smart glasses.",
+      "source_name": "Google Glass Enterprise Edition Help",
+      "source_url": "https://support.google.com/glass-enterprise/customer/answer/13417888?hl=en",
+      "note": "Google stopped selling Glass Enterprise Edition on 15 March 2023 and ended support on 15 September 2023. Existing hardware and software could continue working; this endpoint is distinct from the earlier consumer Explorer programme.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-14",
+        "note": "Google provides exact sales and support endpoints; the entry distinguishes continuing device use from active support, and original artwork passed crop review."
+      },
+      "exhibit": "068",
+      "verified_on": "2026-10-14",
+      "image_alt": "Interpretive monochrome illustration of retired enterprise smart glasses resting on an industrial workbench.",
+      "image_fit": "contain",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-glass-enterprise-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-glass-enterprise-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-glass-enterprise-master-2x1.jpg"
     }
   ]
 }

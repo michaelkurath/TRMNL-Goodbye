@@ -803,19 +803,19 @@
       }
     },
     {
-      "id": "google-glass-enterprise",
-      "name": "GOOGLE GLASS ENTERPRISE",
-      "lifespan": "2017–2023",
-      "end_year": "2023",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Discontinued",
-      "epitaph": "The computer over one eye stopped looking toward its next shift.",
-      "why": "Google ended sales and support for its workplace-focused assisted-reality glasses.",
-      "afterlife": "Existing devices and software may still work; their ideas continue through newer smart glasses.",
-      "source_name": "Google Glass Enterprise Edition Help",
-      "source_url": "https://support.google.com/glass-enterprise/customer/answer/13417888?hl=en",
-      "note": "Google stopped selling Glass Enterprise Edition on 15 March 2023 and ended support on 15 September 2023. Existing hardware and software could continue working; this endpoint is distinct from the earlier consumer Explorer programme.",
+      "id": "firefox-send",
+      "name": "FIREFOX SEND",
+      "lifespan": "2017–2020",
+      "end_year": "2020",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Shut down",
+      "epitaph": "The encrypted parcel link vanished before the download could begin.",
+      "why": "Mozilla took the file-transfer service offline after malware and spear-phishing abuse, then chose not to relaunch it.",
+      "afterlife": "Its experiment in browser-based encrypted sharing informed later privacy-focused tools and discussion.",
+      "source_name": "Mozilla Blog",
+      "source_url": "https://blog.mozilla.org/en/uncategorized/update-on-firefox-send-and-firefox-notes/",
+      "note": "Mozilla announced Firefox Send's permanent end of life on 17 September 2020 after taking it offline earlier that summer. Scope is the hosted encrypted file-transfer service, not the Firefox browser or third-party products using similar technology.",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -823,15 +823,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
+        "recognition": 3,
+        "visual_strength": 3,
+        "story_strength": 5,
         "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 23,
+        "catalogue_fit": 5,
+        "total": 21,
         "status": "provisional",
-        "rated_on": "2026-10-13",
-        "note": "Google provides exact sales and support endpoints; the distinctive wearable is visually strong, with careful scope needed around continuing device use."
+        "rated_on": "2026-10-14",
+        "note": "Mozilla directly documents the permanent shutdown and the abuse that prompted it; the privacy-versus-abuse story is strong, while recognition and visual distinctiveness are more limited."
       }
     }
   ],
