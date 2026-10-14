@@ -966,3 +966,7 @@ Full Windows XP support prompt, exports and crop review: [image update](IMAGE_UP
 ## 13 October 2026 addition
 
 [Google Jamboard artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-13.md).
+
+## 14 October 2026 — Google Glass Enterprise Edition
+
+Full prompt, crop-safety correction and export details: [image update](IMAGE_UPDATE_2026-10-14.md).
