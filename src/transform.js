@@ -1,4 +1,10 @@
 const ALL_CATEGORIES = "all";
+const CATALOGUE_URL = "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/data/trmnl.json";
+const DISPLAY_FIELDS = [
+  "id", "exhibit", "name", "lifespan", "end_year", "category", "status",
+  "image_url", "image_url_standard", "image_url_wide", "image_alt", "image_fit",
+  "epitaph", "why", "afterlife", "note",
+];
 
 function normalizeCategory(input) {
   const value = input?.trmnl?.plugin_settings?.custom_fields_values?.category;
@@ -53,17 +59,39 @@ function selectEntry(input, randomValue = Math.random()) {
   return { selectedEntry, category, histories };
 }
 
-function run(input) {
-  const safeInput = input && typeof input === "object" ? input : {};
-  const selection = selectEntry(safeInput);
+async function loadItems(input) {
+  // Local fixtures may supply catalogue entries directly.
+  if (Array.isArray(input?.items) && input.items.length > 0) return input.items;
 
+  // Fetch inside Serverless; the TRMNL polling response is just a tiny manifest.
+  const response = await fetch(CATALOGUE_URL);
+  if (!response.ok) throw new Error("GOODBYE catalogue HTTP " + response.status);
+  const payload = await response.json();
+  if (!Array.isArray(payload?.items) || payload.items.length === 0) {
+    throw new Error("GOODBYE catalogue contains no exhibits");
+  }
+  return payload.items;
+}
+
+function compactEntry(entry) {
+  if (!entry) return null;
+  return Object.fromEntries(
+    DISPLAY_FIELDS.filter((key) => entry[key] !== undefined).map((key) => [key, entry[key]])
+  );
+}
+
+async function run(input) {
+  const safeInput = input && typeof input === "object" ? input : {};
+  const items = await loadItems(safeInput);
+  const selection = selectEntry({ ...safeInput, items });
+
+  // Only the chosen exhibit reaches Liquid; Saved State remains per installation.
   return {
-    ...safeInput,
-    selected_entry: selection.selectedEntry,
+    selected_entry: compactEntry(selection.selectedEntry),
     trmnl_state: { histories: selection.histories },
   };
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { getPool, normalizeCategory, run, selectEntry, validHistory };
+  module.exports = { compactEntry, getPool, loadItems, normalizeCategory, run, selectEntry, validHistory };
 }

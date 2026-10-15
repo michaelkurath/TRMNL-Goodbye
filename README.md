@@ -55,11 +55,17 @@ node scripts/test-transform.js
 
 ## Data
 
-The production polling payload is [`data/trmnl.json`](data/trmnl.json). Each
-entry includes a master image, 4:3 standard crop, 2:1 wide crop, status, dates, category, short epitaph,
-explanation, survival note, and source. `node scripts/validate-data.js` checks
-the schema, image URLs, and duplicate IDs.
+The full production catalogue is [`data/trmnl.json`](data/trmnl.json), but
+the plugin polls only a tiny [`data/poll.json`](data/poll.json) trigger file.
+During each refresh, [`src/transform.js`](src/transform.js) fetches the
+catalogue directly within TRMNL Serverless, chooses one category-matching
+exhibit, and returns **only its display fields** plus compact Saved State.
+This avoids the 100 KB polling limit even as the catalogue grows. The
+complete collection never reaches Liquid, and no external worker is needed.
 
+Each entry includes responsive images, status, dates, category, epitaph,
+explanation, survival note, and sources. `node scripts/validate-data.js`
+checks the schema, image URLs, and duplicate IDs.
 Future exhibits are kept in [`data/candidates.json`](data/candidates.json) and
 remain outside the live rotation until their fact, text, image, and final
 reviews are approved. The complete review gate is documented in
@@ -69,9 +75,9 @@ with the live catalogue.
 
 ## Saved State rotation
 
-[`src/transform.js`](src/transform.js) selects the next exhibit before Liquid
+[`src/transform.js`](src/transform.js) fetches the catalogue and selects the next exhibit before Liquid
 renders the screen. It keeps a compact history of displayed entry IDs in
-`trmnl_state`, separately for the `all` pool and each category. Invalid or
+`trmnl_state`, separately for the `all` pool and each category. Catalogue fetch errors leave the saved rotation unchanged. Invalid or
 removed IDs are discarded automatically, empty or unknown category filters
 fall back to the full catalogue, and a completed rotation resets on the next
 refresh. New installations begin with an empty history.

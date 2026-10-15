@@ -43,12 +43,48 @@ const stale = selectEntry(input("all", { all: ["removed", "tech-one", "tech-one"
 assert.equal(stale.selectedEntry.id, "tech-two");
 assert.deepEqual(stale.histories.all, ["tech-one", "tech-two"]);
 
-const empty = run({ items: [] });
-assert.equal(empty.selected_entry, null);
-assert.deepEqual(empty.trmnl_state, { histories: {} });
+const empty = selectEntry({ items: [] });
+assert.equal(empty.selectedEntry, null);
+assert.deepEqual(empty.histories, {});
 
-const output = run(input("nature"));
-assert.equal(output.selected_entry.id, "nature-one");
-assert.deepEqual(output.trmnl_state.histories.nature, ["nature-one"]);
+async function testServerless() {
+  const output = await run(input("nature"));
+  assert.equal(output.selected_entry.id, "nature-one");
+  assert.deepEqual(output.trmnl_state.histories.nature, ["nature-one"]);
+  assert.equal(output.items, undefined, "Do not send full catalogue to Liquid");
 
-console.log("Saved State transform tests passed.");
+  const originalFetch = global.fetch;
+  try {
+    const largeItems = Array.from({ length: 300 }, (_, index) => ({
+      id: "tech-" + index, category_key: "technology", name: "Tech " + index,
+      epitaph: "x".repeat(1000), source_url: "https://example.com/source",
+    }));
+    assert.ok(Buffer.byteLength(JSON.stringify({ items: largeItems })) > 100_000);
+    let requests = 0;
+    global.fetch = async (url) => {
+      requests += 1;
+      assert.match(url, /\/data\/trmnl\.json$/);
+      return { ok: true, json: async () => ({ items: largeItems }) };
+    };
+    const pollInput = {
+      catalogue_version: 1,
+      trmnl: {
+        plugin_settings: { custom_fields_values: { category: "technology" } },
+        state: { histories: { technology: ["tech-0"] } },
+      },
+    };
+    const selected = await run(pollInput);
+    assert.equal(requests, 1);
+    assert.notEqual(selected.selected_entry.id, "tech-0");
+    assert.equal(selected.selected_entry.source_url, undefined);
+    assert.equal(selected.items, undefined);
+    assert.ok(Buffer.byteLength(JSON.stringify(selected)) < 5_000);
+
+    global.fetch = async () => ({ ok: false, status: 503 });
+    await assert.rejects(run(pollInput), /HTTP 503/, "Failure must not erase rotation history");
+  } finally {
+    global.fetch = originalFetch;
+  }
+  console.log("Saved State rotation and compact Serverless payload tests passed.");
+}
+testServerless().catch((error) => { console.error(error); process.exitCode = 1; });
