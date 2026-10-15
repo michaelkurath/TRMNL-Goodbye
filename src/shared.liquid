@@ -33,11 +33,8 @@
     {% assign compact_epitaph_size = "description--base lg:description--large" %}
   {% endif %}
   {% assign quadrant_name_size = "title--large lg:title--xlarge" %}
-  {% if name_length > 18 %}
+  {% if name_length > 20 %}
     {% assign quadrant_name_size = "title--base lg:title--large" %}
-  {% endif %}
-  {% if name_length > 28 %}
-    {% assign quadrant_name_size = "title--small lg:title--base" %}
   {% endif %}
 {% endif %}
 
