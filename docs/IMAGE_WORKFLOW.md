@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 26 October 2026 — The Argos Catalogue
+
+Original built-in generated artwork: `argos-catalogue-master-2x1.jpg` (1600×800) and `argos-catalogue-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The standard is a centered crop of the wide master. Two recompositions moved all books, slip and pencil into the safe zone. No crop offset was used. Full prompt, corrections, source scope and export decisions: [image update](IMAGE_UPDATE_2026-10-26.md).
+
 Use this process for every new or replacement GOODBYE illustration. The goal is
 one composition that works on TRMNL X, OG, and compact layouts without cutting
 off the subject.
