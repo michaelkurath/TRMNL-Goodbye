@@ -1408,6 +1408,56 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-glass-enterprise-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-glass-enterprise-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-glass-enterprise-master-2x1.jpg"
+    },
+    {
+      "id": "argos-catalogue",
+      "name": "THE ARGOS CATALOGUE",
+      "lifespan": "1973–2020",
+      "end_year": "2020",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Retired",
+      "epitaph": "A nation circled its wishes on paper. The next edition never came.",
+      "why": "Customers shifted to the website, app and in-store screens, ending the main twice-yearly catalogue.",
+      "afterlife": "Old editions and collectors preserve it; the separate Christmas Gift Guide continued after the 2020 decision.",
+      "source_name": "J Sainsbury plc — 2020 strategy update",
+      "source_url": "https://corporate.sainsburys.co.uk/news/press-releases/strategy-update-and-interim-results-for-the-28-weeks-ended-19-september-2020/",
+      "note": "Rechecked 26 October 2026. Sainsbury’s 2020 strategy statement confirms that Argos stopped printing the main catalogue as customers moved online, while the separate Christmas Gift Guide continued. Printweek dates the announcement to 30 July 2020 and documents the take-home book and laminated in-store copies. 1973–2020 refers to the main general catalogue, not the retailer’s lifetime, every seasonal guide or the disappearance of surviving copies. Artwork is a generic period-inspired illustration, not an exact archival spread.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-10-26",
+        "note": "Primary corporate record and specialist printing-industry report support a precise, narrowly scoped catalogue endpoint; responsive illustration and device review are required merge gates."
+      },
+      "exhibit": "069",
+      "verified_on": "2026-10-26",
+      "sources": [
+        {
+          "name": "Printweek — Argos lays catalogue to rest",
+          "url": "https://www.printweek.com/content/news/argos-lays-catalogue-to-rest-xmas-guide-to-continue/",
+          "supports": "Dates the announcement to 30 July 2020, describes the main catalogue’s 47-year run and distinguishes the continuing Christmas Gift Guide."
+        }
+      ],
+      "image_alt": "Interpretive monochrome illustration of a thick open shopping catalogue, circled products, pencil and order slip.",
+      "review_record": {
+        "reviewer": "Codex automated editorial review under the user’s explicit promotion-and-merge request",
+        "reviewed_on": "2026-10-26",
+        "evidence": "Primary and specialist sources verified; text and crop review complete; hosted OG/X previews remain mandatory before merge."
+      },
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/argos-catalogue-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/argos-catalogue-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/argos-catalogue-standard-4x3.jpg"
     }
   ]
 }

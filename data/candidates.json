@@ -611,38 +611,6 @@
       }
     },
     {
-      "id": "argos-catalogue",
-      "name": "THE ARGOS CATALOGUE",
-      "lifespan": "1973–2020",
-      "end_year": "2020",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Retired",
-      "epitaph": "Britain's laminated wish book closed after nearly fifty years of circling page numbers.",
-      "why": "Online shopping and the Argos app replaced the need to print millions of twice-yearly catalogues.",
-      "afterlife": "Collectors, scanned editions, Christmas gift guides, and shared memories preserve its place in British retail.",
-      "source_name": "The Guardian",
-      "source_url": "https://www.theguardian.com/business/2020/jul/30/argos-to-stop-printing-catalogue-after-almost-50-years",
-      "note": "Argos announced on 30 July 2020 that it would stop printing its twice-yearly catalogue; seasonal gift guides continued.",
-      "review": {
-        "fact_check": "pending",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-09-25",
-        "note": "A highly recognisable British retail ritual with a clear endpoint and strong object image; Everyday life is already well represented."
-      }
-    },
-    {
       "id": "i-mode",
       "name": "i-MODE",
       "lifespan": "1999–2026",
@@ -832,6 +800,51 @@
         "status": "provisional",
         "rated_on": "2026-10-14",
         "note": "Mozilla directly documents the permanent shutdown and the abuse that prompted it; the privacy-versus-abuse story is strong, while recognition and visual distinctiveness are more limited."
+      }
+    },
+    {
+      "id": "airbus-a380-production",
+      "name": "AIRBUS A380 PRODUCTION",
+      "lifespan": "2000–2021*",
+      "end_year": "2021",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Production ended",
+      "epitaph": "The double-decker kept flying. The assembly line reached its final departure.",
+      "why": "Emirates reduced its order and Airbus lacked enough remaining orders to sustain production.",
+      "afterlife": "A380s remain in airline fleets; ending new deliveries did not retire the aircraft type.",
+      "source_name": "Airbus — A380 fleet agreement",
+      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2019-02-airbus-and-emirates-reach-agreement-on-a380-fleet-sign-new-widebody",
+      "sources": [
+        {
+          "name": "Airbus — Final A380 delivery",
+          "url": "https://www.aircraft.airbus.com/en/newsroom/news/2021-12-the-a380-emirates-and-flying-public-a-winning-combination",
+          "supports": "Records the 251st aircraft and delivery to Emirates on 16 December 2021."
+        },
+        {
+          "name": "Airbus — The A380 lives on",
+          "url": "https://www.airbus.com/en/newsroom/stories/2022-02-treat-yourself-to-a-piece-of-history",
+          "supports": "Explicitly distinguishes the last production aircraft from continuing A380 operations."
+        }
+      ],
+      "note": "Checked 26 October 2026. 2000 marks programme launch, not first flight or airline entry. Airbus announced in February 2019 that the reduced backlog could not sustain production; its December 2021 report records the final delivery on 16 December. The endpoint is production/new deliveries only. Operational airframes, airline fleets and support continued, so the candidate must never be described as the extinction or retirement of all A380s.",
+      "verified_on": "2026-10-26",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-26",
+        "note": "Globally familiar double-decker silhouette with a precise primary-source endpoint; the existing 747-production exhibit slightly limits novelty."
       }
     }
   ],
