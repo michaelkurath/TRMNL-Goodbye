@@ -803,32 +803,32 @@
       }
     },
     {
-      "id": "airbus-a380-production",
-      "name": "AIRBUS A380 PRODUCTION",
-      "lifespan": "2000–2021*",
-      "end_year": "2021",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Production ended",
-      "epitaph": "The double-decker kept flying. The assembly line reached its final departure.",
-      "why": "Emirates reduced its order and Airbus lacked enough remaining orders to sustain production.",
-      "afterlife": "A380s remain in airline fleets; ending new deliveries did not retire the aircraft type.",
-      "source_name": "Airbus — A380 fleet agreement",
-      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2019-02-airbus-and-emirates-reach-agreement-on-a380-fleet-sign-new-widebody",
+      "id": "google-allo",
+      "name": "GOOGLE ALLO",
+      "lifespan": "2016–2019",
+      "end_year": "2019",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Shut down",
+      "epitaph": "It could suggest the next reply. It could not keep its own conversation going.",
+      "why": "Google stopped investing in Allo and focused its consumer messaging work on Messages.",
+      "afterlife": "Smart Reply and other features moved into Messages; old exported conversations could outlive the service.",
+      "source_name": "Google — Messages, Allo, Duo and Hangouts update",
+      "source_url": "https://blog.google/products-and-platforms/products/messages/latest-messages-allo-duo-and-hangouts/",
       "sources": [
         {
-          "name": "Airbus — Final A380 delivery",
-          "url": "https://www.aircraft.airbus.com/en/newsroom/news/2021-12-the-a380-emirates-and-flying-public-a-winning-combination",
-          "supports": "Records the 251st aircraft and delivery to Emirates on 16 December 2021."
+          "name": "Google — Allo launch",
+          "url": "https://blog.google/products-and-platforms/products/allo/google-allo-smarter-messaging-app/",
+          "supports": "Dates public rollout to 21 September 2016."
         },
         {
-          "name": "Airbus — The A380 lives on",
-          "url": "https://www.airbus.com/en/newsroom/stories/2022-02-treat-yourself-to-a-piece-of-history",
-          "supports": "Explicitly distinguishes the last production aircraft from continuing A380 operations."
+          "name": "GSMArena — Allo shuts down",
+          "url": "https://www.gsmarena.com/google_allo_officially_shuts_down_today-news-35897.php",
+          "supports": "Contemporaneous report records shutdown on 12 March 2019."
         }
       ],
-      "note": "Checked 26 October 2026. 2000 marks programme launch, not first flight or airline entry. Airbus announced in February 2019 that the reduced backlog could not sustain production; its December 2021 report records the final delivery on 16 December. The endpoint is production/new deliveries only. Operational airframes, airline fleets and support continued, so the candidate must never be described as the extinction or retirement of all A380s.",
-      "verified_on": "2026-10-26",
+      "note": "Checked 27 October 2026. Google's 5 December 2018 announcement says investment had paused, identifies the shift to Messages and offers chat export before the March 2019 end. GSMArena's 12 March 2019 report records the actual shutdown; the Google launch post dates rollout to 21 September 2016. Allo the standalone app/service ended, not all Google messaging or the underlying Assistant and Smart Reply ideas. Export was a historical option, not a claim that it is available today.",
+      "verified_on": "2026-10-27",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -836,15 +836,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
+        "recognition": 3,
+        "visual_strength": 3,
         "story_strength": 4,
         "endpoint_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 23,
+        "catalogue_fit": 3,
+        "total": 18,
         "status": "provisional",
-        "rated_on": "2026-10-26",
-        "note": "Globally familiar double-decker silhouette with a precise primary-source endpoint; the existing 747-production exhibit slightly limits novelty."
+        "rated_on": "2026-10-27",
+        "note": "Clear primary-source endpoint and concise story, but another Google messaging closure adds limited catalogue variety and needs distinctive visual treatment."
       }
     }
   ],
