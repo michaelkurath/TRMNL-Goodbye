@@ -1458,6 +1458,71 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/argos-catalogue-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/argos-catalogue-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/argos-catalogue-standard-4x3.jpg"
+    },
+    {
+      "id": "airbus-a380-production",
+      "name": "AIRBUS A380 PRODUCTION",
+      "lifespan": "2000–2021*",
+      "end_year": "2021",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Production ended",
+      "epitaph": "The double-decker kept flying. The assembly line reached its final departure.",
+      "why": "Emirates reduced its order and Airbus lacked enough remaining orders to sustain production.",
+      "afterlife": "A380s remain in airline fleets; ending new deliveries did not retire the aircraft type.",
+      "source_name": "Airbus — A380 fleet agreement",
+      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2019-02-airbus-and-emirates-reach-agreement-on-a380-fleet-sign-new-widebody",
+      "sources": [
+        {
+          "name": "Airbus — Programme launch milestone",
+          "url": "https://www.airbus.com/en/newsroom/press-releases/2005-10-airbus-a380-to-visit-cities-in-europe-asia-pacific-middle-east",
+          "supports": "Note to editors dates programme launch to December 2000, separately from first flight in April 2005."
+        },
+        {
+          "name": "Airbus — Final A380 delivery",
+          "url": "https://www.aircraft.airbus.com/en/newsroom/news/2021-12-the-a380-emirates-and-flying-public-a-winning-combination",
+          "supports": "Records the 251st aircraft and delivery to Emirates on 16 December 2021."
+        },
+        {
+          "name": "Airbus — The A380 lives on",
+          "url": "https://www.airbus.com/en/newsroom/stories/2022-02-treat-yourself-to-a-piece-of-history",
+          "supports": "Explicitly distinguishes the last production aircraft from continuing A380 operations."
+        },
+        {
+          "name": "Airbus — Current A380 programme and services",
+          "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380",
+          "supports": "Explicitly states that production has ceased while operators continue receiving support; identifies the full-length double deck."
+        }
+      ],
+      "note": "Rechecked 27 October 2026. Airbus's 2019 decision explains the inadequate order backlog. Its final-delivery report identifies the 251st aircraft delivered on 16 December 2021; its current A380 page explicitly separates ceased production from ongoing operator support. 2000 is programme launch, not first flight or the start of airline service. The farewell is new-aircraft production and delivery, never every operational A380. Artwork is an unbranded interpretation, not an exact delivery photograph.",
+      "verified_on": "2026-10-27",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-27",
+        "note": "Globally familiar double-decker silhouette with a precise primary-source endpoint; the existing 747-production exhibit slightly limits novelty."
+      },
+      "exhibit": "070",
+      "image_alt": "Interpretive monochrome engraving of an unbranded Airbus A380 with full-length double-deck fuselage, four engines and landing gear.",
+      "review_record": {
+        "reviewer": "Codex automated editorial review under the user's explicit promotion-and-merge request",
+        "reviewed_on": "2026-10-27",
+        "evidence": "Sources and responsive asset review recorded; hosted device previews are mandatory before merge. No separate human preview review is claimed."
+      },
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/airbus-a380-production-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/airbus-a380-production-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/airbus-a380-production-standard-4x3.jpg"
     }
   ]
 }
