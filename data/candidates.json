@@ -771,38 +771,6 @@
       }
     },
     {
-      "id": "firefox-send",
-      "name": "FIREFOX SEND",
-      "lifespan": "2017–2020",
-      "end_year": "2020",
-      "category": "Internet",
-      "category_key": "internet",
-      "status": "Shut down",
-      "epitaph": "The encrypted parcel link vanished before the download could begin.",
-      "why": "Mozilla took the file-transfer service offline after malware and spear-phishing abuse, then chose not to relaunch it.",
-      "afterlife": "Its experiment in browser-based encrypted sharing informed later privacy-focused tools and discussion.",
-      "source_name": "Mozilla Blog",
-      "source_url": "https://blog.mozilla.org/en/uncategorized/update-on-firefox-send-and-firefox-notes/",
-      "note": "Mozilla announced Firefox Send's permanent end of life on 17 September 2020 after taking it offline earlier that summer. Scope is the hosted encrypted file-transfer service, not the Firefox browser or third-party products using similar technology.",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 3,
-        "visual_strength": 3,
-        "story_strength": 5,
-        "endpoint_clarity": 5,
-        "catalogue_fit": 5,
-        "total": 21,
-        "status": "provisional",
-        "rated_on": "2026-10-14",
-        "note": "Mozilla directly documents the permanent shutdown and the abuse that prompted it; the privacy-versus-abuse story is strong, while recognition and visual distinctiveness are more limited."
-      }
-    },
-    {
       "id": "google-allo",
       "name": "GOOGLE ALLO",
       "lifespan": "2016–2019",
@@ -845,6 +813,39 @@
         "status": "provisional",
         "rated_on": "2026-10-27",
         "note": "Clear primary-source endpoint and concise story, but another Google messaging closure adds limited catalogue variety and needs distinctive visual treatment."
+      }
+    },
+    {
+      "id": "wordpad",
+      "name": "WORDPAD",
+      "category": "Technology",
+      "category_key": "technology",
+      "source_name": "Microsoft Learn",
+      "source_url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources",
+      "note": "Checked 30 October 2026.  Microsoft documents removal starting with Windows 11 24H2 and Windows Server 2025. Older installations may retain WordPad; this is removal from new Windows releases, not deletion of every existing copy.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "lifespan": "Removed in 2024*",
+      "end_year": "2024",
+      "verified_on": "2026-10-30",
+      "status": "Removed",
+      "epitaph": "Between plain text and Word, the little editor lost its place in Windows.",
+      "why": "Microsoft deprecated WordPad and removed it from Windows 11 24H2 and Windows Server 2025.",
+      "afterlife": "Older Windows installations may retain it; Microsoft recommends Word or Notepad instead.",
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-10-30",
+        "note": "Provisional editorial rating; original artwork and device review required before promotion."
       }
     }
   ],
