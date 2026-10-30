@@ -978,3 +978,8 @@ Full Windows XP support prompt, exports and crop review: [image update](IMAGE_UP
 ## 14 October 2026 — Google Glass Enterprise Edition
 
 Full prompt, crop-safety correction and export details: [image update](IMAGE_UPDATE_2026-10-14.md).
+
+
+## 30 October 2026 — FIREFOX SEND
+
+Original built-in monochrome artwork. Full prompt and exports: [image record](IMAGE_UPDATE_2026-10-30.md). Inspect all 12 device layouts before merge.
