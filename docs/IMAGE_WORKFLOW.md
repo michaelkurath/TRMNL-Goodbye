@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 31 October 2026 — WordPad
+
+Original built-in generated artwork: `wordpad-master-2x1.jpg` (1600×800) and `wordpad-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The standard asset uses a white contain export to preserve the complete computer, keyboard, document and folder. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-10-31.md).
+
 ## 27 October 2026 — Airbus A380 Production
 
 Original built-in generated artwork: `airbus-a380-production-master-2x1.jpg` (1600×800) and `airbus-a380-production-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. Complete prompt, scope review and crop/export decisions: [image update](IMAGE_UPDATE_2026-10-27.md).

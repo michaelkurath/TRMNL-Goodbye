@@ -816,36 +816,43 @@
       }
     },
     {
-      "id": "wordpad",
-      "name": "WORDPAD",
+      "id": "windows-mixed-reality",
+      "name": "WINDOWS MIXED REALITY",
+      "lifespan": "2017–2024*",
+      "end_year": "2024",
       "category": "Technology",
       "category_key": "technology",
-      "source_name": "Microsoft Learn",
-      "source_url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources",
-      "note": "Checked 30 October 2026.  Microsoft documents removal starting with Windows 11 24H2 and Windows Server 2025. Older installations may retain WordPad; this is removal from new Windows releases, not deletion of every existing copy.",
+      "status": "Removed",
+      "epitaph": "The headset still fit. The next Windows release stopped opening the portal.",
+      "why": "Microsoft removed Mixed Reality Portal and Windows Mixed Reality for SteamVR from Windows 11 24H2.",
+      "afterlife": "Existing headsets can keep working with Steam on Windows 11 23H2 through November 2026.",
+      "source_name": "Microsoft Learn — Removed Windows features",
+      "source_url": "https://learn.microsoft.com/en-us/windows/whats-new/removed-features",
+      "note": "Checked 31 October 2026. Microsoft states that Windows Mixed Reality was removed in Windows 11 24H2, including Mixed Reality Portal and Windows Mixed Reality for SteamVR. Existing devices can continue with Steam through November 2026 only if users remain on Windows 11 23H2. The endpoint is platform removal from new Windows releases, not the disappearance of every headset, game or virtual-reality system.",
+      "verified_on": "2026-10-31",
+      "sources": [
+        {
+          "name": "Microsoft Learn — Set up Windows Mixed Reality",
+          "url": "https://learn.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality",
+          "supports": "Documents deprecation, Windows 11 24H2 removal and the limited 23H2 compatibility window."
+        }
+      ],
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
         "image_review": "not_started",
         "final_approval": "pending"
       },
-      "lifespan": "Removed in 2024*",
-      "end_year": "2024",
-      "verified_on": "2026-10-30",
-      "status": "Removed",
-      "epitaph": "Between plain text and Word, the little editor lost its place in Windows.",
-      "why": "Microsoft deprecated WordPad and removed it from Windows 11 24H2 and Windows Server 2025.",
-      "afterlife": "Older Windows installations may retain it; Microsoft recommends Word or Notepad instead.",
       "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
+        "recognition": 4,
+        "visual_strength": 5,
         "story_strength": 4,
         "endpoint_clarity": 5,
-        "catalogue_fit": 3,
-        "total": 21,
+        "catalogue_fit": 4,
+        "total": 22,
         "status": "provisional",
-        "rated_on": "2026-10-30",
-        "note": "Provisional editorial rating; original artwork and device review required before promotion."
+        "rated_on": "2026-10-31",
+        "note": "Distinctive headset visual and precise Microsoft scope; recognition is weaker than mainstream Windows utilities and legacy installations need careful qualification."
       }
     }
   ],

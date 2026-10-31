@@ -103,7 +103,9 @@ The plugin is published under the
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license); see
 [`LICENSE.md`](LICENSE.md).
 
-Latest collection update: **71 live exhibits and 26 candidates**. See [27 October review](docs/PROMOTION_2026-10-27.md).
+Latest collection update: **72 live exhibits and 26 candidates**. See [31 October review](docs/PROMOTION_2026-10-31.md).
 
 
 30 October update: FIREFOX SEND (071) promoted; new candidate WORDPAD (21/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).
+
+31 October update: WORDPAD (072) promoted; new candidate WINDOWS MIXED REALITY (22/25). Source and artwork record: [review](docs/PROMOTION_2026-10-31.md).

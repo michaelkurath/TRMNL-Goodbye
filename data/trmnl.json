@@ -1573,6 +1573,51 @@
         "reviewed_on": "2026-10-30",
         "evidence": "Sources verified; final merge remains gated on device previews. No separate human preview review claimed."
       }
+    },
+    {
+      "id": "wordpad",
+      "name": "WORDPAD",
+      "lifespan": "1995–2024*",
+      "end_year": "2024",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Removed",
+      "epitaph": "Between plain text and Word, the little editor lost its place in Windows.",
+      "why": "Microsoft deprecated WordPad and removed it from Windows 11 24H2 and Windows Server 2025.",
+      "afterlife": "Older Windows installations may retain it; Microsoft recommends Word or Notepad instead.",
+      "source_name": "Microsoft Learn",
+      "source_url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources",
+      "note": "Rechecked 31 October 2026. Microsoft records WordPad as removed from all editions starting with Windows 11 24H2 and Windows Server 2025, with a support-removal date of 1 October 2024. The 1995 start refers to its Windows 95 introduction. Older installations may retain the executable, so this is the end of bundling in new Windows releases, not deletion of every historical copy. Artwork is symbolic and does not reproduce the interface.",
+      "verified_on": "2026-10-31",
+      "sources": [
+        {
+          "name": "Microsoft Learn — Windows 11 24H2 changes",
+          "url": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-24h2",
+          "supports": "Lists WordPad among features removed from Windows 11 version 24H2."
+        }
+      ],
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 3,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-10-31",
+        "note": "A familiar bundled utility with a precise Microsoft removal record; the software-editor silhouette is less distinctive and the catalogue already contains several retired Microsoft features."
+      },
+      "exhibit": "072",
+      "image_alt": "Original symbolic monochrome engraving of a desktop computer with an abstract rich-text editor and a document archive folder.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wordpad-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wordpad-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/wordpad-standard-4x3.jpg"
     }
   ]
 }
