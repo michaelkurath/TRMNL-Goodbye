@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 1 November 2026 — Windows Mixed Reality
+
+Original built-in generated artwork: `windows-mixed-reality-master-2x1.jpg` (1600×800) and `windows-mixed-reality-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The standard asset uses a white contain export so both controllers, the complete generic headset and the fading abstract portal remain visible. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-01.md).
+
 ## 31 October 2026 — WordPad
 
 Original built-in generated artwork: `wordpad-master-2x1.jpg` (1600×800) and `wordpad-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The standard asset uses a white contain export to preserve the complete computer, keyboard, document and folder. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-10-31.md).
