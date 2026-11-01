@@ -816,25 +816,25 @@
       }
     },
     {
-      "id": "windows-mixed-reality",
-      "name": "WINDOWS MIXED REALITY",
-      "lifespan": "2017–2024*",
-      "end_year": "2024",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Removed",
-      "epitaph": "The headset still fit. The next Windows release stopped opening the portal.",
-      "why": "Microsoft removed Mixed Reality Portal and Windows Mixed Reality for SteamVR from Windows 11 24H2.",
-      "afterlife": "Existing headsets can keep working with Steam on Windows 11 23H2 through November 2026.",
-      "source_name": "Microsoft Learn — Removed Windows features",
-      "source_url": "https://learn.microsoft.com/en-us/windows/whats-new/removed-features",
-      "note": "Checked 31 October 2026. Microsoft states that Windows Mixed Reality was removed in Windows 11 24H2, including Mixed Reality Portal and Windows Mixed Reality for SteamVR. Existing devices can continue with Steam through November 2026 only if users remain on Windows 11 23H2. The endpoint is platform removal from new Windows releases, not the disappearance of every headset, game or virtual-reality system.",
-      "verified_on": "2026-10-31",
+      "id": "amazon-smile",
+      "name": "AMAZONSMILE",
+      "lifespan": "2013–2023",
+      "end_year": "2023",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Closed",
+      "epitaph": "Shopping once sent a fraction to charity. The smile faded from the checkout.",
+      "why": "Amazon said donations were spread too thin across more than one million eligible organisations and wound the programme down.",
+      "afterlife": "Amazon continued other philanthropic programmes, while charities retained wish lists and received transition payments.",
+      "source_name": "About Amazon — AmazonSmile closure",
+      "source_url": "https://www.aboutamazon.com/news/company-news/amazon-closing-amazonsmile-to-focus-its-philanthropic-giving-to-programs-with-greater-impact",
+      "note": "Checked 1 November 2026. Amazon announced that AmazonSmile would wind down by 20 February 2023 after launching in 2013. The endpoint concerns the donation programme, not Amazon retail, charity wish lists or the company’s other philanthropy. US and UK transition payments differed, so no universal payment amount is asserted.",
+      "verified_on": "2026-11-01",
       "sources": [
         {
-          "name": "Microsoft Learn — Set up Windows Mixed Reality",
-          "url": "https://learn.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality",
-          "supports": "Documents deprecation, Windows 11 24H2 removal and the limited 23H2 compatibility window."
+          "name": "Associated Press — Amazon axes charity program",
+          "url": "https://apnews.com/article/678d0d11477afe0bdee104c6dc53af6d",
+          "supports": "Independent report of the 20 February 2023 closure and programme scope."
         }
       ],
       "review": {
@@ -845,14 +845,14 @@
       },
       "rating": {
         "recognition": 4,
-        "visual_strength": 5,
+        "visual_strength": 3,
         "story_strength": 4,
         "endpoint_clarity": 5,
         "catalogue_fit": 4,
-        "total": 22,
+        "total": 20,
         "status": "provisional",
-        "rated_on": "2026-10-31",
-        "note": "Distinctive headset visual and precise Microsoft scope; recognition is weaker than mainstream Windows utilities and legacy installations need careful qualification."
+        "rated_on": "2026-11-01",
+        "note": "Clear official endpoint and a concise online-service story; the visual identity is less distinctive without reproducing Amazon branding."
       }
     }
   ],
