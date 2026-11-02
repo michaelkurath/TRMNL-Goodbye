@@ -1663,6 +1663,44 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-mixed-reality-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/windows-mixed-reality-standard-4x3.jpg",
       "exhibit": "073"
+    },
+    {
+      "id": "nintendo-3ds-wii-u-online",
+      "name": "NINTENDO 3DS / WII U ONLINE",
+      "lifespan": "Ended 8 April 2024*",
+      "end_year": "2024",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Discontinued",
+      "epitaph": "The games still boot. The official online opponents have gone home.",
+      "why": "Nintendo discontinued online play and other internet-based features for Nintendo 3DS and Wii U software.",
+      "afterlife": "Offline games, local StreetPass, and re-downloads of owned software remain; some online services were exceptions.",
+      "source_name": "Nintendo Support",
+      "source_url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/63227/p/605/c/871",
+      "note": "Rechecked 2 November 2026. Nintendo states that official online play and other online communication features for Nintendo 3DS and Wii U software ended at 5pm PDT on 8 April 2024. This is distinct from the earlier eShop purchase closure and does not end offline play, local functions, owned-software re-downloads or listed service exceptions. Artwork uses simplified unbranded devices and no game interface.",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-11-02",
+        "note": "Editorial rating after checking the linked primary source. Image and device review remain pending."
+      },
+      "image_alt": "Original symbolic monochrome engraving of an unbranded dual-screen handheld and tablet game controller beneath a fading network.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/nintendo-3ds-wii-u-online-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/nintendo-3ds-wii-u-online-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/nintendo-3ds-wii-u-online-standard-4x3.jpg",
+      "exhibit": "074",
+      "verified_on": "2026-11-02"
     }
   ]
 }
