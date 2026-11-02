@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 2 November 2026 — Nintendo 3DS / Wii U Online
+
+Original built-in generated artwork: `nintendo-3ds-wii-u-online-master-2x1.jpg` (1600×800) and `nintendo-3ds-wii-u-online-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The original 3:2 generation is contained on white for the wide asset and independently center-cropped for the detailed 4:3 asset. Both simplified unbranded devices and the fading abstract network remain complete. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-02.md).
+
 ## 1 November 2026 — Windows Mixed Reality
 
 Original built-in generated artwork: `windows-mixed-reality-master-2x1.jpg` (1600×800) and `windows-mixed-reality-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The standard asset uses a white contain export so both controllers, the complete generic headset and the fading abstract portal remain visible. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-01.md).
