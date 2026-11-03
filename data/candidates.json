@@ -824,20 +824,20 @@
       }
     },
     {
-      "id": "microsoft-publisher",
-      "name": "MICROSOFT PUBLISHER",
-      "lifespan": "1991–2026*",
-      "end_year": "2026",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Retired",
-      "epitaph": "The desktop publisher laid out its final brochure, label and folded programme.",
-      "why": "Microsoft removed Publisher from Microsoft 365 and ended support for the perpetual edition in October 2026.",
-      "afterlife": "Publisher files and installed legacy copies may remain; Microsoft recommends Word, PowerPoint and other alternatives.",
-      "source_name": "Microsoft Support — Publisher retirement",
-      "source_url": "https://support.microsoft.com/en-us/publisher/microsoft-publisher-will-no-longer-be-supported-after-october-2026",
-      "note": "Checked 2 November 2026. Microsoft says Microsoft 365 access began rolling away on or shortly after 1 October 2026 and support for the perpetual version ended on 13 October 2026. The 1991 start refers to the first Publisher release. The endpoint is product access/support, not deletion of every installed copy or existing .pub file.",
-      "verified_on": "2026-11-02",
+      "id": "google-domains",
+      "name": "GOOGLE DOMAINS",
+      "lifespan": "2015–2024*",
+      "end_year": "2024",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Migrated",
+      "epitaph": "The registrar changed hands. Every domain found a new host.",
+      "why": "Squarespace acquired the Google Domains business and completed migration of its registrations and customer accounts.",
+      "afterlife": "Domain names continue at Squarespace Domains; Google Cloud Domains is a separate supported product.",
+      "source_name": "Squarespace — Google Domains migration FAQ",
+      "source_url": "https://domains.squarespace.com/google-domains/faq",
+      "note": "Checked 3 November 2026. Squarespace states that all Google Domains registrations were migrated and that Google Domains no longer exists. The 2024 endpoint marks completion of the consumer-registrar migration, not expiration of customers’ domain names. Google Cloud Domains is a distinct continuing service.",
+      "verified_on": "2026-11-03",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -852,8 +852,8 @@
         "catalogue_fit": 4,
         "total": 21,
         "status": "provisional",
-        "rated_on": "2026-11-02",
-        "note": "Familiar long-running Office application with a precise official endpoint; desktop-publishing imagery is less distinctive than dedicated hardware."
+        "rated_on": "2026-11-03",
+        "note": "A recognisable Google service with a well-documented migration endpoint; domain registration is visually abstract and the customer assets themselves continue."
       }
     }
   ],

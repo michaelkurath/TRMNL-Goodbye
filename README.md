@@ -103,7 +103,7 @@ The plugin is published under the
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license); see
 [`LICENSE.md`](LICENSE.md).
 
-Latest collection update: **74 live exhibits and 26 candidates**. See [2 November review](docs/PROMOTION_2026-11-02.md).
+Latest collection update: **75 live exhibits and 26 candidates**. Microsoft Publisher is exhibit 075; new candidate Google Domains scored 21/25. See [3 November review](docs/PROMOTION_2026-11-03.md).
 
 
 30 October update: FIREFOX SEND (071) promoted; new candidate WORDPAD (21/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).
