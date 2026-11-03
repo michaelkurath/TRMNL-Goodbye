@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 3 November 2026 — Microsoft Publisher
+
+Original built-in generated artwork: `microsoft-publisher-master-2x1.jpg` (1600×800) and `microsoft-publisher-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain exports preserve the complete fictional page-layout workstation and printed matter. The artwork contains no Microsoft logo, Publisher icon or copied application interface. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-03.md).
+
 ## 2 November 2026 — Nintendo 3DS / Wii U Online
 
 Original built-in generated artwork: `nintendo-3ds-wii-u-online-master-2x1.jpg` (1600×800) and `nintendo-3ds-wii-u-online-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The original 3:2 generation is contained on white for the wide asset and independently center-cropped for the detailed 4:3 asset. Both simplified unbranded devices and the fading abstract network remain complete. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-02.md).

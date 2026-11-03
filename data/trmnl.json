@@ -1701,6 +1701,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/nintendo-3ds-wii-u-online-standard-4x3.jpg",
       "exhibit": "074",
       "verified_on": "2026-11-02"
+    },
+    {
+      "id": "microsoft-publisher",
+      "name": "MICROSOFT PUBLISHER",
+      "lifespan": "1991–2026*",
+      "end_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "The desktop publisher laid out its final brochure, label and folded programme.",
+      "why": "Microsoft removed Publisher from Microsoft 365 and ended support for the perpetual edition in October 2026.",
+      "afterlife": "Publisher files and installed perpetual copies may remain; Microsoft recommends conversion and alternative Office apps.",
+      "source_name": "Microsoft Support — Publisher retirement",
+      "source_url": "https://support.microsoft.com/en-us/publisher/microsoft-publisher-will-no-longer-be-supported-after-october-2026",
+      "note": "Rechecked 3 November 2026. Microsoft says Microsoft 365 access began rolling away on or shortly after 1 October 2026 and support for perpetual Publisher ended on 13 October 2026. The 1991 start refers to the first Publisher release. The endpoint is access and support, not deletion of every installed perpetual copy or existing .pub file. Artwork uses a fictional page-layout interface and generic printed matter.",
+      "verified_on": "2026-11-03",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-11-03",
+        "note": "A familiar long-running Office application with a precise official endpoint; desktop-publishing imagery is less distinctive than dedicated hardware."
+      },
+      "image_alt": "Original monochrome editorial still life of a generic desktop-publishing workstation, folded brochure, labels, card and newsletters.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/microsoft-publisher-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/microsoft-publisher-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/microsoft-publisher-standard-4x3.jpg",
+      "exhibit": "075"
     }
   ]
 }
