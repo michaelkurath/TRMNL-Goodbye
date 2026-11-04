@@ -1739,6 +1739,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/microsoft-publisher-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/microsoft-publisher-standard-4x3.jpg",
       "exhibit": "075"
+    },
+    {
+      "id": "google-domains",
+      "name": "GOOGLE DOMAINS",
+      "lifespan": "2015–2024*",
+      "end_year": "2024",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Migrated",
+      "epitaph": "The registrar changed hands. Every domain found a new host.",
+      "why": "Squarespace acquired the Google Domains business and completed migration of its registrations and customer accounts.",
+      "afterlife": "Domain names continue at Squarespace Domains; Google Cloud Domains is a separate supported product.",
+      "source_name": "Squarespace — Google Domains migration FAQ",
+      "source_url": "https://domains.squarespace.com/google-domains/faq",
+      "note": "Rechecked 4 November 2026. Squarespace states that it acquired all Google Domains registrations and associated customer accounts on 7 September 2023; migrated domains are now managed at Squarespace. The 2024 endpoint marks completion of the consumer-registrar migration, not expiration of customers’ domain names. Google Cloud Domains is a distinct continuing service. Artwork depicts a generic transfer rather than either company’s interface.",
+      "verified_on": "2026-11-04",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "endpoint_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-11-04",
+        "note": "A recognisable Google service with an official acquisition and completed migration endpoint; the registrar is visually abstract and the registered domains themselves continue."
+      },
+      "sources": [
+        {
+          "name": "Squarespace Help — Google Domains migration",
+          "url": "https://support.squarespace.com/hc/en-us/articles/17131164996365-About-the-Google-Domains-migration-to-Squarespace",
+          "supports": "Confirms the 7 September 2023 acquisition and that former Google Domains customers now manage domains at Squarespace."
+        }
+      ],
+      "image_alt": "Original monochrome editorial engraving of an unbranded computer showing abstract domain-tag cards moving between two registrar columns.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-domains-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/google-domains-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/google-domains.jpg",
+      "exhibit": "076"
     }
   ]
 }
