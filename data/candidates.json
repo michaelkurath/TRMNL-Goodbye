@@ -824,20 +824,27 @@
       }
     },
     {
-      "id": "google-domains",
-      "name": "GOOGLE DOMAINS",
-      "lifespan": "2015–2024*",
-      "end_year": "2024",
-      "category": "Internet",
-      "category_key": "internet",
-      "status": "Migrated",
-      "epitaph": "The registrar changed hands. Every domain found a new host.",
-      "why": "Squarespace acquired the Google Domains business and completed migration of its registrations and customer accounts.",
-      "afterlife": "Domain names continue at Squarespace Domains; Google Cloud Domains is a separate supported product.",
-      "source_name": "Squarespace — Google Domains migration FAQ",
-      "source_url": "https://domains.squarespace.com/google-domains/faq",
-      "note": "Checked 3 November 2026. Squarespace states that all Google Domains registrations were migrated and that Google Domains no longer exists. The 2024 endpoint marks completion of the consumer-registrar migration, not expiration of customers’ domain names. Google Cloud Domains is a distinct continuing service.",
-      "verified_on": "2026-11-03",
+      "id": "microsoft-lens",
+      "name": "MICROSOFT LENS",
+      "lifespan": "2014–2026*",
+      "end_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Retired",
+      "epitaph": "The pocket scanner captured its last page.",
+      "why": "Microsoft retired the standalone iOS and Android app, removed it from stores and disabled new scans after 9 March 2026.",
+      "afterlife": "Previously created scans remain accessible on an installed app; Microsoft points users to OneDrive scanning.",
+      "source_name": "Microsoft Support — Retirement of Microsoft Lens",
+      "source_url": "https://support.microsoft.com/en-us/lens/retirement-of-microsoft-lens",
+      "sources": [
+        {
+          "name": "Microsoft 365 Blog — Office Lens announcement",
+          "url": "https://www.microsoft.com/en-us/copilot/blog/2014/03/17/office-lens-a-onenote-scanner-for-your-pocket/",
+          "supports": "Dates the original Windows Phone introduction to March 2014 and describes the pocket-scanner function."
+        }
+      ],
+      "note": "Checked 4 November 2026. Microsoft says retirement began 9 January 2026, support and store availability ended 9 February, and new scans stopped after 9 March. The 2014 start refers to Office Lens on Windows Phone. Existing scans may remain available if the app is installed and signed into its last active account.",
+      "verified_on": "2026-11-04",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -852,8 +859,8 @@
         "catalogue_fit": 4,
         "total": 21,
         "status": "provisional",
-        "rated_on": "2026-11-03",
-        "note": "A recognisable Google service with a well-documented migration endpoint; domain registration is visually abstract and the customer assets themselves continue."
+        "rated_on": "2026-11-04",
+        "note": "A familiar utility with precise official retirement dates and a clear phone-scanner visual; its function survives inside other apps."
       }
     }
   ],

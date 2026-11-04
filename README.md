@@ -10,7 +10,7 @@ until every entry in the selected category has appeared.
 
 ## First version
 
-- Seventy-one sourced live entries
+- Seventy-six sourced live entries
 - A shuffled, no-repeat rotation using TRMNL Saved State
 - Optional category filtering
 - Full, half-horizontal, half-vertical, and quadrant layouts
@@ -103,7 +103,7 @@ The plugin is published under the
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license); see
 [`LICENSE.md`](LICENSE.md).
 
-Latest collection update: **75 live exhibits and 26 candidates**. Microsoft Publisher is exhibit 075; new candidate Google Domains scored 21/25. See [3 November review](docs/PROMOTION_2026-11-03.md).
+Latest collection update: **76 live exhibits and 26 candidates**. Google Domains is exhibit 076; new candidate Microsoft Lens scored 21/25. See [4 November review](docs/PROMOTION_2026-11-04.md).
 
 
 30 October update: FIREFOX SEND (071) promoted; new candidate WORDPAD (21/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).

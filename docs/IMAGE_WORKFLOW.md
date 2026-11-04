@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 4 November 2026 — Google Domains
+
+Original built-in generated artwork: `google-domains-master-2x1.jpg` (1600×800) and `google-domains-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. White contain exports preserve the complete unbranded computer and abstract transfer diagram. The artwork contains no Google or Squarespace logo and does not copy either service’s interface. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-04.md).
+
 ## 3 November 2026 — Microsoft Publisher
 
 Original built-in generated artwork: `microsoft-publisher-master-2x1.jpg` (1600×800) and `microsoft-publisher-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain exports preserve the complete fictional page-layout workstation and printed matter. The artwork contains no Microsoft logo, Publisher icon or copied application interface. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-03.md).
