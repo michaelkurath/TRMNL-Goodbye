@@ -152,3 +152,10 @@ footer a { justify-self: end; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+.feature-image[data-frame] { position: absolute; inset: 0; }
+.feature-image[data-frame], .archive-image[data-frame] { filter: none; object-fit: contain; }
+.frame-artwork { margin-top: 1.25rem; font-size: .85rem; }
+.frame-artwork h2 { margin: 0 0 .35rem; font-size: inherit; }
+#frame-versions { display: flex; flex-wrap: wrap; gap: .35rem 1rem; }
+.frame-version a { text-underline-offset: 3px; }
