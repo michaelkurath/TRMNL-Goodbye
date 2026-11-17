@@ -55,6 +55,15 @@ if (!Array.isArray(payload.items) || payload.items.length === 0) {
         errors.push(`${label}.${key} is invalid`);
       }
     });
+    if (["landscape", "portrait"].some((view) => Object.hasOwn(item, `image_url_frame_${view}`))) {
+      for (const view of ["landscape", "portrait"]) {
+        const file = `assets/exhibits/frame/${item.id}-${view}.jpg`;
+        const url = "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/" + file;
+        if (item[`image_url_frame_${view}`] !== url || !fs.existsSync(file)) {
+          errors.push(`${label} requires its ${view} Frame asset and matching URL`);
+        }
+      }
+    }
     Object.entries(displayLimits).forEach(([key, limit]) => {
       if (item[key].length > limit) {
         errors.push(`${label}.${key} exceeds the ${limit}-character layout limit`);

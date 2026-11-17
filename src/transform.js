@@ -3,6 +3,7 @@ const CATALOGUE_URL = "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goo
 const DISPLAY_FIELDS = [
   "id", "exhibit", "name", "lifespan", "end_year", "category", "status",
   "image_url", "image_url_standard", "image_url_wide", "image_alt", "image_fit",
+  "image_url_frame_landscape", "image_url_frame_portrait",
   "epitaph", "why", "afterlife", "note",
 ];
 
