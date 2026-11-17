@@ -33,3 +33,89 @@
     </g>
   </svg>
 {% endcapture %}
+
+{% assign display_edition = trmnl.plugin_settings.custom_fields_values.display_edition | default: "auto" %}
+{% if selected and display_edition != "classic" and display_edition != "frame" %}
+  {% assign frame_visibility = " goodbye-frame--auto" %}
+  {% assign classic_visibility = " goodbye-classic--auto" %}
+{% endif %}
+
+{% capture frame_exhibit %}
+  {% assign frame_landscape = selected.image_url_frame_landscape | default: selected.image_url_wide | default: selected.image_url %}
+  {% assign frame_portrait = selected.image_url_frame_portrait | default: selected.image_url_standard | default: selected.image_url %}
+  {% assign frame_caption = trmnl.plugin_settings.custom_fields_values.frame_caption %}
+  {% assign frame_show_title = trmnl.plugin_settings.custom_fields_values.frame_show_title | append: "" %}
+  <style>
+    .trmnl .screen--frame:has(> .view--full > .goodbye-frame),
+    .trmnl .screen:has(> .view--full > .goodbye-frame:not(.goodbye-frame--auto)) {
+      padding: 0;
+    }
+    .trmnl .screen--frame > .view--full:has(> .goodbye-frame),
+    .trmnl .screen > .view--full:has(> .goodbye-frame:not(.goodbye-frame--auto)) {
+      width: var(--screen-w);
+      height: var(--screen-h);
+      padding: 0;
+    }
+    .trmnl .layout.goodbye-frame {
+      position: relative;
+      width: var(--screen-w);
+      height: var(--screen-h);
+      padding: 0;
+      background: #fff;
+    }
+    .goodbye-frame__art {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .screen--frame .goodbye-frame__art--colour { object-fit: cover; }
+    .trmnl .screen:not(.screen--frame) .layout.goodbye-frame--auto,
+    .trmnl .screen--frame .goodbye-classic--auto,
+    .goodbye-frame__art--portrait { display: none; }
+    .screen--portrait .goodbye-frame__art--landscape { display: none; }
+    .screen--portrait .goodbye-frame__art--portrait { display: block; }
+    .goodbye-frame__label {
+      position: absolute;
+      z-index: 1;
+      inset-block-start: 2.5cqmin;
+      inset-inline-end: 2.5cqmin;
+      box-sizing: border-box;
+      width: 23cqw;
+      padding: 0.75em 0.85em;
+      border: 1px solid #181818;
+      background: #fff;
+      color: #181818;
+      font: clamp(12px, 1.05cqw, 28px)/1.3 system-ui, sans-serif;
+      overflow-wrap: anywhere;
+    }
+    .screen--portrait .goodbye-frame__label {
+      width: 40cqw;
+      font-size: clamp(12px, 1.8cqw, 26px);
+    }
+    .goodbye-frame__label--title { width: fit-content; max-width: 40cqw; }
+    .screen--portrait .goodbye-frame__label--title { width: fit-content; }
+    .goodbye-frame__name { margin: 0; font: bold 1.4em/1.1 Georgia, serif; }
+    .goodbye-frame__meta { font-size: 0.78em; }
+    .goodbye-frame__description { margin: 0.45em 0; }
+  </style>
+  <div class="layout goodbye-frame{{ frame_visibility }}">
+    <img class="image image-dither goodbye-frame__art goodbye-frame__art--landscape{% if selected.image_url_frame_landscape %} goodbye-frame__art--colour{% endif %}"
+      loading="lazy" src="{{ frame_landscape | escape }}" alt="Artistic reconstruction of {{ selected.name | escape }}">
+    <img class="image image-dither goodbye-frame__art goodbye-frame__art--portrait{% if selected.image_url_frame_portrait %} goodbye-frame__art--colour{% endif %}"
+      loading="lazy" src="{{ frame_portrait | escape }}" alt="Artistic reconstruction of {{ selected.name | escape }}">
+    {% if frame_caption == "overlay" %}
+      <aside class="goodbye-frame__label">
+        <h1 class="goodbye-frame__name">{{ selected.name | escape }}</h1>
+        <div class="goodbye-frame__meta">{{ selected.lifespan | escape }} · {{ selected.status | escape }}</div>
+        <p class="goodbye-frame__description">{{ selected.why | escape }}</p>
+        <div class="goodbye-frame__meta">Artistic reconstruction</div>
+      </aside>
+    {% elsif frame_show_title == "true" %}
+      <aside class="goodbye-frame__label goodbye-frame__label--title">
+        <h1 class="goodbye-frame__name">{{ selected.name | escape }}</h1>
+      </aside>
+    {% endif %}
+  </div>
+{% endcapture %}

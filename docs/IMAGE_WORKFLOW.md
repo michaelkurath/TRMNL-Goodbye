@@ -1,5 +1,10 @@
 # Exhibit image workflow
 
+## TRMNL Frame
+
+Concorde and Kodachrome have separate colour artwork for landscape and portrait. See the [Frame artwork record](FRAME_ART.md) for references, export details and prompts.
+
+
 ## 4 November 2026 — Google Domains
 
 Original built-in generated artwork: `google-domains-master-2x1.jpg` (1600×800) and `google-domains-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. White contain exports preserve the complete unbranded computer and abstract transfer diagram. The artwork contains no Google or Squarespace logo and does not copy either service’s interface. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-04.md).
