@@ -8,6 +8,10 @@ farewell, rendered as a monochrome museum placard. Saved State remembers the
 current rotation for each plugin installation, so an exhibit is not repeated
 until every entry in the selected category has appeared.
 
+## Choose exhibits
+
+Set **Exhibit rotation** to **My Selection** and choose one or more titles in **My exhibits**. A single title stays on screen. Several titles use the normal refresh and rotation rules. Your selection can span categories. **Full Collection** is the default, and it also applies when no selected titles are available. Choose **Frame** under **Display edition** to limit the picker to exhibits with both colour orientations. The companion website marks those titles as Frame-ready.
+
 ## First version
 
 - Seventy-six sourced live entries

@@ -6,6 +6,7 @@ on:
     paths:
       - "website/**"
       - "data/trmnl.json"
+      - "scripts/build-exhibit-options.js"
       - "assets/icon/goodbye-icon.svg"
       - "assets/exhibits/responsive-v2/*-standard-4x3.jpg"
       - "assets/exhibits/frame/**"
@@ -44,6 +45,7 @@ jobs:
           cp assets/icon/goodbye-icon.svg _site/assets/
           cp assets/exhibits/responsive-v2/*-standard-4x3.jpg _site/assets/
           cp -R assets/exhibits/frame _site/assets/
+          node scripts/build-exhibit-options.js
           touch _site/.nojekyll
 
       - name: Upload website
