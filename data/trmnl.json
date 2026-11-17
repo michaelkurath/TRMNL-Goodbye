@@ -487,6 +487,8 @@
     },
     {
       "id": "sr-71-blackbird",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/sr-71-blackbird-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/sr-71-blackbird-portrait.jpg",
       "name": "SR-71 BLACKBIRD",
       "lifespan": "1964–1999",
       "end_year": "1999",

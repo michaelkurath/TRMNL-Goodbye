@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 17 November 2026 — SR-71 Blackbird Frame artwork
+
+See the [artwork record](FRAME_ART_SR_71_BLACKBIRD.md) for source verification, generation prompts and Frame exports.
+
 ## TRMNL Frame
 
 Concorde and Kodachrome have separate colour artwork for landscape and portrait. See the [Frame artwork record](FRAME_ART.md) for references, export details and prompts.
