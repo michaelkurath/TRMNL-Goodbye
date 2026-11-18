@@ -341,7 +341,9 @@
       "afterlife": "Its discoveries, archived data, surviving site facilities, and a new education centre preserve its legacy.",
       "source_name": "National Science Foundation",
       "source_url": "https://www.nsf.gov/news/media-toolkits/arecibo",
-      "note": "The 305-metre telescope opened in 1963 and collapsed on 1 December 2020. The wider observatory site survived; NSF later established Arecibo C3 there."
+      "note": "The 305-metre telescope opened in 1963 and collapsed on 1 December 2020. The wider observatory site survived; NSF later established Arecibo C3 there.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/arecibo-telescope-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/arecibo-telescope-portrait.jpg"
     },
     {
       "id": "kodachrome",
