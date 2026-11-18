@@ -40,9 +40,29 @@
   {% assign classic_visibility = " goodbye-classic--auto" %}
 {% endif %}
 
+{% assign frame_landscape = selected.image_url_frame_landscape | default: selected.image_url_frame_portrait %}
+{% assign frame_portrait = selected.image_url_frame_portrait | default: selected.image_url_frame_landscape %}
+{% capture frame_panel_art %}
+  {% if frame_landscape %}
+    <img class="image image--contain image-dither w--full h--full rounded goodbye-panel-colour goodbye-panel-colour--landscape" src="{{ frame_landscape | escape }}" alt="{{ selected.image_alt | escape }}">
+    <img class="image image--contain image-dither w--full h--full rounded goodbye-panel-colour goodbye-panel-colour--portrait" src="{{ frame_portrait | escape }}" alt="{{ selected.image_alt | escape }}">
+  {% else %}
+    <span class="label goodbye-panel-colour">Colour artwork unavailable</span>
+  {% endif %}
+{% endcapture %}
+
+{% capture frame_panel_styles %}
+  <style>
+    .trmnl .goodbye-panel-colour,
+    .trmnl .screen--frame .goodbye-panel-classic { display: none; }
+    .trmnl .screen--frame .goodbye-panel-colour { display: block; }
+    .trmnl .screen--frame .goodbye-panel-colour--portrait,
+    .trmnl .screen--frame.screen--portrait .goodbye-panel-colour--landscape { display: none; }
+    .trmnl .screen--frame.screen--portrait .goodbye-panel-colour--portrait { display: block; }
+  </style>
+{% endcapture %}
+
 {% capture frame_exhibit %}
-  {% assign frame_landscape = selected.image_url_frame_landscape | default: selected.image_url_wide | default: selected.image_url %}
-  {% assign frame_portrait = selected.image_url_frame_portrait | default: selected.image_url_standard | default: selected.image_url %}
   {% assign frame_caption = trmnl.plugin_settings.custom_fields_values.frame_caption %}
   {% assign frame_show_title = trmnl.plugin_settings.custom_fields_values.frame_show_title | append: "" %}
   <style>
@@ -101,20 +121,23 @@
     .goodbye-frame__description { margin: 0.45em 0; }
   </style>
   <div class="layout goodbye-frame{{ frame_visibility }}">
-    <img class="image image-dither goodbye-frame__art goodbye-frame__art--landscape{% if selected.image_url_frame_landscape %} goodbye-frame__art--colour{% endif %}"
-      loading="lazy" src="{{ frame_landscape | escape }}" alt="Artistic reconstruction of {{ selected.name | escape }}">
-    <img class="image image-dither goodbye-frame__art goodbye-frame__art--portrait{% if selected.image_url_frame_portrait %} goodbye-frame__art--colour{% endif %}"
-      loading="lazy" src="{{ frame_portrait | escape }}" alt="Artistic reconstruction of {{ selected.name | escape }}">
+    {% if frame_landscape %}
+      <img class="image image-dither goodbye-frame__art goodbye-frame__art--landscape goodbye-frame__art--colour"
+        loading="lazy" src="{{ frame_landscape | escape }}" alt="Artistic reconstruction of {{ selected.name | escape }}">
+      <img class="image image-dither goodbye-frame__art goodbye-frame__art--portrait goodbye-frame__art--colour"
+        loading="lazy" src="{{ frame_portrait | escape }}" alt="Artistic reconstruction of {{ selected.name | escape }}">
+    {% endif %}
     {% if frame_caption == "overlay" %}
       <aside class="goodbye-frame__label">
         <h1 class="goodbye-frame__name">{{ selected.name | escape }}</h1>
         <div class="goodbye-frame__meta">{{ selected.lifespan | escape }} · {{ selected.status | escape }}</div>
         <p class="goodbye-frame__description">{{ selected.why | escape }}</p>
-        <div class="goodbye-frame__meta">Artistic reconstruction</div>
+        <div class="goodbye-frame__meta">{% if frame_landscape %}Artistic reconstruction{% else %}Colour artwork unavailable{% endif %}</div>
       </aside>
-    {% elsif frame_show_title == "true" %}
+    {% elsif frame_show_title == "true" or frame_landscape == nil %}
       <aside class="goodbye-frame__label goodbye-frame__label--title">
         <h1 class="goodbye-frame__name">{{ selected.name | escape }}</h1>
+        {% unless frame_landscape %}<p class="goodbye-frame__meta">Colour artwork unavailable</p>{% endunless %}
       </aside>
     {% endif %}
   </div>
