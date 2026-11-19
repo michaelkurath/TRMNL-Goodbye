@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 19 November 2026 — Passenger Pigeon Frame artwork
+
+See the [artwork record](FRAME_ART_PASSENGER_PIGEON_2026-11-19.md) for verified references, generation prompts and both colour exports.
+
 ## 17 November 2026 — SR-71 Blackbird Frame artwork
 
 See the [artwork record](FRAME_ART_SR_71_BLACKBIRD.md) for source verification, generation prompts and Frame exports.
