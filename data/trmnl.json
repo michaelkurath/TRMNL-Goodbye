@@ -161,7 +161,9 @@
       "afterlife": "Martha, the last known passenger pigeon, is preserved at the Smithsonian.",
       "source_name": "Smithsonian National Museum of Natural History",
       "source_url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/passenger-pigeon",
-      "note": "Martha died at the Cincinnati Zoo on 1 September 1914."
+      "note": "Martha died at the Cincinnati Zoo on 1 September 1914.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/passenger-pigeon-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/passenger-pigeon-portrait.jpg"
     },
     {
       "id": "great-auk",
