@@ -223,7 +223,9 @@
       "afterlife": "Film, photographs, museum specimens, and Tasmania's identity preserve the animal's unmistakable stripes.",
       "source_name": "Australian Museum",
       "source_url": "https://australian.museum/learn/australia-over-time/extinct-animals/the-thylacine/",
-      "note": "The last known thylacine died at Hobart Zoo in 1936; later reported sightings remain unconfirmed."
+      "note": "The last known thylacine died at Hobart Zoo in 1936; later reported sightings remain unconfirmed.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/thylacine-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/thylacine-portrait.jpg"
     },
     {
       "id": "opportunity-rover",

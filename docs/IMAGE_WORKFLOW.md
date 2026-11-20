@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 20 November 2026 — Thylacine Frame artwork
+
+See the [artwork record](FRAME_ART_THYLACINE_2026-11-20.md) for source verification, generation prompts and both colour exports.
+
 ## 19 November 2026 — Passenger Pigeon Frame artwork
 
 See the [artwork record](FRAME_ART_PASSENGER_PIGEON_2026-11-19.md) for verified references, generation prompts and both colour exports.
