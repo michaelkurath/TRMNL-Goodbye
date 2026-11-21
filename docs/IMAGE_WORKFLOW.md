@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 21 November 2026 — The Great Auk Frame artwork
+
+See the [artwork record](FRAME_ART_GREAT_AUK_2026-11-21.md) for source verification, generation prompts and both colour exports.
+
 ## 20 November 2026 — Thylacine Frame artwork
 
 See the [artwork record](FRAME_ART_THYLACINE_2026-11-20.md) for source verification, generation prompts and both colour exports.

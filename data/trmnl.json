@@ -183,7 +183,9 @@
       "afterlife": "Skins, skeletons, eggs, and museum records are all that remain.",
       "source_name": "Natural History Museum",
       "source_url": "https://www.nhm.ac.uk/discover/great-auk-extinction.html",
-      "note": "The last widely accepted breeding pair was killed in Iceland in 1844."
+      "note": "The last widely accepted breeding pair was killed in Iceland in 1844.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/great-auk-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/great-auk-portrait.jpg"
     },
     {
       "id": "blockbuster-stores",
