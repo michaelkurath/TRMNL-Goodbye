@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 22 November 2026 — The Original Penn Station Frame artwork
+
+See the [artwork record](FRAME_ART_ORIGINAL_PENN_STATION_2026-11-22.md) for source verification, generation prompts and both colour exports.
+
 ## 21 November 2026 — The Great Auk Frame artwork
 
 See the [artwork record](FRAME_ART_GREAT_AUK_2026-11-21.md) for source verification, generation prompts and both colour exports.

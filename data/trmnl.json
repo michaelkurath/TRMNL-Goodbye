@@ -633,7 +633,9 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/original-penn-station-master-2x1.jpg",
-      "image_alt": "Monochrome architectural engraving of the original Penn Station waiting room"
+      "image_alt": "Artistic reconstruction of the original Penn Station’s monumental classical waiting room before demolition.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/original-penn-station-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/original-penn-station-portrait.jpg"
     },
     {
       "id": "dodo",
