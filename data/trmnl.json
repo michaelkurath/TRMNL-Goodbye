@@ -613,7 +613,9 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cassini-orbiter-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cassini-orbiter-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/cassini-orbiter-master-2x1.jpg",
-      "image_alt": "Monochrome museum engraving of the Cassini orbiter approaching Saturn"
+      "image_alt": "Artistic reconstruction of the Cassini orbiter with its high-gain dish and RTGs exploring Saturn before the mission ended.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/cassini-orbiter-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/cassini-orbiter-portrait.jpg"
     },
     {
       "id": "original-penn-station",
