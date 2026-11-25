@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 25 November 2026 — The Dodo Frame artwork
+
+See the [artwork record](FRAME_ART_DODO_2026-11-25.md) for source verification, generation prompts and both colour exports.
+
 ## 23 November 2026 — Cassini Frame artwork
 
 See the [artwork record](FRAME_ART_CASSINI_ORBITER_2026-11-23.md) for source verification, generation prompts and both colour exports.
