@@ -657,7 +657,9 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/dodo-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/dodo-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/dodo-master-2x1.jpg",
-      "image_alt": "Monochrome natural-history engraving of a dodo in Mauritius forest"
+      "image_alt": "Artistic reconstruction of a living dodo in an imagined Mauritius forest.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/dodo-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/dodo-portrait.jpg"
     },
     {
       "id": "internet-explorer",
