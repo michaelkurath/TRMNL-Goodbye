@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 26 November 2026 — The Space Shuttle Frame artwork
+
+See the [artwork record](FRAME_ART_SPACE_SHUTTLE_2026-11-26.md) for source verification, generation prompts and both colour exports.
+
 ## 25 November 2026 — The Dodo Frame artwork
 
 See the [artwork record](FRAME_ART_DODO_2026-11-25.md) for source verification, generation prompts and both colour exports.
