@@ -115,13 +115,15 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/space-shuttle.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/space-shuttle-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/space-shuttle-master-2x1.jpg",
-      "image_alt": "Monochrome illustration of a Space Shuttle orbiter over Earth",
+      "image_alt": "Artistic reconstruction of a historical Space Shuttle orbiter above Earth, not a particular mission.",
       "epitaph": "It made orbit look almost routine. It never truly was.",
       "why": "NASA completed the program after 30 years, shifting resources toward new spacecraft and exploration goals.",
       "afterlife": "The surviving orbiters are museum exhibits, while their engineering legacy continues across human spaceflight.",
       "source_name": "NASA",
       "source_url": "https://www.nasa.gov/space-shuttle/",
-      "note": "The final mission, STS-135, ended on 21 July 2011."
+      "note": "The final mission, STS-135, ended on 21 July 2011.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/space-shuttle-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/space-shuttle-portrait.jpg"
     },
     {
       "id": "pan-am",
