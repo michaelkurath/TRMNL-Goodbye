@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 27 November 2026 — The Golden Toad Frame artwork
+
+See the [artwork record](FRAME_ART_GOLDEN_TOAD_2026-11-27.md) for source verification, generation prompts and both colour exports.
+
 ## 26 November 2026 — The Space Shuttle Frame artwork
 
 See the [artwork record](FRAME_ART_SPACE_SHUTTLE_2026-11-26.md) for source verification, generation prompts and both colour exports.

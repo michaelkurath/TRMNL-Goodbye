@@ -549,13 +549,15 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/golden-toad-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/golden-toad-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/golden-toad-master-2x1.jpg",
-      "image_alt": "Monochrome natural-history engraving of a Golden Toad in Monteverde cloud forest",
+      "image_alt": "Artistic reconstruction of a living adult male golden toad in imagined Monteverde cloud forest, not an archival photograph.",
       "epitaph": "A jewel-bright toad vanished from one small cloud forest in a single generation.",
       "why": "Its tiny range left it exposed; extreme dry weather and chytrid disease are leading explanations for the collapse.",
       "afterlife": "Museum specimens and its role as an emblem of the amphibian extinction crisis preserve its warning.",
       "source_name": "AmphibiaWeb",
       "source_url": "https://amphibiaweb.org/species/253",
-      "note": "Discovered in 1964 and last seen in 1989; the asterisk marks the last sighting rather than an exact extinction date."
+      "note": "Discovered in 1964 and last seen in 1989; the asterisk marks the last sighting rather than an exact extinction date.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/golden-toad-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/golden-toad-portrait.jpg"
     },
     {
       "id": "tu-144-passenger-service",
