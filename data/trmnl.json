@@ -243,13 +243,15 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/responsive-v2/opportunity-rover-master-2x1.jpg",
-      "image_alt": "Monochrome technical illustration of NASA's Opportunity rover on Mars",
+      "image_alt": "Artistic reconstruction of Opportunity on an imagined Martian plain during its historical mission, not a documentary image.",
       "epitaph": "Built for ninety Martian days, it kept exploring until Mars finally went silent.",
       "why": "A planet-wide dust storm blocked sunlight, and NASA ended recovery attempts after months without contact.",
       "afterlife": "Its images, discoveries, scientific record, and tracks on Mars preserve nearly fifteen years of exploration.",
       "source_name": "NASA Science",
       "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
-      "note": "Launched in 2003, Opportunity last communicated in June 2018; NASA declared the mission complete in February 2019."
+      "note": "Launched in 2003, Opportunity last communicated in June 2018; NASA declared the mission complete in February 2019.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/opportunity-rover-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Goodbye/main/assets/exhibits/frame/opportunity-rover-portrait.jpg"
     },
     {
       "id": "sears-big-book",
