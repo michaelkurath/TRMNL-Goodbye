@@ -1,5 +1,9 @@
 # Exhibit image workflow
 
+## 28 November 2026 — The Opportunity Rover Frame artwork
+
+See the [artwork record](FRAME_ART_OPPORTUNITY_ROVER_2026-11-28.md) for source verification, generation prompts and both colour exports.
+
 ## 27 November 2026 — The Golden Toad Frame artwork
 
 See the [artwork record](FRAME_ART_GOLDEN_TOAD_2026-11-27.md) for source verification, generation prompts and both colour exports.
